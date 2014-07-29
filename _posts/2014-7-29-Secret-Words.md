@@ -3,7 +3,7 @@ layout: post
 title: Secret Words
 ---
 
-I've been working in a few different languages lately for a host of reasons... mostly involving self-education in various ways. I realized a few years ago that as I was working in multiple languages, I was already trying to build a safer meta-language (really a suite of safe design patterns and coding styles) that work in the various languages I was exposed to... things like:
+I've been working in a few different languages lately for a host of reasons... mostly involving self-education in various ways. I realized a few years ago that in every language I picked up, I was trying to build a safer meta-language (really a suite of safe design patterns and coding styles) that works anywhere. Simple principles like:
 
 - using 'final' variables by default
 - using 'Option' objects to model the "one or none" problem
