@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Secret Words
+tags: code, languages, javascript, js, swift, go, golang, option, visitor
 ---
 
 I've been working in a few different languages lately for a host of reasons... mostly involving self-education in various ways. I realized a few years ago that in every language I picked up, I was trying to build a safer meta-language (really a suite of safe design patterns and coding styles) that works anywhere. Simple principles like:
