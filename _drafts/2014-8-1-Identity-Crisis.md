@@ -23,4 +23,9 @@ Seems pretty simple, right? This is a case where the only thing the classes impl
 Unfortunately, in the new version of Swift, that equals function does not compile: the error it provides is:
   Protocol 'UnitBuff' can only be used as a generic constraint because it has Self or associated type requirements
   
-Now that's already a problem, because it implies that in order to compare two UnitBuffs, they MUST already know that they're the same type - That would be the effect of using a generic with the rule that the type must implement UnitBuff.
+Now that's already a problem, because it implies that in order to compare two UnitBuffs, they MUST already know that they're the same type - That would be the effect of using a generic with the rule that the type must implement UnitBuff. And making it even more problematic, the same error occurs when declaring an array as such:
+  var buffs : [UnitBuff] = []
+  
+Annoyingly, for now the simplest solution I have is to change the protocol to be a class, and then inherit from the class instead. But, of course, Swift doesn't currently implement anything like an 'abstract' class, so the 'Printable' protocol that UnitBuff extends immediately causes a failure because the UnitBuff class does not implement it. Ugh. And thus, I have to drop the 'Printable' requirement entirely (which I can do currently because nothing critical relies on it).
+
+If I understand the problem correctly, they changed the Equatable protocol to require Self, which can only apply to a fully formed class or struct. I don't know if Apple is planning to fix this issue but I rather hope they do... making members of a protocol comparable seems like a pretty useful use case.
