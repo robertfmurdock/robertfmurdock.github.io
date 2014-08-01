@@ -19,3 +19,7 @@ Here's the protocol as it was defined:
   }
 
 Seems pretty simple, right? This is a case where the only thing the classes implementing the protocol need to do is be equatable by instance (made possible by the @class_protocol flag), and for debugging purposes be printable (so I can quickly tell which buffs are applied in logging).
+
+Unfortunately, in the new version of Swift, that equals function does not compile: the error it provides is
+  Protocol 'UnitBuff' can only be used as a generic constraint because it has Self or associated type requirements
+  
