@@ -29,3 +29,9 @@ Now that's already a problem, because it implies that in order to compare two Un
 Annoyingly, for now the simplest solution I have is to change the protocol to be a class, and then inherit from the class instead. But, of course, Swift doesn't currently implement anything like an 'abstract' class, so the 'Printable' protocol that UnitBuff extends immediately causes a failure because the UnitBuff class does not implement it. Ugh. And thus, I have to drop the 'Printable' requirement entirely (which I can do currently because nothing critical relies on it).
 
 If I understand the problem correctly, they changed the Equatable protocol to require Self, which can only apply to a fully formed class or struct. I don't know if Apple is planning to fix this issue but I rather hope they do... making members of a protocol comparable seems like a pretty useful use case.
+
+-------
+Update:
+-------
+
+Since I've been thinking about this problem more, I'm considering removing the Equality protocol entirely and using some kind of custom "contains" method or closure that will handle the lack of a == implementation. I'll update this post when I get a chance to try it.
