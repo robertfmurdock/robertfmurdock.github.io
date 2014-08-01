@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Identity Crisis
-tags: swift
-published:false
+tags: swift squishy
 ---
 
 I want to talk for a second about a problem I ran into recently with Swift.
