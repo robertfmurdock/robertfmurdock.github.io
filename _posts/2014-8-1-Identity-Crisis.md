@@ -31,6 +31,6 @@ If I understand the problem correctly, they changed the Equatable protocol to re
 
 -------
 Update:
--------
+----
 
 Since I've been thinking about this problem more, I'm considering removing the Equality protocol entirely and using some kind of custom "contains" method or closure that will handle the lack of a == implementation. I'll update this post when I get a chance to try it.
