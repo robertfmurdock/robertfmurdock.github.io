@@ -29,8 +29,8 @@ Annoyingly, for now the simplest solution I have is to change the protocol to be
 
 If I understand the problem correctly, they changed the Equatable protocol to require Self, which can only apply to a fully formed class or struct. I don't know if Apple is planning to fix this issue but I rather hope they do... making members of a protocol comparable seems like a pretty useful use case.
 
--------
+
 Update:
-----
+-------
 
 Since I've been thinking about this problem more, I'm considering removing the Equality protocol entirely and using some kind of custom "contains" method or closure that will handle the lack of a == implementation. I'll update this post when I get a chance to try it.
