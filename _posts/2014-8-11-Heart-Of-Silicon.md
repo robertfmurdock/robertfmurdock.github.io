@@ -15,4 +15,4 @@ One of the examples I come to the most is the problem of error handling. Knowing
 
 Frequently, error handing gets swept under the rug because its not part of the primary design - no one wants to design for failure, after all. But, as programmers, it is our responsibility to advocate for the reliability of the software. No one else has enough information to do that job well. And when we don't do it well, it won't matter how well designed the application is: poor error handling betrays the trust of your users. That's difficult to win back.
 
-I pose the question again though: what ethical responsibilities do you think programmers have?
+I pose the question again: what ethical responsibilities do you think programmers have?
