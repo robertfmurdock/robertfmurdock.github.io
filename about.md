@@ -7,6 +7,9 @@ Rob Murdock is a software developer currently located in Ann Arbor, Michigan. Be
 
 ### More Information
 
+If you like anything you read here, please let me know! And if you hate it... still let me know! I do so like to inspire passion.
+
+But in all seriousness, thank you for reading! I hope you find something useful, thought-provoking, or spiffy.
 
 
 ### Contact me
