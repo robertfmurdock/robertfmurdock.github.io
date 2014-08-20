@@ -33,7 +33,7 @@ And that's totally valid. You could also define it inline... which should look f
           assertSame(expectedUnitPair, last)
         })
         
-It wouldn't surprise me if some programmers preferred that way of calling the function: it does let you use the named argument of the function, and makes clear that the closure is being passed to the method. But... the trailing closure syntax, which automatically will use the closure in the last argument of the funcion, lets you create functions that act more like 'if' statements.  Repeating the initial example:
+It wouldn't surprise me if some programmers preferred that way of calling the function: it does let you use the named argument, and makes clear that the closure is being passed to the method. But... the trailing closure syntax, which automatically will use the closure in the last argument of the function, lets you create functions that act more like 'if' statements.  Repeating the initial example:
 
         assertNotNil(withinDistance.last) { last in
             assertSame(last, withinDistance.first)
