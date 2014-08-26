@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Imitation Cheese
+title: A Synthetic Creature
 tags: swift testing mocks spies
 ---
 
