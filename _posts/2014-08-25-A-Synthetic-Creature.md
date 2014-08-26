@@ -9,10 +9,10 @@ As I've been diving into Swift again these last few weeks, the issue of [mocking
 Mocking is an important tool in the unit testing toolkit - it is the natural solution for targetted testing of how a system uses the mocked system. And that *is* an important thing to test... for certain systems. But once understood, it is very easy to overuse... and because of the repetitive nature of most mocks, a variety of frameworks have cropped up in many languages to make it even easier. Some languages, like Javascript, barely need a framework at all (though Jasmine spies make it even easier).
 
 Here's what overuse might sound like:
-- Every model object in your codebase is mocked.
-- Your tests frequently have state modeled in mocks that would be impossible with the sole production implementation.
-- Setting up your mocks often obscures the actual component being tested from even quick readers.
-- You change the requirements of your models, and unit tests that consume those models pass! Even though they should fail. And then the problem isn't found until the application isn't run.
+* Every model object in your codebase is mocked.
+* Your tests frequently have state modeled in mocks that would be impossible with the sole production implementation.
+* Setting up your mocks often obscures the actual component being tested from even quick readers.
+* You change the requirements of your models, and unit tests that consume those models pass! Even though they should fail. And then the problem isn't found until the application isn't run.
 
 First, its important to recognize that yes, these are real problems. Furthermore, quality test-driven-development does not make them inevitable. When code smells like these crop up, they're trying to tell you something about the way you've designed your system. Here are a few things that these smells tell me:
 
