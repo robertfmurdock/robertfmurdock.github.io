@@ -13,7 +13,7 @@ Here's what overuse might sound like:
 - Model objects in your codebase are usually mocked.
 - Your tests frequently have state modeled in mocks that would be impossible with the sole production implementation.
 - Setting up your mocks often obscures the actual component being tested from even quick readers.
-- You change the requirements of your models, and unit tests that consume those models pass! Even though they should fail. And then the problem isn't found until the application isn't run.
+- You change the requirements of your models, and unit tests that consume those models pass! Even though they should fail. And then the problem isn't found until the application is run... possibly much later.
 
 First, its important to recognize that yes, these are real problems. Furthermore, quality test-driven-development does not make them inevitable. When code smells like these crop up, they're trying to tell you something about the way you've designed your system. Here are a few things that these smells tell me:
 
