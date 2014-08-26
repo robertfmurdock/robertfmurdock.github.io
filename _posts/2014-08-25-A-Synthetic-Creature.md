@@ -10,7 +10,7 @@ Mocking is an important tool in the unit testing toolkit - it is the natural sol
 
 Here's what overuse might sound like:
 
-- Every model object in your codebase is mocked.
+- Model objects in your codebase are usually mocked.
 - Your tests frequently have state modeled in mocks that would be impossible with the sole production implementation.
 - Setting up your mocks often obscures the actual component being tested from even quick readers.
 - You change the requirements of your models, and unit tests that consume those models pass! Even though they should fail. And then the problem isn't found until the application isn't run.
