@@ -42,5 +42,8 @@ Setting up matchers on your Spy allows 'returnValue' and 'verify(wasCalledWithAr
 Basically, you pass in a function or a series of functions that is used to compare one set of arguments to another, in whatever way you like. This property can be changed on the Spy at any time. Once this is done though, you can make simple calls like:
 
     mockBlender.verify(("Blend me", 7, 3.2))
+    mockBlender.verifyLastCallWas(("Blend you", 3, 1.1))
 
-And your test will fail is no calls match those arguments.
+... so that's pretty alright.
+
+That's all for now. Feel free to play with it and give any feedback you like.
