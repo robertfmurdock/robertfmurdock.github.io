@@ -13,3 +13,11 @@ Now, they haven't been exposed to much light so far, and therefore I'm sure that
 
 Now, as far as I know, there are currently no mock frameworks available for Swift. I'm hoping that this can be a good thing and remind the test-driven that you shouldn't need a whole framework to do appropriate mocking. Given that, here's a quick way to create a mock object using the Spy class:
 
+    class MockBlender : Blender {
+        
+        var transform = Spy<(value1: String, value2: Int, value3: Double), String>(defaultReturn: "MOCK")
+        
+        override func transform(value1: String, value2: Int, value3: Double) -> String {
+            return transform.call(args: (value1, value2, value3))
+        }
+    }
