@@ -7,6 +7,7 @@ tags: swift flow promises pledges optionals
 Back again! Today I'm going to say a few words about one of the other Gists I put up last week: Pledges.
 
 Swift has fantastic notation for modeling the "one or none" problem using Optionals. They let the programmer use syntax like this:
+
     let result: String? = goGetMeThatResult()
     if let value = result {
       // Do amazing things with the value you recieved!
