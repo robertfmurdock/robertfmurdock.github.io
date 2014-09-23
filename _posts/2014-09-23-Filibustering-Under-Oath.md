@@ -15,7 +15,7 @@ Swift has fantastic notation for modeling the "one or none" problem using Option
       // What does it mean to not have a value? Ponder this, then take action.
     }
     
-Which is great for modeling situations where a person may / may not have something. Like a ticket, for example. Or a wallet. What's more, Swift optionals don't let you attempt to use a value without validating that it actually exists, which makes them far superior to the classic 'use a null' solution to this problem, which is traditionally the source of all evil: the dread pirate NullPointerException.
+Which is great for modeling situations where a person may / may not have something. Like a ticket, for example. Or a wallet. What's more, Swift optionals don't let you attempt to use a value without validating that it actually exists, which makes them far superior to the classic 'use a null' solution... which is traditionally the source of all evil. Beware the dread pirate NullPointerException.
 
 But. Sometimes the reason you don't have a value might be that the program wasn't able to successfully check whether you have it or not. Say, the computer can't read the disk, can't talk to the web service, or can't read the terrible handwriting you're trying to scan. This structure, as written, can't tell you why you didn't get a value in error cases.
 
