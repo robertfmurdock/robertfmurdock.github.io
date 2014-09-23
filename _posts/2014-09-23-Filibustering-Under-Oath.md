@@ -34,6 +34,7 @@ And because we're using Swift, we can make it even briefer:
     }.fail { error in
       // Holy crap, we couldn't get the value because of an error! We'd better deal with this and log it somewhere.
     }
+    
 Or, if you want to be as insanely brief as possible:
 
     goGetMeThatResult()
