@@ -54,6 +54,6 @@ But the real power of Pledges comes when you need to hinge a larger amount of lo
       KeyChain(seed: string1, id: id, password: string2)
     }
     
-The all function lets you combine existing pledges into a larger pledge easily, feeding you all the inputs of those pledges when they succeed as arguments so you can compose your final result. This naturally lets you chain any errors together with no problem, with a syntax much safer than the traditional "try-catch" structure. And there are a few variations of the way you can make a new promise from those results besides this. I'm time-strapped though, so I won't go into all of it now.
+The all function lets you combine existing pledges into a larger pledge easily, feeding you all the inputs of those pledges when they succeed as arguments so you can compose your final result. This lets you chain errors together very naturally, with a syntax much safer than the traditional "try-catch" structure. And there are a few variations of the way you can make a new promise from those results besides this. I'm time-strapped though, so I won't go into all of it now.
 
 Let me know if you like and/or use this in anyway! Happy to help.
