@@ -4,7 +4,7 @@ title: Filibustering Under Oath
 tags: swift flow promises pledges optionals
 ---
 
-Back again! Today I'm going to say a few words about one of the other Gists I put up last week: Pledges.
+Back again! Today I'm going to say a few words about one of the other Gists I put up last week: [Pledges](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d).
 
 Swift has fantastic notation for modeling the "one or none" problem using Optionals. They let the programmer use syntax like this:
 
