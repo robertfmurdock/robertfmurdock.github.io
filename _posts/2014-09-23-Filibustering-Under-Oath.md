@@ -44,7 +44,7 @@ Or, if you want to be as insanely brief as possible:
     
 Kind of nice, that. I chose to use the word 'fail' because of 'catch' for aesthetic reasons (4 characters to match 'then', so all the blocks line up).
 
-But the real power of Pledges comes when you need to hinge a larger amount of loading based on various inputs. Lets say that you want to build an object KeyChain that depends on two strings and an integer. The functions I provide with Pledges let you do this:
+But the real power of Pledges comes when you need to hinge a larger amount of loading based on various inputs. Lets say that you want to build an object KeyChain that depends on two strings and an integer from various services. The functions I provide with Pledges let you do this (where the goGet methods all return Pledges):
 
     let keychainPledge: Pledge<KeyChain> = all(promises: [
       goGetStringOne(),
