@@ -22,3 +22,13 @@ In the time of our father's fathers, detecting and handling errors was straightf
 For small codebases with few registers, these problems are truly not a major concern. But as soon as code bases grow to even modest sizes, even the most talented programmers began having problems managing error conditions correctly.
 
 Enter the Exception.
+
+Programming languages gave birth to the Exception in a fit of ecstasy, fury and force. The most common form of exception systems follow from a few principles:
+  
+  - Exceptions shall be an object or struct containing information describing and relevant to an error.
+  - Every function shall have an additional type of 'return' statement: throwing an Exception. When throwing an exception the declared return contract (returning a void, an integer, or a pointer for example) shall not be met.
+  - Every function will automatically and immediately 'throw' when calling another function that throws an Exception. Lines of code subsequent to that function call will not be executed.
+  - A try/catch syntax is provided that will capture any exception thrown by functions called inside the 'try' section and deliver them to the 'catch' section. Exceptions are to be handled within the catch section.
+  - If an Exception is returned from the top function of a stack, that program (or thread) will exit with an error code.
+
+These rules made certain things easier for programmers: now, instead of having to design a communication path for errors through your functions, exception handling provides it for you. Additionally, using the Exception as a template for how to capture useful error data helped add consistency to error handling systems.
