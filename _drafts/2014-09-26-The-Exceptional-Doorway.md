@@ -62,8 +62,8 @@ Here's how it looks in practice:
 
 Improvement though it may be for certain things, Exceptions still make substantial demands of the programmer. Such as:
     
-    - The programmer must know each and every function that might return an exception.
-    - The programmer must handle each and every kind of exception that can be returned in an appropriate way.
+- The programmer must know each and every function that might return an exception.
+- The programmer must handle each and every kind of exception that can be returned in an appropriate way.
 
 This is likely the right time to introduce another related topic: the difference between critical errors and recoverable errors.
 
