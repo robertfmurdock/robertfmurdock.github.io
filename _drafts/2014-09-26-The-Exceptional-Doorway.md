@@ -21,7 +21,7 @@ The code for this style of error handling might look like this (in C-like code):
     void main(){
       RESULT result = performFunctionOfDubiousSuccess();
       if (error) {
-        handleError();
+        handleError(error);
       } else {
         enjoyThe(result);
       }
@@ -48,3 +48,14 @@ Programming languages gave birth to the Exception in a fit of ecstasy, fury and 
   - If an Exception is returned from the top function of a stack, that program (or thread) will exit with an error code.
 
 These rules made certain things easier for programmers: now, instead of having to design a communication path for errors through your functions, exception handling provides it for you. Additionally, using the Exception as a template for how to capture useful error data helped add consistency to error handling systems.
+
+Here's how it looks in practice:
+
+    public void main(){
+        try {
+            Result result = performFunctionOfDubiousSuccess();
+            enjoyThe(result);
+        } catch (Exception ruhRoh) {
+            handleError(ruhRoh);
+        }
+    }
