@@ -6,7 +6,7 @@ tags: flow promises error handling ethics syntax
 
 I think about error handling a lot. Perhaps a shocking amount. I mean, it's the first example I reach for when discussing [programmer ethics](/Heart-Of-Silicon). Its one of the first things I investigate when learning a new programming language. And my opinions (read: rants) on the topic tend to be long, detailed and interminable.
 
-So I thought, what they hey, why not discuss it in long form here! Here we go.
+So I thought, what the hey, why not discuss it in long form here! Here we go.
 
 Once upon a time, in a far away land, programmers started writing computer instructions. And it was good. Then, error entered the world due to the frailty of the silicon and the foolishness of the programmers.
 
