@@ -12,13 +12,8 @@ Once upon a time, in a far away land, programmers started writing computer instr
 
 We've been coping with errors ever since.
 
-In the time of our father's fathers, detecting and handling errors was straightforward: memory was limited, programs were small, and the range of problems were few. This was generally handled by reserving a register for an error. After doing actions that could result in an error, the code would check that register for a value and respond appropriately, handling the error or continuing with execution of the program. All things considered, this is an elegant solution... but not a perfect one. In order for this technique to succeed, a few requirements must be met:
-  
-  - The programmer must know each and every register (or memory) that is reserved for error detection.
-  - The programmer must know each and every action that could trigger an error, and handle them at the appropriate time
-  - The programmer must avoid making any assumptions downstream of the error that might be false when an error happens. If a file is not read, for example, code can't assume that the content of the file is available.
-  - The programmer must be talented and skilled enough to watch for all of these problems in all of their code, all of the time.
-  
+In the time of our father's fathers, detecting and handling errors was straightforward: memory was limited, programs were small, and the range of problems were few. This was generally handled by reserving a register for an error. After doing actions that could result in an error, the code would check that register for a value and respond appropriately, handling the error or continuing with execution of the program.
+
 The code for this style of error handling might look like this (in C-like code):
 
     int error;
@@ -33,6 +28,13 @@ The code for this style of error handling might look like this (in C-like code):
     }
     
 
+All things considered, this is an elegant solution... but not a perfect one. In order for this technique to succeed, a few requirements must be met:
+  
+  - The programmer must know each and every register (or memory) that is reserved for error detection.
+  - The programmer must know each and every action that could trigger an error, and handle them at the appropriate time
+  - The programmer must avoid making any assumptions downstream of the error that might be false when an error happens. If a file is not read, for example, code can't assume that the content of the file is available.
+  - The programmer must be talented and skilled enough to watch for all of these problems in all of their code, all of the time.
+  
 For small codebases with few registers, these problems are truly not a major concern. But as soon as code bases grow to even modest sizes, even the most talented programmers began having problems managing error conditions correctly.
 
 Enter the Exception.
