@@ -19,6 +19,20 @@ In the time of our father's fathers, detecting and handling errors was straightf
   - The programmer must avoid making any assumptions downstream of the error that might be false when an error happens. If a file is not read, for example, code can't assume that the content of the file is available.
   - The programmer must be talented and skilled enough to watch for all of these problems in all of their code, all of the time.
   
+The code for this style of error handling might look like this (in C-like code):
+
+    int error;
+    
+    void main(){
+      RESULT result = performFunctionOfDubiousSuccess();
+      if (error) {
+        handleError();
+      } else {
+        enjoyThe(result);
+      }
+    }
+    
+
 For small codebases with few registers, these problems are truly not a major concern. But as soon as code bases grow to even modest sizes, even the most talented programmers began having problems managing error conditions correctly.
 
 Enter the Exception.
