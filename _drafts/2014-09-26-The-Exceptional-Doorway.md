@@ -59,3 +59,12 @@ Here's how it looks in practice:
             handleError(ruhRoh);
         }
     }
+
+Improvement though it may be for certain things, Exceptions still make substantial demands of the programmer. Such as:
+    
+    - The programmer must know each and every function that might return an exception.
+    - The programmer must handle each and every kind of exception that can be returned in an appropriate way.
+
+This is likely the right time to introduce another related topic: the difference between critical errors and recoverable errors.
+Traditionally, critical errors have been classified as "errors that indicate profound programming mistakes for which the correct course of action is to terminate the process after some degree of cleanup... when possible." Classic examples include attempting to access invalid memory (such as array index out of bounds) and failing to allocate memory. Programmers should have zero tolerance for critical errors, and use more advances techniques and more advanced programming languages to make the situations tremendously difficult to achieve.
+Recoverable errors are errors that are actually fairly likely to happen over the lifetime of a program in production. Some common examples are "file not found" or "file does not have correct permissions for that operation" or "could not parse integer into a string". These errors are properly considered "unexceptional", meaning that your code should make as clear as possible what happens when they occur.
