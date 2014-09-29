@@ -71,4 +71,23 @@ Traditionally, critical errors have been classified as "errors that indicate pro
 
 Recoverable errors are errors that are actually fairly likely to happen over the lifetime of a program in production. Some common examples are "file not found" or "file does not have correct permissions for that operation" or "could not parse integer into a string". Thus, these errors are properly considered "unexceptional".
 
-In my opinion, when handling unexceptional errors, code should make as clear as possible that a. the error might occur and b. how it will be handled. This is in contrast to true critical errors, which occur in conditions that are unpredictable to the program and should not be considered part of the program's typical flow.
+In my opinion, when handling unexceptional errors, code should make as clear as possible that the error might occur and how it will be handled. This is in contrast to true critical errors, which occur in conditions that are unpredictable to the program and should not be considered part of the program's typical flow. Only truly exceptional and unpredictable cases should be hidden from the readable flow of code.
+
+Exceptions as a mode of error handling tend to suffer from inability to distinguish these kinds of errors. Some languages introduced the concept of 'checked exceptions' in order to help deal with this problem, but the limitations of Exception handling syntax and lack of discipline in distinguishing whether an Exception should be 'checked' or not has severely limited the usefulness of that construct.
+
+Lets consider a few modes of error handling that asynchronous systems have tended to use. Here's one style of error detection popular among Javascript programmers:
+    
+        database.findDataMatching('query', function(error, result) {
+            if (error) {
+                handleError(error);
+            } else {
+                processTheResult(result);
+            }
+        });
+        
+        
+This style asks the programmer to pass forward a closure that will recieve two arguments at a future time: an error and a result. This style of error handling has a few nice properties. Because the error is the first parameter, it is very unlikely that the programmer will simply ignore the error and forget to handle it; they must include the error parameter in the function in order to obtain subsequent parameter values. This style of error handling, combined with the nature of asynchronous programming, also demands that access to the result happens somewhere within that closure. This helps to eliminate bugs related to programmers assuming have access to a value that ended up never being populated because of an error (frequently resulting in null pointers).
+
+Of course, the limitations present themselves immediately as well. While it is unlikely a programmer will forget that ever-important 'if' statement, there's no guarentee that it will be remembered, or the else section will be correctly included. Thus the closure is at some risk of attempting to use a result that does not exist. Additionally, all error handling logic must be included inside of the closure as well. When multiple queries have to be chained together, the code tends to exhibit 'rightward-drift': a result that requires another result that requires another result combined with handling all of the related errors correctly can create some difficult to comprehend closure nests.
+
+To help reduce the unwieldiness of this structure, many programmers have adopted a variation on it: the [Promise](http://www.html5rocks.com/en/tutorials/es6/promises/) design pattern.
