@@ -94,4 +94,11 @@ To help reduce the unwieldiness of this structure, many programmers have adopted
 
 A promise is an object that represents the potential of a task to succeed or fail. A promise can succeed or fail immediately before execution moves to the next line of code. It might also succeed or fail at a future point in time.  Here's how using a function that returns a Javascript promise looks:
 
-
+    requestData("MyFavoriteData").then(function(data) {
+        enjoyTheDelicious(data);
+    }).then( function(data){
+        playWithItSomeMore(data);
+    }).catch(function(error){
+        weepOpenlyForYourLackOfDataAndReportThe(error);
+    });
+    
