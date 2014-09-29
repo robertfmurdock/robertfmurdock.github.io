@@ -91,3 +91,7 @@ This style asks the programmer to pass forward a closure that will recieve two a
 Of course, the limitations present themselves immediately as well. While it is unlikely a programmer will forget that ever-important 'if' statement, there's no guarentee that it or the 'else' section will be correctly included. Thus the closure is always at some risk of attempting to use a result that does not exist. Additionally, all error handling logic must be included inside of the closure as well. When multiple queries have to be chained together, the code tends to exhibit 'rightward-drift': a result that requires another result that requires another result combined with handling all of the related errors correctly can create some difficult to comprehend closure nests.
 
 To help reduce the unwieldiness of this structure, many programmers have adopted a variation on it: the [Promise](http://www.html5rocks.com/en/tutorials/es6/promises/) design pattern.
+
+A promise is an object that represents the potential of a task to succeed or fail. A promise can succeed or fail immediately before execution moves to the next line of code. It might also succeed or fail at a future point in time.  Here's how using a function that returns a Javascript promise looks:
+
+
