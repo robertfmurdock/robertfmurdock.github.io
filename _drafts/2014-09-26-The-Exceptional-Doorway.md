@@ -102,3 +102,12 @@ A promise is an object that represents the potential of a task to succeed or fai
         weepOpenlyForYourLackOfDataAndReportThe(error);
     });
     
+Some quick notes: the 'then' function of a promise returns the reference to the promise! This allows you to continue to add additional 'then' or 'catch' clauses. This is equivalent to storing the original promise in a variable and then calling the functions from the original variable, but sometimes chaining them as in this example is a more readable choice. Even better, most promises include the ability to transform the result:
+
+    requestData("MyDataAsString").then(parseInt).then(function(int){
+        doSomethingAwesomeWithThe(int);
+    });
+
+As a structure for error handling, promises eliminate a few concerns. There is no opportunity for a programmer to accidentally attempt to use the data when the data will not be available. Rightward drift is eliminated by using transformations (including transformations that may result in errors). Unlike Exceptions, it is impossible for an error to escape from the bounds of a promise; all error handling will be dealt with by the given 'catch' closures. Chaining makes identifying the true cause of an error a breeze. With one glance at a promise, you can tell what the programmer is doing with the resulting error (if anything at all).
+
+The promise design pattern seems to be the most robust and durable solution to error handling I've seen so far. This is likely due to its asynchronous origins, but I suspect this model is ideal even for purely synchronous code.
