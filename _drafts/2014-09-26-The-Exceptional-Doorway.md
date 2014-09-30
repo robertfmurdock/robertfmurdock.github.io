@@ -123,14 +123,43 @@ A promise is an object that represents the potential of a task to succeed or fai
         weepOpenlyForYourLackOfDataAndReportThe(error);
     });
     
-Some quick notes: the 'then' function of a promise returns the reference to the promise! This allows you to continue to add additional 'then' or 'catch' clauses. This is equivalent to storing the original promise in a variable and then calling the functions from the original variable, but sometimes chaining them as in this example is a more readable choice. Even better, most promises include the ability to transform the result:
+Some quick notes: the 'then' and 'catch' functions of a promise return a reference to the promise! This allows you to continue to add additional 'then' or 'catch' clauses. This is equivalent to storing the original promise in a variable and then calling the functions from the original variable, but sometimes chaining them as in this example is a more readable choice. Even better, most promises include the ability to transform the result:
 
     requestData("MyDataAsString").then(parseInt).then(function(int){
         doSomethingAwesomeWithThe(int);
     });
 
-As a structure for error handling, promises eliminate many of the concerns we've noted about other systems. There is no opportunity for a programmer to accidentally attempt to use the data when the data will not be available. Rightward drift is eliminated by using transformations (including transformations that may result in errors). Unlike Exceptions, it is impossible for an error to escape from the bounds of a promise; all error handling will be dealt with by the given 'catch' closures. Chaining makes identifying the true cause of an error a breeze. With one glance at a promise, you can tell what the programmer is doing with the resulting error (if anything at all).
+As a structure for error handling, promises eliminate many of the concerns we've noted about other systems. There is no opportunity for a programmer to accidentally attempt to use the data when the data will not be available. Rightward drift is eliminated by using transformations (including transformations that may result in errors). Unlike Exceptions, it is impossible for an error to escape from the bounds of a promise; all error handling will be dealt with by the given 'catch' closures. Chaining makes identifying the true cause of an error a breeze. With one glance at a promise, you can tell what the programmer is doing with the resulting error... or that nothing is being done with it (seeing a 'then' clause with no 'catch'). Not including a catch clause has fewer problems than other systems as well: because all the code requiring a value must be within a 'then', there are no opportunities for null pointer errors. There is still an issue that a programmer can concievably omit the catch clause unintentionally and problems that occur might go undetected... but this problem seems solvable by providing a 'default' catch implementation (printing the error, for example), and is likely better solved with code analysis tools rather than compiler or function design.
 
-The promise design pattern seems to be the most robust and durable solution to error handling I've seen so far. This is likely due to its asynchronous origins, but I suspect this model is ideal even for purely synchronous code. The only difficulty I've encountered with promises is that sometimes when *writing* an asynchronous promise it is distressingly easy to create a promise that never actually fulfills or rejects its contract. For the [Pledge library](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d), I've been considering adding a default timeout to make this situation easier to detect. But the average programmer shouldn't have to write very many promises at all... most of your contact with promises will be transforming and chaining by adding 'then' and 'catch' clauses.
+Here's what our wily 'rightward drift' example looks like when rewritten with promises:
 
-I hope this essay has been useful!
+    database.findDataMatching('query')
+        .then(function(error, result){
+            database.findDataMatching('relatedObject=' + result.foreignKey)
+                .then(function(result){
+                        externalApi.queryById(result.id)
+                            .then(finallyCompleteProcessingThe)
+                            .catch(handlePotentialThirdError);
+                }).catch(handlePotentialSecondError);
+        }).catch(handleError);
+
+The drift is already less severe, but we're still heading over. But with a few tweaks:
+
+    database.findDataMatching('query')
+        .catch(handleError)
+        .then(function(error, result){
+            return database.findDataMatching('relatedObject=' + result.foreignKey);
+        })
+        .catch(handlePotentialSecondError);
+        .then(function(result){
+                return externalApi.queryById(result.id);
+        })
+        .then(finallyCompleteProcessingThe)
+        .catch(handlePotentialThirdError);
+
+We've reorganized it to take advantage of being able to convert a promise to another form, which we do twice in this flow. Tasty!
+
+
+The promise design pattern seems to be the most robust and durable solution to error handling I've seen so far. Due to its asynchronous origins, it seems to be a highly durable and , but I suspect this model is ideal even for purely synchronous code. The only difficulty I've encountered with promises is that sometimes when *creating* a promise it is distressingly easy to accidentally make it never fulfill or reject. For the [Pledge library](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d), I've been considering adding a default timeout to make this situation easier to detect. But the average programmer shouldn't have to write very many promises; most of your contact with promises will be transforming and chaining by adding 'then' and 'catch' clauses.
+
+I hope you've enjoyed this tour of error handling strategies. Try something new out! You might learn something.
