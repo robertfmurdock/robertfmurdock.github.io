@@ -12,7 +12,7 @@ Once upon a time, in a far away land, programmers started writing computer instr
 
 We've been coping with errors ever since.
 
-In the time of our father's fathers, detecting and handling errors was straightforward: memory was limited, programs were small, and the range of problems were few. This was generally handled by reserving a register for an error. After doing actions that could result in an error, the code would check that register for a value and respond appropriately, handling the error or continuing with execution of the program.
+In the time of our fathers' fathers, detecting and handling errors was straightforward: memory was limited, programs were small, and the range of problems were few. This was generally handled by reserving a register for an error. After doing actions that could result in an error, the code would check that register for a value and respond appropriately, handling the error or continuing with execution of the program.
 
 The code for this style of error handling might look like this (in C-like code):
 
@@ -67,13 +67,13 @@ Improvement though it may be for certain things, Exceptions still make substanti
 
 This is likely the right time to introduce another related topic: the difference between critical errors and recoverable errors.
 
-Traditionally, critical errors have been classified as "errors that indicate profound programming mistakes for which the correct course of action is to terminate the process after some degree of cleanup... when possible." Classic examples include attempting to access invalid memory (such as array index out of bounds) and failing to allocate memory. Programmers should have zero tolerance for critical errors, and use more advances techniques and more advanced programming languages to make the situations tremendously difficult to achieve.
+Traditionally, critical errors have been classified as "errors that indicate profound programming mistakes for which the correct course of action is to terminate the process after some degree of cleanup... when possible." Classic examples include attempting to access invalid memory (such as array index out of bounds) and failing to allocate memory. Programmers should have zero tolerance for critical errors, and use more advanced techniques and more advanced programming languages to make the situations tremendously difficult to achieve.
 
-Recoverable errors are errors that are actually fairly likely to happen over the lifetime of a program in production. Some common examples are "file not found" or "file does not have correct permissions for that operation" or "could not parse integer into a string". Thus, these errors are properly considered "unexceptional".
+Recoverable errors are errors that are actually fairly likely to happen over the lifetime of a program in production. Some common examples are "file not found" or "file does not have correct permissions for that operation" or "could not parse string into an integer". Thus, these errors are properly considered "unexceptional".
 
 In my opinion, when handling unexceptional errors, code should make as clear as possible that the error might occur and how it will be handled. This is in contrast to true critical errors, which occur in conditions that are unpredictable to the program and should not be considered part of the program's typical flow. Only truly exceptional and unpredictable cases should be hidden from the readable flow of code.
 
-Exceptions as a mode of error handling tend to suffer from inability to distinguish these kinds of errors. Some languages introduced the concept of 'checked exceptions' in order to help deal with this problem, but the limitations of Exception handling syntax and lack of discipline in distinguishing whether an Exception should be 'checked' or not has severely limited the usefulness of that construct.
+Exceptions as a mode of error handling tend to suffer from inability to distinguish these kinds of errors. Some languages introduced the concept of 'checked exceptions' in order to help deal with this problem, but the limitations of Exception handling syntax and lack of discipline in distinguishing whether an Exception should be 'checked' or not have severely limited the usefulness of that construct.
 
 Lets consider a few modes of error handling that asynchronous systems have tended to use. Here's one style of error detection popular among Javascript programmers:
     
@@ -86,9 +86,30 @@ Lets consider a few modes of error handling that asynchronous systems have tende
         });
         
         
-This style asks the programmer to pass forward a closure that will recieve two arguments at a future time: an error and a result. This style of error handling has a few nice properties. Because the error is the first parameter, it is very unlikely that the programmer will simply ignore the error and forget to handle it; they must include the error parameter in the function in order to obtain subsequent parameter values. This style of error handling, combined with the nature of asynchronous programming, also demands that access to the result happens somewhere within that closure. This helps to eliminate bugs related to programmers assuming have access to a value that ended up never being populated because of an error (frequently resulting in null pointers).
+This style asks the programmer to pass forward a closure that will recieve two arguments at a future time: an error and a result. This style of error handling has a few nice properties. Because the error is the first parameter, it is very unlikely that the programmer will simply ignore the error and forget to handle it; they must include the error parameter in the function in order to obtain subsequent parameter values. This style of error handling, combined with the nature of asynchronous programming, also demands that access to the result happens somewhere within that closure. This helps to eliminate bugs related to programmers assuming have access to a value that ended up never being populated because of an error (unexpected null pointers, for example).
 
-Of course, the limitations present themselves immediately as well. While it is unlikely a programmer will forget that ever-important 'if' statement, there's no guarentee that it or the 'else' section will be correctly included. Thus the closure is always at some risk of attempting to use a result that does not exist. Additionally, all error handling logic must be included inside of the closure as well. When multiple queries have to be chained together, the code tends to exhibit 'rightward-drift': a result that requires another result that requires another result combined with handling all of the related errors correctly can create some difficult to comprehend closure nests.
+Of course, the limitations present themselves immediately as well. While it is unlikely a programmer will forget that ever-important 'if' statement, there's no guarantee that it or the 'else' section will be correctly included. Thus the closure is always at some risk of attempting to use a result that does not exist. Additionally, all error handling logic must be included inside of the closure as well. When multiple queries have to be chained together, the code tends to exhibit 'rightward-drift': deeply nested closures where a result requires another result that requires another result while handling all of the related errors correctly. This can create some difficult to comprehend closure nests:
+
+    database.findDataMatching('query', function(error, result){
+        if (error) {
+            handleError(error);
+        } else {
+            database.findDataMatching('relatedObject=' + result.foreignKey, function(error, result){
+                if (error) {
+                    handlePotentialSecondError(error);
+                } else {
+                    externalApi.queryById(result.id, function(error, result) {
+                       if (error) {
+                            handlePotentialThirdError(error);
+                       } else {
+                            finallyCompleteProcessingThe(result);
+                       } 
+                    });
+                }
+            });
+        }
+        
+    });
 
 To help reduce the unwieldiness of this structure, many programmers have adopted a variation on it: the [Promise](http://www.html5rocks.com/en/tutorials/es6/promises/) design pattern.
 
@@ -110,6 +131,6 @@ Some quick notes: the 'then' function of a promise returns the reference to the 
 
 As a structure for error handling, promises eliminate many of the concerns we've noted about other systems. There is no opportunity for a programmer to accidentally attempt to use the data when the data will not be available. Rightward drift is eliminated by using transformations (including transformations that may result in errors). Unlike Exceptions, it is impossible for an error to escape from the bounds of a promise; all error handling will be dealt with by the given 'catch' closures. Chaining makes identifying the true cause of an error a breeze. With one glance at a promise, you can tell what the programmer is doing with the resulting error (if anything at all).
 
-The promise design pattern seems to be the most robust and durable solution to error handling I've seen so far. This is likely due to its asynchronous origins, but I suspect this model is ideal even for purely synchronous code. The only difficulty I've encountered with promises is that sometimes when *writing* a promise it is distressingly easy to create a promise that never actually fulfills or rejects its contract. For the [Pledge library](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d), I've been considering adding a default timeout to make this situation easier to detect. But the average programmer shouldn't have to write very many promises at all... most of your contact with promises will be transforming, chaining and adding 'then' and 'catch' clauses.
+The promise design pattern seems to be the most robust and durable solution to error handling I've seen so far. This is likely due to its asynchronous origins, but I suspect this model is ideal even for purely synchronous code. The only difficulty I've encountered with promises is that sometimes when *writing* an asynchronous promise it is distressingly easy to create a promise that never actually fulfills or rejects its contract. For the [Pledge library](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d), I've been considering adding a default timeout to make this situation easier to detect. But the average programmer shouldn't have to write very many promises at all... most of your contact with promises will be transforming and chaining by adding 'then' and 'catch' clauses.
 
 I hope this essay has been useful!
