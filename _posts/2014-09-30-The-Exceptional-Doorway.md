@@ -143,7 +143,7 @@ Here's what our wily 'rightward drift' example looks like when rewritten with pr
                 }).catch(handlePotentialSecondError);
         }).catch(handleError);
 
-The drift is already less severe, but we're still heading over. But with a few tweaks:
+The drift is already less severe, but we're still heading to the right. But with a few tweaks:
 
     database.findDataMatching('query')
         .catch(handleError)
