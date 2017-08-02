@@ -63,10 +63,10 @@ Sums to about 12 hours of work.
 
 So that's that! The big takeaways for me have been:
 
-- It takes about a week for me to produce a 9 page document about processes I am extremely familiar with
-- If enough value is provided by that document, I have plans to write more.
-- Figuring out how to make the Pillar Squad Model real enough to be applicable has taken a lot of elbow grease, and a notable amount of time to extract that information from my brain
-- That said, I think the PSM is very close to being usable now, thanks to all the effort by all the people I've partnered with to move it this far
+- It takes about a week for me to produce a 9 page document about processes with which I am extremely familiar.
+- If enough value is provided by that document, I have plans to write more. Let me know if you like!
+- Figuring out how to make the Pillar Squad Model real enough to be applicable has taken a lot of elbow grease, and a notable amount of time to extract that information from my brain.
+- That said, I think the PSM is very close to being usable now, thanks to all the effort by all the people I've partnered with to move it this far.
 - Education and illustration is very rewarding; both as a writer/instructor and to new Pillar hires.
 - I'm very excited about the new kinds of growth opportunities we've been finding lately.
 
