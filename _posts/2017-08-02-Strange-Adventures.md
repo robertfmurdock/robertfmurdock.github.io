@@ -16,10 +16,10 @@ Rob Murdock's July Output:
     - Branding "standing teams at pillar" as the "Pillar Squad Model"
     - Ran many conceptual tests of the Pillar Squad Model, based on historical scenarios
     - Built out an initial map of how the GLR region "could" be managed within the "Pillar Squad Model"
-		- Developed a usable Elasticity metric so team's can self-assess how much change they can tolerate. https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md
-		- Developed the Roles that would need to be fulfilled in order to make the Pillar Squad Model function, and a simple model by which the Roles interact. https://github.com/robertfmurdock/team-solar-system/blob/master/RoleContracts.md
-		- Wrote eight persona-based perspectives about how the Pillar Squad Model will be beneficial. https://github.com/robertfmurdock/team-solar-system/blob/master/Propaganda.md
-		- Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md
+		- Developed a usable Elasticity metric so team's can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)
+		- Developed the Roles that would need to be fulfilled in order to make the Pillar Squad Model function, and a simple model by which the Roles interact. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/RoleContracts.md)
+		- Wrote eight persona-based perspectives about how the Pillar Squad Model will be beneficial. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/Propaganda.md)
+		- Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md)
 		- Determined a few things that a region needs to be given in order to apply the squad model today.
 
 That sums to about 58 hours of work.
@@ -30,13 +30,13 @@ That sums to about 58 hours of work.
     - Discussing common team dysfunctions in the GLR
     - Drafting the metrics themselves
     - Drafting content for understanding values of the metrics and suggestions for how to address pain
-    - Polishing the draft based on feedback. https://github.com/robertfmurdock/TeamCoaching/blob/master/ContinousIntegrationMetrics.md
+    - Polishing the draft based on feedback. [Read it Here!](https://github.com/robertfmurdock/TeamCoaching/blob/master/ContinousIntegrationMetrics.md)
 
 That sums to about 40 hours of work.
 
 3. Prepared content for a templated, repeatable Pillar Academy. That work included:
 
-	- maintaining the Academy Template trello board. https://trello.com/b/tILqrSuY/academy-syllabus-template-copy-this-for-each-academy
+	- maintaining the Academy Template trello board. [Link for people who have access!](https://trello.com/b/tILqrSuY/academy-syllabus-template-copy-this-for-each-academy)
     - Working with Greg to use existing content and redigest it for the Academy template
     - Finding resources for use by the Academy
     - Creating and writing resources for the Academy, available on Google Drive
