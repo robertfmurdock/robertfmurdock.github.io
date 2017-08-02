@@ -16,26 +16,20 @@ Rob Murdock's July Output:
     - Branding "standing teams at pillar" as the "Pillar Squad Model"
     - Ran many conceptual tests of the Pillar Squad Model, based on historical scenarios
     - Built out an initial map of how the GLR region "could" be managed within the "Pillar Squad Model"
-		- Developed a usable Elasticity metric so team's can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)
-		- Developed the Roles that would need to be fulfilled in order to make the Pillar Squad Model function, and a simple model by which the Roles interact. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/RoleContracts.md)
-		- Wrote eight persona-based perspectives about how the Pillar Squad Model will be beneficial. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/Propaganda.md)
-		- Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md)
-		- Determined a few things that a region needs to be given in order to apply the squad model today.
-
-    That sums to about 58 hours of work.
-
+    - Developed a usable Elasticity metric so team's can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)
+    - Developed the Roles that would need to be fulfilled in order to make the Pillar Squad Model function, and a simple model by which the Roles interact. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/RoleContracts.md)
+    - Wrote eight persona-based perspectives about how the Pillar Squad Model will be beneficial. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/Propaganda.md)
+    - Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md)
+    - Determined a few things that a region needs to be given in order to apply the squad model today.
+    - That sums to about 58 hours of work.
 2. Wrote a "Metrics for Continuous Integration" white paper, to help coach teams struggling with this process. This included:
-
     - Interviewing existing teams about what challenges they run into
     - Discussing common team dysfunctions in the GLR
     - Drafting the metrics themselves
     - Drafting content for understanding values of the metrics and suggestions for how to address pain
     - Polishing the draft based on feedback. [Read it Here!](https://github.com/robertfmurdock/TeamCoaching/blob/master/ContinousIntegrationMetrics.md)
-
-That sums to about 40 hours of work.
-
+    - That sums to about 40 hours of work.
 3. Prepared content for a templated, repeatable Pillar Academy. That work included:
-
 	- maintaining the Academy Template trello board. [Link for people who have access!](https://trello.com/b/tILqrSuY/academy-syllabus-template-copy-this-for-each-academy)
     - Working with Greg to use existing content and redigest it for the Academy template
     - Finding resources for use by the Academy
@@ -43,19 +37,13 @@ That sums to about 40 hours of work.
     - Setting up the trip to Iowa
     - Running the academy itself
     - Handing the template off to the next pair to run Academy
-
-    Sums to about 52 hours of work.
-
+    - Sums to about 52 hours of work.
 4. Growth Conversations and Proposals.
-
     - Worked on a discovery session and proposal for Merit
     - Worked on a tour/discovery with Tom Kelly from Automation Alley
     - Consulted on the Carma proposal
-
-    Sums to about 12 hours of work.
-
+    - Sums to about 12 hours of work.
 5. Assorted Tasks
-
     - Coupling upgrades and research: 16 hours
     - Revisiting Go; created a small project to brush up technical skills in anticipation of an Iowa client: 12 hours
     - Discussing Postman integration testing strategies; bringing the lessons Aziz and I developed at RouteOne to a larger audience. 8 hours
