@@ -16,7 +16,7 @@ Rob Murdock's July Output:
     - Branding "standing teams at pillar" as the "Pillar Squad Model"
     - Ran many conceptual tests of the Pillar Squad Model, based on historical scenarios
     - Built out an initial map of how the GLR region "could" be managed within the "Pillar Squad Model"
-    - Developed a usable Elasticity metric so team's can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)
+    - Developed a usable Elasticity metric so teams can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)
     - Developed the Roles that would need to be fulfilled in order to make the Pillar Squad Model function, and a simple model by which the Roles interact. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/RoleContracts.md)
     - Wrote eight persona-based perspectives about how the Pillar Squad Model will be beneficial. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/Propaganda.md)
     - Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md)
