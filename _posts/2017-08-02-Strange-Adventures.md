@@ -22,7 +22,7 @@ Rob Murdock's July Output:
 		- Created and illustrated two different ways Squads can be composed to help clarify the direction of the Pillar Squad Model. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/SquadComposition.md)
 		- Determined a few things that a region needs to be given in order to apply the squad model today.
 
-That sums to about 58 hours of work.
+    That sums to about 58 hours of work.
 
 2. Wrote a "Metrics for Continuous Integration" white paper, to help coach teams struggling with this process. This included:
 
@@ -44,7 +44,7 @@ That sums to about 40 hours of work.
     - Running the academy itself
     - Handing the template off to the next pair to run Academy
 
-Sums to about 52 hours of work.
+    Sums to about 52 hours of work.
 
 4. Growth Conversations and Proposals.
 
@@ -52,7 +52,7 @@ Sums to about 52 hours of work.
     - Worked on a tour/discovery with Tom Kelly from Automation Alley
     - Consulted on the Carma proposal
 
-Sums to about 12 hours of work.
+    Sums to about 12 hours of work.
 
 5. Assorted Tasks
 
