@@ -13,7 +13,7 @@ Rob Murdock's July Output:
 
 1. Substantial upgrades to the Pillar Squad Model, including:
 
-    - Branding "standing teams at pillar" as the "Pillar Squad Model"
+    - Branding "standing teams at Pillar" as the "Pillar Squad Model"
     - Ran many conceptual tests of the Pillar Squad Model, based on historical scenarios
     - Built out an initial map of how the GLR region "could" be managed within the "Pillar Squad Model"
     - Developed a usable Elasticity metric so teams can self-assess how much change they can tolerate. [Read it Here!](https://github.com/robertfmurdock/team-solar-system/blob/master/ElasticityScale.md)

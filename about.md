@@ -14,4 +14,5 @@ But in all seriousness, thank you for reading! I hope you find something useful,
 
 ### Contact me
 
-[rmurdock@pillartechnology.com](mailto:rmurdock@pillartechnology.com)
+
+[robert.f.murdock@gmail.com](mailto:robert.f.murdock@gmail.com)
