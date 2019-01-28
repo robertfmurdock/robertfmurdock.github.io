@@ -59,4 +59,17 @@ new image". Big sad face.
 However, this January I spent some time trying to replicate the aforementioned feature. Using CircleCI, I was able to 
 put together a CircleCI workflow that would tell ACS to redeploy my image after CircleCI built and pushed the new one! 
 It took a bunch of research on my part, but it got me the results I wanted. The script is [here](https://github.com/robertfmurdock/Coupling/blob/004f06ad0bb425258b3ca3e4deea8d4a0c495b97/.circleci/config.yml#L42).
+My favorite thing about that script is that it uses multiple docker images rather than having to construct a new base 
+image with all of the software I need. I didn't have to install the aws command line tool at all! Docker is magic, 
+CircleCI is magic. Merry Christmas, everyone.
 
+### (Webpack) Stats for the Pack-Rat in Your Life
+If you've been working on the web with webpack, and you've done any optimization at all, you're familiar with the stats 
+output. Its so useful! It gives you a picture of "what the heck is taking up so much space in my javascript files?!?" 
+and "who on earth decided we needed to use ANOTHER variation of lodash?". But if you're like me, you might run into tiny
+ little roadblocks that prevent you from using this tool as much as you like. Mostly, its inconvenient.
+Well, because Gradle is great and there were no signs of my webpack system getting any simpler, I decided I needed a
+webpack stats task dedicated to getting me that sweet, sticky, stat-sauce. Check it out [here](https://github.com/robertfmurdock/Coupling/blob/cf8d13ec1e95f085034aadc729e020663c4eea16/client/build.gradle.kts#L71). I do recommend making 
+this as easy as possible, because the more people on your team paying attention to the health of your bundles, the 
+healthier they'll be! 
+   
