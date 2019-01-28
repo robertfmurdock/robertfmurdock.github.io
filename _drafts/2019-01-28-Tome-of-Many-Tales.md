@@ -72,4 +72,7 @@ Well, because Gradle is great and there were no signs of my webpack system getti
 webpack stats task dedicated to getting me that sweet, sticky, stat-sauce. Check it out [here](https://github.com/robertfmurdock/Coupling/blob/cf8d13ec1e95f085034aadc729e020663c4eea16/client/build.gradle.kts#L71). I do recommend making 
 this as easy as possible, because the more people on your team paying attention to the health of your bundles, the 
 healthier they'll be! 
-   
+
+### Modularization and You - Everybody Boops
+Alright, hey, look. I know the Coupling project has been a mess for a long time. It has desperate need of organization. 
+No link because its an ongoing work, but I spent a good amount of time trying to bring some order to its chaos.
