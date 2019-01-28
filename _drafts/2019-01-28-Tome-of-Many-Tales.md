@@ -44,4 +44,19 @@ post [here](/A-Gemini-Dilemma)) would have problems in March because Google was 
  haven't used Coupling because it required Google login. Now... they can! Microsoft rolled their own server-side passport 
  middleware for this, and you can see how its used in Coupling [here](https://github.com/robertfmurdock/Coupling/blob/17950963b8557ae953ff77504f60a77dffa1a2fa/server/config/express.js#L21).
  
-   
+### Amazon Container Server
+I had a minor freak out this year when I heard that docker-cloud, formerly Tutum, was shutting down... this was the tool
+I was using to orchestrate my personal web apps and services. In a flurry of desperation, I moved Coupling over to be 
+managed on the fledgling Amazon Container Service (ACS), and managed to get it running in a fairly quick amount of time.
+
+This was nice! The concepts / terms they use mapped pretty well to what I'm used to, and since it was docker image based, 
+moving over from docker cloud required no code changes.
+
+That said, in that transition I lost one of my favorite docker-cloud features, which was "auto deploy on publication of 
+new image". Big sad face.
+
+### Circle CI Workflow
+However, this January I spent some time trying to replicate the aforementioned feature. Using CircleCI, I was able to 
+put together a CircleCI workflow that would tell ACS to redeploy my image after CircleCI built and pushed the new one! 
+It took a bunch of research on my part, but it got me the results I wanted. The script is [here](https://github.com/robertfmurdock/Coupling/blob/004f06ad0bb425258b3ca3e4deea8d4a0c495b97/.circleci/config.yml#L42).
+
