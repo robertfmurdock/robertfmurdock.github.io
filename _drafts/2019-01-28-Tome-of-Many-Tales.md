@@ -123,3 +123,7 @@ illustrate how to test drive code organized in this way. Each step of the proces
 failing tests (so its easier to see what needs to be done in micro steps), and an integration test that fails until the 
 work is complete. Questions welcome!
 
+### Descent into Kotlin
+
+I also have done a deep dive into multiplatform Kotlin. So deep, that I think it deserves its own follow up entry, as 
+this guy is 1600 words deep and counting. So stay tuned! 
