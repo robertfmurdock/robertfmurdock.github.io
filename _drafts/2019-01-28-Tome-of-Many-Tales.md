@@ -109,7 +109,10 @@ repeated, or orchestrated with a Command, a Query, or another Action.
 - Dispatchers are the functions that do the work associated with an Action. These functions are implemented on 
 a dedicated interface, which enumerates all the dependencies the function requires. In this way, the Dispatcher objects 
 are where dependencies are injected, *not* the Actions themselves.
-
+- Syntaxes are functions that provide existing types with additional functionality. These functions are implemented on 
+interfaces, and thus can link a dependency to the type being given "additional syntax". These functions are expected to 
+be lightweight and highly reusable. Typically, a Dispatcher would implement syntaxes required to implement the 
+dispatcher function.
 
 Sort of make sense? Clear as mud? Its also probably worth pointing out that these structures are intended to be in a 
 core application layer (aka business aka domain layer).
@@ -117,6 +120,6 @@ core application layer (aka business aka domain layer).
 Anyway, this is all well and good, but I decided a better, publicly available example might be useful. So I spent a 
 Friday creating [this git repo](https://github.com/robertfmurdock/kt-di-example), which in a series of commits will 
 illustrate how to test drive code organized in this way. Each step of the process has an associated branch, including 
-failing tests (so its easier to see what needs to be done in micro steps). Questions welcome!
+failing tests (so its easier to see what needs to be done in micro steps), and an integration test that fails until the 
+work is complete. Questions welcome!
 
- 
