@@ -75,4 +75,48 @@ healthier they'll be!
 
 ### Modularization and You - Everybody Boops
 Alright, hey, look. I know the Coupling project has been a mess for a long time. It has desperate need of organization. 
-No link because its an ongoing work, but I spent a good amount of time trying to bring some order to its chaos.
+No link because its an ongoing work, but I spent a good amount of time trying to bring some order to its chaos. 
+Hopefully the changes made (and further changes to be made) will make it clearer which parts of the app are server only, 
+which are client only, and which are part of the end to end tests. In some future world it'd be nice if it was a better 
+demonstration of quality organization. That said, seeing as this is a free time project... no promises!
+
+### The Squarm is Squarming!
+Many of the previous blog entries were talking about the Swift language, and using examples from a game that I'd worked 
+on in my free time. I took two hours to update the game to Swift 4 and... it was pretty painless! Also, it runs better
+on modern hardware.  I should get back to it, or at least add three more maps and see if I can make a quick buck. Can't 
+show any source here, sorry! 
+
+### Injection by Ice Pick
+In the last quarter of 2018, I spent a goodly amount of time examining how the principles and techniques outline in 
+[this article](https://www.pacoworks.com/2018/02/25/simple-dependency-injection-in-kotlin-part-1/) might be applied to a
+somewhat traditional project. To summarize the article, in Kotlin, dependencies can be defined in such a way that the 
+dependency injection can be validated at compile-time rather than at run-time. Using this technique means taking 
+advantage of Kotlin's ability to put fully-formed functions on interfaces, alongside 'abstract' functions. To do so, 
+the programmer merely defines the dependency as an abstract property, and then uses the dependency in the implemented 
+function. Next, in order to use the function, at some point in the code the interface must be implemented, and thus the 
+dependency must be linked. Apply this technique repeatedly, and you discover that you can remove a *lot* of intermediate 
+dependencies (replaced by intermediate functions), and you no longer have any of the problems associated with DI tools.
+
+Sounds cool? Its kind of a trip, but it works. Now, actually applying it to an existing codebase suggested that some 
+architectural organization was missing, so I proposed a few useful naming conventions for different kind of functions 
+and function parameters that will commonly be used throughout a large codebase. Quick summary!
+
+- Commands / Queries are simple data objects that capture all the information needed to execute a user-requested 
+behavior. The name and type of the Command or Query is important because it signifies the intent of the user.
+- Actions are simple data objects that capture all the information needed to do a particular function. Command and 
+Queries are both considered Actions. Actions are *not* associated with a user request, and thus can be recycled, 
+repeated, or orchestrated with a Command, a Query, or another Action. 
+- Dispatchers are the functions that do the work associated with an Action. These functions are implemented on 
+a dedicated interface, which enumerates all the dependencies the function requires. In this way, the Dispatcher objects 
+are where dependencies are injected, *not* the Actions themselves.
+
+
+Sort of make sense? Clear as mud? Its also probably worth pointing out that these structures are intended to be in a 
+core application layer (aka business aka domain layer).
+
+Anyway, this is all well and good, but I decided a better, publicly available example might be useful. So I spent a 
+Friday creating [this git repo](https://github.com/robertfmurdock/kt-di-example), which in a series of commits will 
+illustrate how to test drive code organized in this way. Each step of the process has an associated branch, including 
+failing tests (so its easier to see what needs to be done in micro steps). Questions welcome!
+
+ 
