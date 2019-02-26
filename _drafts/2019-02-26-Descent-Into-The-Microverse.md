@@ -90,6 +90,10 @@ That said, for me, keeping down mocking verbosity isn't exactly a primary goal..
 
 Creating this class made it *so much easier* to port existing javascript tests that relied heavily on jasmine spies, so its a worthwhile exercise. This is also kind of a sequel to [this blog post](/A-Synthetic-Creature) from a few years ago, which is always fun.
 
+### Building binaries with Kotlin Native
+
+I'm still in early days on this, but extracting the testmints library gave me an excuse to investigate the new gradle multi-platform jar syntax (which works great!) and figure out how to use and share Kotlin Native binaries. Short version is that there don't seem to be any preexisting full plugin solutions for uploading valid gradle multiplatform packages, but after reading a lot of source code and experimenting, I've got a minimum viable "upload to bintray all the appropriate artifacts" flow in place. Which is awesome! I couldn't be happier about it honestly. Check out the [testmints source code](https://github.com/robertfmurdock/testmints) if you want to see more about this (in the root build.gradle file).
+
 ### Multi-platform quirks
 
 Most of the effort around Kotlin multi-platform programming in January was focused on "getting Kotlin Javascript to work". If you want to learn more precise details about the techniques I ended up using, I recommend reading the Coupling source. That said, big lessons:
@@ -97,3 +101,6 @@ Most of the effort around Kotlin multi-platform programming in January was focus
 - Kotlin produces a nice unified JS file of every project module (and another one for test code). Knowing what this module will be named is very important when folding it into a webpack build. Remember, if you care about the size of your webpacked modules, then take advantage of [Kotlin Javascript DCE](https://kotlinlang.org/docs/reference/javascript-dce.html), to remove stuff from your libraries that are not being used.
 - The kotlin multi-platform gradle plugin doesn't do a great job (or any job) of providing the javascript from a referenced library to a project. That is to say, if I make project A depend on project B, the plugins don't do any work to make the artifacts of project B available to A. I ended up writing a custom plugin that helps with that based on some code in the official kotlin frontend plugin, but its not correctly cache busting yet... which means things work, but occasionally I still have to force a manual clean so things get updated correctly.  It was a lot of work and learning, but now I can have kotlin multi-platform libraries that can be consumed by my kotlin javascript targets.
 - Async testing is possible using kotlin.test and Jasmine... so long as you return a promise from the tests. This means I've gone *hard* on learning how to use the Kotlin Coroutine system, and its Javascript quirks. Overall I'm actually pretty happy with it, but I can see how some people would bounce off of it.
+- By using Docker, I've been able to build a native library that runs on a Raspberry Pi now with Kotlin. Nothing crazy exciting yet (I haven't started the 'make the light blink' exercise), but I'm very happy to have come this far, and setup a deployment procedure that pushes / pulls docker images from my local mac and can run the native Arm code on the Pi. Squee! There's promise here.
+
+Ok, that's all for now. Hit me up if you want more details on ANY of these subjects, I'm happy to talk. 
