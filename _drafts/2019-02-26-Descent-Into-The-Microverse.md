@@ -42,4 +42,30 @@ Firstly, we're defining the function using an equals sign rather than a typical 
     @Test
     fun plusOne() = 
     
-Now, there's nothing stopping you from using the setup function inside a traditional function block, but there really isn't anything we'd want someone writing a test to put outside of the setup/exercise/verify sections, so omitting the block makes it less likely someone will have rogue code in there. 
+Now, there's nothing stopping you from using the setup function inside a traditional function block, but there really isn't anything we'd want someone writing a test to put outside of the setup/exercise/verify sections, so omitting the block makes it less likely someone will have rogue code in there.
+
+Next, you'll notice we're passing an anonymous object declaration to the setup function.
+
+    @Test
+    fun plusOne() = setup(object {
+        val input: Int = Random.nextInt()
+        val expected = input + 1
+    })
+    
+As long as we stay within this file, the anonymous object can be used as a generic type. This is super cool! This means we can define properties (such as input and expected) on this anonymous object, and then use them wherever we pass that anonymous object. In this way, you can easily setup a unique set of inputs for each unit test. And because its just an object, you could use a traditional named class or object as well, which can be useful for sharing setup!
+
+So lets see what happens with the exercise function:
+
+    }) exercise {
+        input.plusOne()
+    } 
+    
+So the exercise function takes a closure of type "fun C.() -> R". What does that mean? Well, it means it has "this" access to all of the fields available from the object passed to setup via the C generic. It also means that whatever is the last line of the closure will be returned as the result. Which makes sense, because the typical function that we're testing will probably return something that we'll be interested in later. How much later? Well, that returned value "R" will be passed on to the verify section!
+
+    } verify { result ->
+        assertEquals(expected, result)
+    }
+
+Now, this you can probably guess how it works broadly - it receives the result as a parameter, and then you can do assertions on it! But there's a little bit more going on here. The closure passed to verify is of type "C.(R)->R2". Because this closure *also* has access to C, this closure can see the setup object, and access its values (for example, the value "expected").
+
+So that's the broad structure. I glossed over how the functions all are using trailing closures, and how the exercise and verify functions are both "infix" which allows us to call them using a space rather then a dot (although if you prefer a dot, that'll work too).
