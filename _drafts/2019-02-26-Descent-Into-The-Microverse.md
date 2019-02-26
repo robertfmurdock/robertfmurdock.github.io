@@ -10,6 +10,8 @@ Alright, lets get to the big hearty chucks. One of the things that I ran into im
 
 All you get is a knife, and [kotlin.test](https://kotlinlang.org/api/latest/kotlin.test/index.html). Figure it out!
 
+### Figuring it out.
+
 And so I did. Inspired by some of the neat sugars that [Kotlintest](https://github.com/kotlintest/kotlintest) provides, I ended up writing a micro-framework for testing that uses some of kotlin's lesser-noticed features to add some semantics. So a test that looks like this:
 
     @Test
@@ -58,8 +60,8 @@ So lets see what happens with the exercise function:
 
     }) exercise {
         input.plusOne()
-    } 
-    
+    }
+
 So the exercise function takes a closure of type "fun C.() -> R". What does that mean? Well, it means it has "this" access to all of the fields available from the object passed to setup via the C generic. It also means that whatever is the last line of the closure will be returned as the result. Which makes sense, because the typical function that we're testing will probably return something that we'll be interested in later. How much later? Well, that returned value "R" will be passed on to the verify section!
 
     } verify { result ->
@@ -68,4 +70,11 @@ So the exercise function takes a closure of type "fun C.() -> R". What does that
 
 Now, this you can probably guess how it works broadly - it receives the result as a parameter, and then you can do assertions on it! But there's a little bit more going on here. The closure passed to verify is of type "C.(R)->R2". Because this closure *also* has access to C, this closure can see the setup object, and access its values (for example, the value "expected").
 
-So that's the broad structure. I glossed over how the functions all are using trailing closures, and how the exercise and verify functions are both "infix" which allows us to call them using a space rather then a dot (although if you prefer a dot, that'll work too).
+So that's the broad structure. I glossed over how the functions all are using trailing closures, and how the exercise and verify functions are both "infix" which allows us to call them using a space rather then a dot (although if you prefer a dot, that'll work too). But they are!
+
+### Multi-platform quirks
+
+Most of the effort around Kotlin multi-platform programming in January was focused on "getting Kotlin Javascript to work". If you want to learn more precise details about the techniques I ended up using, I recommend reading the Coupling source. That said, big lessons:
+
+- Kotlin produces a nice unified JS file of every project module (and another one for test code). Knowing what this module will be named is very important when folding it into a webpack build.
+- The kotlin multi-platform gradle plugin doesn't do a great job (or any job) of providing the javascript from a referenced library to a project. That is to say, if I make project A depend on project B, the plugins don't do any work to make the artifacts of project B available to A. I ended up writing a custom plugin that helps with that based on some code in the official kotlin frontend plugin, but its not correctly cache busting yet... which means things work, but occasionally I still have to force a manual clean so things get updated correctly.  It was a lot of work and learning, but now I can have kotlin multi-platform libraries that can be consumed by my kotlin javascript targets. 
