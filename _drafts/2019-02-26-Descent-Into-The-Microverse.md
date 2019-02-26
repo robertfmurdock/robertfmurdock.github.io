@@ -72,9 +72,28 @@ Now, this you can probably guess how it works broadly - it receives the result a
 
 So that's the broad structure. I glossed over how the functions all are using trailing closures, and how the exercise and verify functions are both "infix" which allows us to call them using a space rather then a dot (although if you prefer a dot, that'll work too). But they are!
 
+### Simple Spy Work
+
+Because I've been trying to play with a more functional style of coding, it was fairly simple for me to create a test double utility object that met my basic needs. Here's an example of usage:
+
+    class StubCreatePairCandidateReportActionDispatcher :
+            CreatePairCandidateReportActionDispatcher, 
+            Spy<CreatePairCandidateReportAction, PairCandidateReport> by SpyData() {
+        override fun CreatePairCandidateReportAction.perform() = spyFunction(this)
+    }
+    
+Unpacking it for a second, this is a test double for the "CreatePairCandidateReportActionDispatcher" function. In order to hook it up, the class simply implements the Spy interface, with the Input & Output generic types, uses a delegate SpyData object to provide the implementation, overrides the function being doubled "fun CreatePairCandidateReportAction.perform()", and calls the spyFunction to register the data.
+
+Now, I dig it - usage is verbose. This is mostly a consequence of keeping this test-double style reflection-free, but there may be more tweaks to make it briefer.  Note thought - Staying reflection-free is important in multi-platform contexts because it will not always work as you might expect on different platforms.
+
+That said, for me, keeping down mocking verbosity isn't exactly a primary goal... I don't think its healthy to be mocking constantly, so having a slight bar to it has some value in my mind. What IS valuable though, is avoiding writing all the repetitive data collection code that can easily be divergent or buggy with repeated implementation, so the "real" work being done here is that SpyData() class. It essentially acts as a collector object that can easily be added to any class using a delegate.
+
+Creating this class made it *so much easier* to port existing javascript tests that relied heavily on jasmine spies, so its a worthwhile exercise. This is also kind of a sequel to [this blog post](/A-Synthetic-Creature) from a few years ago, which is always fun.
+
 ### Multi-platform quirks
 
 Most of the effort around Kotlin multi-platform programming in January was focused on "getting Kotlin Javascript to work". If you want to learn more precise details about the techniques I ended up using, I recommend reading the Coupling source. That said, big lessons:
 
-- Kotlin produces a nice unified JS file of every project module (and another one for test code). Knowing what this module will be named is very important when folding it into a webpack build.
-- The kotlin multi-platform gradle plugin doesn't do a great job (or any job) of providing the javascript from a referenced library to a project. That is to say, if I make project A depend on project B, the plugins don't do any work to make the artifacts of project B available to A. I ended up writing a custom plugin that helps with that based on some code in the official kotlin frontend plugin, but its not correctly cache busting yet... which means things work, but occasionally I still have to force a manual clean so things get updated correctly.  It was a lot of work and learning, but now I can have kotlin multi-platform libraries that can be consumed by my kotlin javascript targets. 
+- Kotlin produces a nice unified JS file of every project module (and another one for test code). Knowing what this module will be named is very important when folding it into a webpack build. Remember, if you care about the size of your webpacked modules, then take advantage of [Kotlin Javascript DCE](https://kotlinlang.org/docs/reference/javascript-dce.html), to remove stuff from your libraries that are not being used.
+- The kotlin multi-platform gradle plugin doesn't do a great job (or any job) of providing the javascript from a referenced library to a project. That is to say, if I make project A depend on project B, the plugins don't do any work to make the artifacts of project B available to A. I ended up writing a custom plugin that helps with that based on some code in the official kotlin frontend plugin, but its not correctly cache busting yet... which means things work, but occasionally I still have to force a manual clean so things get updated correctly.  It was a lot of work and learning, but now I can have kotlin multi-platform libraries that can be consumed by my kotlin javascript targets.
+- Async testing is possible using kotlin.test and Jasmine... so long as you return a promise from the tests. This means I've gone *hard* on learning how to use the Kotlin Coroutine system, and its Javascript quirks. Overall I'm actually pretty happy with it, but I can see how some people would bounce off of it.
