@@ -62,3 +62,11 @@ Components of this include:
   - Continuous Design Integration aka, building processes for faster and safer design integration
   - Better, easier, testing. Unifying tooling in polyglot systems, etc.
   - Processes that take advantage of large scale or cloud functionality.
+  
+Known poisons:
+
+  - Team has no control over integration processes
+  - Over 25% of the team is not committed, or adverse to improving processes
+  - existing artifact is too change-intolerant to make process improvement a near-term goal (always on fire)
+  - team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
+  - resource or permission constraints on improving the process, that cause continuous additional friction to change
