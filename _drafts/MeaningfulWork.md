@@ -33,3 +33,12 @@ Components of this include:
   - helping the team practice self-management
   - establishing processes for clear communication of the team's needs and successes
   - teams that can survive and thrive for multiple generations
+  
+### Building Next-Gen Teamwork Processes
+
+Components of this include:
+
+  - A more Continuous Integration (CI++, improving speed of integrating tech)
+  - Continuous Design Integration aka, building processes for faster and safer design integration
+  - Better, easier, testing. Unifying tooling in polyglot systems, etc.
+  - Processes that take advantage of large scale or cloud functionality.
