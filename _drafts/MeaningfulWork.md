@@ -65,20 +65,23 @@ Known poisons:
 
 ### Building Next-Gen Teamwork Processes
 
+The "Next-Gen Teamwork Processes" dimension illustrates the development of development processes. That is to say, working with a team to build a development process that is not merely great, but testing the boundaries of how improved a process can be.
+
 Components of this include:
 
   - A more Continuous Integration (CI++, improving speed of integrating tech)
   - Continuous Design Integration aka, building processes for faster and safer design integration
   - Better, easier, testing. Unifying tooling in polyglot systems, etc.
   - Processes that take advantage of large scale or cloud functionality.
+  - A team that is sufficiently briefed on advantages, disadvantages, and challenges associated with well known development processes. 
   
 Known poisons:
 
   - Team has no control over integration processes
   - Over 25% of the team is not committed, or adverse to improving processes
-  - existing artifact is too change-intolerant to make process improvement a near-term goal (always on fire)
-  - team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
-  - resource or permission constraints on improving the process, that cause continuous additional friction to change
+  - Existing product or work-artifact is too change-intolerant to make process improvement a near-term goal (always on fire)
+  - The team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
+  - Resource or permission constraints on improving the process, that make change high-cost (which includes cost of willpower)
   
   ## Mission
   
