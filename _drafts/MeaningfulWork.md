@@ -43,24 +43,25 @@ Known poisons:
 
 ### Building Resilient Teams and Team-Spaces
 
+The "resilient team" dimension illustrates team and organizational development. In contract to the "valuable product" dimension, this one focuses on developing the organization itself, rather than a product that solves a problem.
+
 Components of this include:
 
-  - setting up processes that make the team comfortable with change
-  - nurturing a culture of teaching
-  - normalizing the practice of improving or replacing systems over time
-  - helping the team practice self-management
-  - establishing processes for clear communication of the team's needs and successes
-  - teams that can survive and thrive for multiple generations
+  - Setting up norms or processes that make the team comfortable with change
+  - Nurturing a culture of teaching
+  - Normalizing the practice of improving or replacing systems over time
+  - Helping the team practice self-management
+  - Establishing processes for clear communication of the team's needs and successes
+  - The team can survive and thrive for multiple generations
   
 Known poisons:
 
-  - team has no persistent center of gravity (viable centers include: owning a product, a team mission, a clear physical home)
-  - the team does not have control over team composition (who should join, who should leave)
-  - the team is not allowed to set clear boundaries on how stakeholders interact with it.
-  - the team's existence is not part of a larger organizational vision, leaving its future in question.
-  - the team's senior members are not invested in the existence of the team (the team wants to disband)
-  - team patrons or stakeholders are not responsive to the team's needs or successes
-
+  - Team has no persistent center of gravity (viable centers include: owning a product, a team mission, a clear physical home)
+  - The team does not have control over team composition (who should join, who should leave)
+  - The team is not allowed to set clear boundaries on how stakeholders interact with it.
+  - The team's existence is not part of a larger organizational vision, leaving its future in question.
+  - The team's senior members are not invested in the existence of the team (the team wants to disband)
+  - Team patrons or stakeholders are not responsive to the team's needs or successes
 
 ### Building Next-Gen Teamwork Processes
 
