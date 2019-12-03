@@ -14,7 +14,7 @@ This document is written from the perspective of Rob Murdock's career and values
 
 In order to further grow in my career, there are a small set of dimensions that a job must fulfill. These dimensions are only viable, however, when sufficiently free of the poisons that make succeeding in that dimension sisyphean. The following will express these dimensions, and the associated common poisons, so that myself and those finding work on my behalf understand my needs.
 
-## Dimensions 
+## Dimensions
 
 For me, these are the top dimensions when I think of what makes my work meaningful.
 
@@ -31,7 +31,7 @@ The "valuable product" dimension illustrates that the work is clearly focused on
 Components of this include:
   
   - Improving underlying technology
-  - Keeping the product concept is user focused
+  - Keeping the product concept user focused
   - Ensuring Users are built into the development process
   - Tools for building the project are chosen and discarded based on utility, by the team using them
   - Clear, short-term roll-out strategies for new products or new features. 
