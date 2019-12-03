@@ -6,6 +6,10 @@ tags: pairing development programming agile discipline
 
 # The Search for Meaning(ful work)
 
+### Disclaimer
+
+This document is written from the perspective of Rob Murdock's career and values. While this may be useful to others, I make no claim that my personal definition of meaningful work is universal in any sense. It, however, may be useful to use this template for exploration of your own career or work-values, and it is likely if you are framing "even very similar concepts" differently, that alternative framing is useful to your own journey. That said, read on. 
+
 ## Thesis
 
 In order to further grow in my career, there are a small set of dimensions that a job must fulfill. These dimensions are only viable, however, when sufficiently free of the poisons that make succeeding in that dimension sisyphean. The following will express these dimensions, and the associated common poisons, so that myself and those finding work on my behalf understand my needs.
