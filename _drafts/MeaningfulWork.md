@@ -8,7 +8,7 @@ tags: pairing development programming agile discipline
 
 ### Disclaimer
 
-This document is written from the perspective of Rob Murdock's career and values. While this may be useful to others, I make no claim that my personal definition of meaningful work is universal in any sense. It, however, may be useful to use this template for exploration of your own career or work-values, and it is likely if you are framing "even very similar concepts" differently, that alternative framing is useful to your own journey. That said, read on. 
+This document is written from the perspective of Rob Murdock's career and values. While this may be useful to others, I make no claim that my personal definition of meaningful work is universal in any sense. It, however, may be useful to use this template for exploration of your own career or work-values, and it is likely if you are framing "even very similar concepts" differently, that alternative framing is useful to your own journey. That said, read on! 
 
 ## Thesis
 
