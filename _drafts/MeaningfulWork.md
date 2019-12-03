@@ -87,6 +87,8 @@ Known poisons:
   - The team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
   - Resource or permission constraints on improving the process, that make change high-cost (which includes cost of willpower)
   
+Goals for developing this dimension are [here](./NextGenProcessesGoals.md).
+  
   ## Mission
   
   In order for work to be meaningful, I need at least one of these major categories to be fulfilled with minimal (essentially zero) poison, as an assurance that the work will *stick*. Work that fits all these dimensions, but is poisoned in all of them is not meaningful.

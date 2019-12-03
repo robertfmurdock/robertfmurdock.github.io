@@ -11,4 +11,4 @@
   * Formalizing testing "levels", to support building tools that can take advantage of known properties of a testing level
   * Advanced (likely remote) build caching for fast builds in larger monorepos
   * Build tooling for measuring test runtime, frequency of running, health. Possibly a recommendation engine regarding problems.
-  * Build standardized "json logging" format for tests, and tooling that supports such an event stream. 
+  * Build standardized "json logging" format for tests, and tooling that supports such an event stream.
