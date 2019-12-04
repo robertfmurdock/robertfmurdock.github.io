@@ -1,3 +1,9 @@
+---
+layout: post
+title: Next Gen Processes Goals
+tags: pairing development programming agile discipline
+---
+
 # Goals for Next Gen Teamwork Processes
 
   * Non-blocking code review facilitation, possibly tools for this
