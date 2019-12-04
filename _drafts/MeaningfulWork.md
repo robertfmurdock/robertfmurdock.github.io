@@ -67,6 +67,8 @@ Known poisons:
   - The team's senior members are not invested in the existence of the team (the team wants to disband)
   - Team patrons or stakeholders are not responsive to the team's needs or successes
 
+Goals for developing this dimension are [here](./ResilientTeamsAndOrgs.md).
+
 ### Building Next-Gen Teamwork Processes
 
 The "Next-Gen Teamwork Processes" dimension illustrates the development of development processes. That is to say, working with a team to build a development process that is not merely great, but testing the boundaries of how improved a process can be.
