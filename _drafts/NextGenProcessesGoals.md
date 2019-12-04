@@ -6,7 +6,7 @@ tags: pairing development programming agile discipline
 
 # Goals for Next Gen Teamwork Processes
 
-Here are a series of goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress the teamwork processes in as many of these dimensions as possible.
+Here are a series of goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
   * Non-blocking code review facilitation, possibly tools for this
     * learn ins/outs of upsource
