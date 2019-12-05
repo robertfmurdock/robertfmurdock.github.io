@@ -43,7 +43,8 @@ Known poisons:
   - Users are distant from the process, or the resources needed to properly engage the users are not available
   - Poor strategy for, or poor communication regarding, product release
   - Team identifies critical usability or utility concerns, but the product plan does not adjust to compensate.
-   
+
+Goals for developing this dimension are [here](./ValuableProducts.md).
 
 ### Building Resilient Teams and Team-Spaces
 
