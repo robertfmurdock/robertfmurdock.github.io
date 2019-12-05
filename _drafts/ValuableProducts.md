@@ -18,3 +18,5 @@ Here are a series of goals, regarding the "Valuable Products" dimension. In any 
 * user "minimal viable estimates" to give planning team meaningful choices in the short AND long term.
 * collaborate on vivid product visions, to show the intended goal
 * building a mature test process to maximize time spent improving the product and minimize unanticipated technical drag
+* improving the user interfaces to be cutting edge (means different things for different kinds of interfaces)
+* using quality existing paid services to expedite product development (where appropriate), for this such as auth, observability, identity management, etc.
