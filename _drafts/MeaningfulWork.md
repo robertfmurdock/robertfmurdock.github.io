@@ -8,21 +8,21 @@ tags: pairing development programming agile discipline
 
 ### Disclaimer
 
-This document is written from the perspective of Rob Murdock's career and values. While this may be useful to others, I make no claim that my personal definition of meaningful work is universal in any sense. It, however, may be useful to use this template for exploration of your own career or work-values, and it is likely if you are framing "even very similar concepts" differently, that alternative framing is useful to your own journey. That said, read on! 
+This document is written from the perspective of Rob Murdock's career and values. While this may be useful to others, I make no claim that my personal definition of meaningful work is universal in any sense. It, however, may be useful to use this template for exploration of your own career or work-values, and it is likely if you are framing similar concepts differently, that alternative framing is useful to your own journey. That said, read on! 
 
 ## Thesis
 
-In order to further grow in my career, there are a small set of dimensions that a job must fulfill. These dimensions are only viable, however, when sufficiently free of the poisons that make succeeding in that dimension sisyphean. The following will express these dimensions, and the associated common poisons, so that myself and those finding work on my behalf understand my needs.
+There are three dimensions that a job must fulfill in order to further my career growth. Furthermore, these dimensions are only viable when sufficiently free of the poison - a poison being any fixture that makes succeeding in that dimension sisyphean. The following will express these dimensions, and the associated common poisons, to clarify my professional needs. Additionally, there are documents containing my goals for each of these dimensions. The goals are a series of intentions that I hope to fold into work that I take on. 
 
 ## Dimensions
 
-For me, these are the top dimensions when I think of what makes my work meaningful.
+These are the primary dimensions in which I find my work meaningful:
 
   - Building valuable products
   - Building resilient teams and team-spaces
   - Building next-generation teamwork processes
   
-Lets unpack these more.
+Let's unpack these more.
 
 ### Building valuable products
 
@@ -30,9 +30,9 @@ The "valuable product" dimension illustrates that the work is clearly focused on
 
 Components of this include:
   
-  - Improving underlying technology
   - Keeping the product concept user focused
   - Ensuring Users are built into the development process
+  - Improving underlying technology
   - Tools for building the project are chosen and discarded based on utility, by the team using them
   - Clear, short-term roll-out strategies for new products or new features. 
 
