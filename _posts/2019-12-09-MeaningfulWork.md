@@ -44,7 +44,7 @@ Known poisons:
   - Poor strategy for, or poor communication regarding, product release
   - Team identifies critical usability or utility concerns, but the product plan does not adjust to compensate.
 
-Goals for developing this dimension are [here](./ValuableProducts.md).
+Goals for developing this dimension are [here](ValuableProducts.md).
 
 ### Building Resilient Teams and Team-Spaces
 
@@ -68,7 +68,7 @@ Known poisons:
   - The team's senior members are not invested in the existence of the team (the team wants to disband)
   - Team patrons or stakeholders are not responsive to the team's needs or successes
 
-Goals for developing this dimension are [here](./ResilientTeamsAndOrgs.md).
+Goals for developing this dimension are [here](ResilientTeamsAndOrgs.md).
 
 ### Building Next-Gen Teamwork Processes
 
@@ -90,7 +90,7 @@ Known poisons:
   - The team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
   - Resource or permission constraints, that make change high-cost (which includes cost of willpower)
   
-Goals for developing this dimension are [here](./NextGenProcessesGoals.md).
+Goals for developing this dimension are [here](NextGenProcessesGoals.md).
   
   ## Mission
   
