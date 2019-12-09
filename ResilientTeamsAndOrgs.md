@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Resilient Teams & Organization Goals
 tags: pairing development programming agile discipline
 ---

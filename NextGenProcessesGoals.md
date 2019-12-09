@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Next Gen Processes Goals
 tags: pairing development programming agile discipline
 ---

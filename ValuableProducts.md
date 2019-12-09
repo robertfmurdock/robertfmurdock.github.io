@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Valuable Product Goals
 tags: pairing development programming agile discipline
 ---
