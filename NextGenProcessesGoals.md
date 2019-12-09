@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Next Gen Processes Goals
+title: Goals for Next Gen Teamwork Processes
 tags: pairing development programming agile discipline
 ---
-
-# Goals for Next Gen Teamwork Processes
 
 Here are a series of goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 

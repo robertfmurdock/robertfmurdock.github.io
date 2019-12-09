@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Resilient Teams & Organization Goals
+title: Goals for Resilient Teams and their Organizations
 tags: pairing development programming agile discipline
 ---
-
-# Goals for Resilient Teams and their Organizations
 
 Here are a series of goals, regarding the "Resilient Teams/Organizations" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
