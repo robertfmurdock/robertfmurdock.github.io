@@ -9,7 +9,8 @@ tags: pairing development programming agile discipline
 Here are a series of goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
   * Non-blocking code review facilitation, possibly tools for this
-    * learn ins/outs of upsource
+    * learn ins/outs of the IntelliJ Upsource product
+    * learn ins/outs of the IntelliJ Space product
     * maybe build new technology
     * consider transient meta-comments
   * Automated dependency updates, possibly tools to make it easier to build into a product's development cycle
