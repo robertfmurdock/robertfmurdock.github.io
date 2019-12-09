@@ -48,16 +48,16 @@ Goals for developing this dimension are [here](./ValuableProducts.md).
 
 ### Building Resilient Teams and Team-Spaces
 
-The "resilient team" dimension illustrates team and organizational development. In contract to the "valuable product" dimension, this one focuses on developing the organization itself, rather than a product that solves a problem.
+The "resilient team" dimension illustrates team and organizational development. This is similar to the "valuable product" dimension, except the product being developed is the organization. 
 
 Components of this include:
 
-  - Setting up norms or processes that make the team comfortable with change
   - Nurturing a culture of teaching
-  - Normalizing the practice of improving or replacing systems over time
   - Helping the team practice self-management
+  - Normalizing the practice of improving or replacing systems over time
+  - Setting up processes that make the team comfortable and enfranchised regarding staffing change
   - Establishing processes for clear communication of the team's needs and successes
-  - The team can survive and thrive for multiple generations
+  - Testing that the team can survive and thrive for multiple generations
   
 Known poisons:
 
@@ -72,13 +72,13 @@ Goals for developing this dimension are [here](./ResilientTeamsAndOrgs.md).
 
 ### Building Next-Gen Teamwork Processes
 
-The "Next-Gen Teamwork Processes" dimension illustrates the development of development processes. That is to say, working with a team to build a development process that is not merely great, but testing the boundaries of how improved a process can be.
+The "Next-Gen Teamwork Processes" dimension illustrates the development of development processes. This means working with a team to build a development process that is pushing the boundaries of excellence.
 
 Components of this include:
 
   - A more Continuous Integration (CI++, improving speed of integrating tech)
   - Continuous Design Integration aka, building processes for faster and safer design integration
-  - Better, easier, testing. Unifying tooling in polyglot systems, etc.
+  - Better, easier, testing - making the process easy to understand and maintain
   - Processes that take advantage of large scale or cloud functionality.
   - A team that is sufficiently briefed on advantages, disadvantages, and challenges associated with well known development processes. 
   
@@ -88,7 +88,7 @@ Known poisons:
   - Over 25% of the team is not committed, or adverse to improving processes
   - Existing product or work-artifact is too change-intolerant to make process improvement a near-term goal (always on fire)
   - The team doesn't share a conceptual model of how they do work, and therefore cannot collaborate on how to improve it, or refuse to compromise on personal styles
-  - Resource or permission constraints on improving the process, that make change high-cost (which includes cost of willpower)
+  - Resource or permission constraints, that make change high-cost (which includes cost of willpower)
   
 Goals for developing this dimension are [here](./NextGenProcessesGoals.md).
   
