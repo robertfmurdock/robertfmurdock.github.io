@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Resilient Teams
-auto-header: Goals for Resilient Teams and their Organizations
+auto-header: none
 icon: fa-users-cog
 order: 5
 tags: pairing development programming agile discipline
 ---
 
-Here are a series of goals, regarding the "Resilient Teams/Organizations" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
+Here are a series of personal goals, regarding the "Resilient Teams/Organizations" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
 * establishing team constitutions that allow for self-management 
 * build/refine systems for balancing team needs with individual needs

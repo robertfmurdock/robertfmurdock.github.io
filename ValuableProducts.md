@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Building Valuable Products
-auto-header: Goals for Building Valuable Products
+auto-header: none
 icon: fa-hand-holding-heart
 order: 4
 tags: pairing development programming agile discipline
 ---
 
-Here are a series of goals, regarding the "Valuable Products" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
+Here are a series of personal goals, regarding the "Valuable Products" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
 * coaching the right staffing balance of user-design/development for each phase of the product
 * building extremely rapid integration between user-design & development

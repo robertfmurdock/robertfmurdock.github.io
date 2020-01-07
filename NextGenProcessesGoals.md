@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Next Gen Collaboration
-auto-header: Goals for Next Gen Collaboration Processes
+auto-header: none
 icon: fa-door-open
 order: 6
 tags: pairing development programming agile discipline
 ---
 
-Here are a series of goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
+Here are a series of personal goals, regarding the "Next Gen Processes" dimension. In any work context, I intend to try to progress this dimension in as many of these ways as possible.
 
   * Non-blocking code review facilitation, possibly tools for this
     * learn ins/outs of the IntelliJ Upsource product
