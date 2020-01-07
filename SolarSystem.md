@@ -2,7 +2,7 @@
 layout: page
 title: Team Solar System
 auto-header: none
-icon: fa-handshake
+icon: fa-space-shuttle
 order: 7
 tags: 
 ---
