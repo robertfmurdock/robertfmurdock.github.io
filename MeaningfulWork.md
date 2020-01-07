@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meaningful Work
-icon: fa-search
+icon: fa-user-tie
 order: 3
 tags: pairing development programming agile discipline
 ---
