@@ -63,4 +63,4 @@ remote-theme: chrisbobbe/jekyll-theme-prologue
 # theme: jekyll-theme-prologue
 collections: [sections]
 
-exclude: ['TeamCoaching']
+exclude: ['TeamCoaching', 'team-solar-system']

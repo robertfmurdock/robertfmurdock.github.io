@@ -1,3 +1,6 @@
 [submodule "TeamCoaching"]
 	path = TeamCoaching
 	url = https://github.com/robertfmurdock/TeamCoaching.git
+[submodule "team-solar-system"]
+	path = team-solar-system
+	url = https://github.com/robertfmurdock/team-solar-system.git
