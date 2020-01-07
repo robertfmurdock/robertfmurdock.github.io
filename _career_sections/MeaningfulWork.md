@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: career_page
 title: Meaningful Work
 icon: fa-user-tie
 order: 3

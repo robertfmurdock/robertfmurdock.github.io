@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{%- assign _links = site.career_sections | sort: 'order' -%}
+{%- include header.html link_nav=_links -%}
+<!-- Main -->
+<div id="main">
+    {%- if page.content != "" -%}
+    {%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt
+    auto-header=page.auto-header content=page.content -%}
+    {%- endif -%}
+
+    <div class="container">
+        {%- for _page in _links -%}
+        {%- assign _title = _page.title | default: _page.layout | default: 'Untitled' -%}
+        {%- assign _slug = _title | slugify -%}
+        {%- assign _icon = _page.icon | default: 'fa-file' -%}
+        {%- if _page.icon-style == 'regular' -%}
+        {%- assign _class = 'icon-r' -%}
+        {%- elsif _page.icon-style == 'brands' -%}
+        {%- assign _class = 'icon-b' -%}
+        {%- else -%}
+        {%- assign _class = 'icon' -%}
+        {%- endif -%}
+        <ul>
+            {%- if _page.url == page.url -%}
+            <li><a href="#" id="{{- _slug -}}" class="active">
+                <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
+            </a></li>
+            {%- elsif _page.url -%}
+            <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
+                <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
+            </a></li>
+            {%- else -%}
+            <li><a href="{{- '/' | absolute_url -}}" id="broken-link"><span class="icon fa-unlink">[broken link]</span></a>
+            </li>
+            {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </div>
+</div>

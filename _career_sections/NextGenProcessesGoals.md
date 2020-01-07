@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: career_page
 title: Next Gen Collaboration
 auto-header: none
 icon: fa-door-open
