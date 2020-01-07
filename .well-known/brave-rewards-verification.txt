@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: robertfmurdock.github.io
+Token: 477f8e0aab264479e81d78ecf7da263727b8b3513f9fab156f3c9e5c0f80e284
