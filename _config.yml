@@ -66,4 +66,5 @@ collections:
   career_sections:
     output: true
 
+include: ['.well-known']
 exclude: ['TeamCoaching', 'team-solar-system']
