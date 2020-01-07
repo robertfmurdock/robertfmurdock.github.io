@@ -11,7 +11,7 @@ order: 1
 ## I am RoB Murdock.
 ## This is my collection of thoughts, ideas, and public work. 
 
-Please, check out the [blog, Loose Sequential Musings](/blog.md) for informal blogging.
+Please, check out the [blog, Loose Sequential Musings](/blog) for informal blogging.
 
 I'll also have links here to all sorts of other content.
 If you find anything useful, please leave me a nice note! I can always use the appreciation.
