@@ -8,6 +8,7 @@ tags:
 ---
 
 Content is sourced from https://github.com/robertfmurdock/team-solar-system/Proposal.md
+
 Pull requests, edits, and feedback are welcome.
 
 {% include_relative team-solar-system/Proposal.md %}

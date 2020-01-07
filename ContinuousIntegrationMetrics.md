@@ -8,6 +8,7 @@ tags:
 ---
 
 Content is sourced from https://www.github.com/robertfmurdock/TeamCoaching/ContinuousIntegrationMetrics.md
+
 Pull requests, edits, and feedback are welcome.
 
 {% include_relative TeamCoaching/ContinuousIntegrationMetrics.md %}
