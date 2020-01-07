@@ -1,3 +1,3 @@
 [submodule "TeamCoaching"]
 	path = TeamCoaching
-	url = git@github.com:robertfmurdock/TeamCoaching.git
+	url = https://github.com/robertfmurdock/TeamCoaching.git
