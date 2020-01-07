@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Amazing Blog
+title: Loose Sequential Musings
 icon: fa-pencil-alt
 order: 2
 ---

@@ -1,6 +1,9 @@
 ---
 layout: page
-title: The Search for Meaning(ful work)
+title: Meaningful Work
+auto-header: The Search for Meaning(ful work)
+icon: fa-search
+order: 3
 tags: pairing development programming agile discipline
 ---
 

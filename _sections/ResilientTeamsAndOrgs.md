@@ -1,6 +1,9 @@
 ---
 layout: page
-title: Goals for Resilient Teams and their Organizations
+title: Resilient Teams
+auto-header: Goals for Resilient Teams and their Organizations
+icon: fa-users-cog
+order: 5
 tags: pairing development programming agile discipline
 ---
 

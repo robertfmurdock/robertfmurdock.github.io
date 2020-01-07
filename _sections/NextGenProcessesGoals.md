@@ -1,6 +1,9 @@
 ---
 layout: page
-title: Goals for Next Gen Teamwork Processes
+title: Next Gen Collaboration
+auto-header: Goals for Next Gen Collaboration Processes
+icon: fa-door-open
+order: 6
 tags: pairing development programming agile discipline
 ---
 

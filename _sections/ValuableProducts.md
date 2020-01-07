@@ -1,6 +1,9 @@
 ---
 layout: page
-title: Goals for Building Valuable Products
+title: Building Valuable Products
+auto-header: Goals for Building Valuable Products
+icon: fa-hand-holding-heart
+order: 4
 tags: pairing development programming agile discipline
 ---
 

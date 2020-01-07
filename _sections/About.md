@@ -1,7 +1,7 @@
 ---
 title: About Me
 icon: fa-user
-order: 1
+order: 2
 ---
 
 Rob Murdock is a software developer currently located in Ann Arbor, Michigan. Beware.
@@ -14,6 +14,5 @@ But in all seriousness, thank you for reading! I hope you find something useful,
 
 
 ### Contact me
-
 
 [robert.f.murdock@gmail.com](mailto:robert.f.murdock@gmail.com)
