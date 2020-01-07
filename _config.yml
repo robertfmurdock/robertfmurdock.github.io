@@ -1,66 +1,63 @@
+# Developer's Note: This is a sample _config.yml file offered with
+# jekyll-theme-prologue for your convenience. To use it, move it to your
+# project's root directory. Please note that the following lines are
+# NECESSARY for Prologue to work correctly:
 #
-# This file contains configuration flags to customize your site
+# theme: jekyll-theme-prologue
+# collections: [sections]
 #
+# They activate the theme and tell Jekyll to find your homepage content
+# in /_sections. Note where "sections" starts with an underscore
+# and where it doesn't. The social settings will make links to
+# Twitter, etc., but only if you give the URL.
+#
+# Also, be sure to customize url and baseurl for your site.
+#
+# ---------------------------------------------------------------
+#
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Name of your site (displayed in the header)
-name: RoB Murdock
-
-# Short bio or description (displayed in the header)
-description: Swanky Software Surgeon
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: The Domain of RoB Murdock
+subtitle: Surgery for Software
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the demo site for a Jekyll theme version of
+  HTML5 UP's sleek, responsive site template Prologue.
+author: RoB Murdock
+email: robert.f.murdock@gmail.com
 avatar: https://avatars0.githubusercontent.com/u/6215634?v=1&s=140
 
-remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble: 
-  email: robert.f.murdock@gmail.com
-  facebook: 
-  flickr: 
-  github: robertfmurdock
-  instagram: zegreatrob
-  linkedin: rob-murdock-0a09951
-  pinterest: 
-  rss: yes # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: zegreatrob
-
-# Your disqus shortname, entering this will enable commenting on posts
-disqus: rmur
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: 
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# You'll want to customize url and baseurl for your own site:
 url: http://robertfmurdock.github.io/
-# If you're hosting your site at a Project repository on GitHub pages 
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "" # the subpath of your site, e.g. /blog
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# Social settings
+# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
+twitter_url: https://twitter.com/zegreatrob
+facebook_url:
+googleplus_url:
+instagram_url: https://instagram.com/zegreatrob
+linkedin_url: https://linkedin.com/in/rob-murdock-0a09951
+github_url: https://github.com/robertfmurdock
+pinterest_url:
+slack_url:
+dribbble_url:
 
-markdown: kramdown
-highlighter: rouge
-permalink: /:title
+# Google Analytics Tracking ID goes here:
+google_analytics:
 
-# The release of Jekyll Now that you're using
-version: beta
-
-# Use the following plug-ins
-gems:
-  - jemoji # Emoji please!
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - scss
-    - README.md
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
