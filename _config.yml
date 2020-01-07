@@ -40,7 +40,7 @@ email: robert.f.murdock@gmail.com
 avatar: https://avatars0.githubusercontent.com/u/6215634?v=1&s=140
 
 # You'll want to customize url and baseurl for your own site:
-url: http://robertfmurdock.github.io/
+url: http://robertfmurdock.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Social settings
