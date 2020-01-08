@@ -66,5 +66,9 @@ collections:
   career_sections:
     output: true
 
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 include: ['.well-known']
 exclude: ['TeamCoaching', 'team-solar-system']

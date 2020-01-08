@@ -4,6 +4,7 @@ title: Meaningful Work
 icon: fa-user-tie
 order: 3
 tags: pairing development programming agile discipline
+redirect_from: /MeaningfulWork
 ---
 
 # The Search for Meaning(ful work)
