@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solo Queue Review 1
-tags: 
+tags: review
 ---
 
 Ok. Mostly as a disciplinary measure, I'm hoping to post a short and sweet update here regarding the things I've been working on. Why's that?
