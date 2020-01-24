@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What the Star Wars Sequels Can Teach You About Your Software Project
+title: What the Star Wars Sequels Can Teach You About Your Project
 tags: star wars, lessons, software, product
 ---
 
