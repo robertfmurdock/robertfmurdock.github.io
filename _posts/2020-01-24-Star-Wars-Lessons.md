@@ -1,6 +1,7 @@
 ---
 layout: post
-title: What the Star Wars Sequels Can Teach You About Your Project
+title: Lessons from Star Wars
+subtitle: What the Star Wars Sequels Can Teach You About Your Project 
 tags: star wars, lessons, software, product
 ---
 
@@ -86,6 +87,6 @@ So let's recap!
 1. Keep your themes (in software, this means user-facing language and interfaces) clear and consistent. When it needs to evolve, evolve it slowly in a way that maintains consistency. And that means... plan!
 1. Be willing to delay if the user experience doesn't meet your standards. You can only make a first impression once, after all, and its harder to regain reputation than it is to start strong. And that means reducing the number of fixed dates in your plan as much as possible. 
 1. Give a lot of freedom to your team, so that they can influence and bring their best to your product. Keep your plans lightweight, meaningful, and trustworthy.
-1. Take moments intended to give bursts of humor to your users, and fill them with value. Sometimes a joke in the UI can become a design motif that's beloved by your users. [Clarus the dogcow](https://en.wikipedia.org/wiki/Dogcow) say hi, by the way.
+1. Take moments intended to give bursts of humor to your users, and fill them with value. Sometimes a joke in the UI can become a design motif that's beloved by your users. [Clarus the dogcow](https://en.wikipedia.org/wiki/Dogcow) says hi, by the way.
 
 Any-who, that's that. Hopefully it gave you a laugh, and if it helped you think a tiny bit, that's great too. If it makes you angry in some way, just say to yourself its just a column, and relax. Its only Star Wars. 
