@@ -1,4 +1,8 @@
-# What the Star Wars Sequels Can Teach You About Your Software Project
+---
+layout: post
+title: What the Star Wars Sequels Can Teach You About Your Software Project
+tags: star wars, lessons, software, product
+---
 
 A long time ago, to a company far, far away, George Lucas sold his pop-culture ziggurat for 4 billion dollars.
 
