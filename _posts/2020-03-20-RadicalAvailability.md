@@ -1,3 +1,9 @@
+---
+layout: post
+title: Radical Availability
+tags: radical availability, availability, sharing, caring, visible, coordination
+---
+
 One of the concepts I've been advocating for over the last year is that of "Radical Availability" in the workplace.
 
 Now, understanding precisely what I mean by this depends at least partially on understanding the nature of the workplaces in which I've been working. So here are some of the properties of such workplaces:
