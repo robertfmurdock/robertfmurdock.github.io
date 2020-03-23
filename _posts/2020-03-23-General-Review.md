@@ -22,4 +22,6 @@ Sadly, my further travel plans have been indefinitely postponed due to corona-ma
 
 Which reminds me - I still need to make concrete plans about what I'll be doing regarding work in the future. April will be a month of active option investigation. It'll be interesting to see how COVID-19 affects all of that.
 
+In the meantime, I've also been working on a seamless database transition for Coupling (a web application I provide to teams that pair at no cost). Its a mongo-to-aws-dynamo transition, for those who are curious. As these things always do, it taken much more time than expected, but it looks like I just need to do a final data transfer and switch over. Is sort of thing that interesting to people? Who knows. But I know tons about it now!
+
 Be safe out there, and remember: life is fleeting, so live truthfully. Especially with loved ones. There is *never* enough time.
