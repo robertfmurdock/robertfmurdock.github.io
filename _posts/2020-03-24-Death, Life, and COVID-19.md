@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Death, life, and COVID-19
+title: Death, Life, and COVID-19
 tags: death, life, COVID-19, coronavirus, 
 ---
 
