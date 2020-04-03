@@ -10,7 +10,7 @@ Many people who read this may react with a strong "because they're awful!" or "b
 
 Allow me to pull the pin on this grenade for a moment: both reactions are correct. Really and truly. I mean it. And not as a cop out. Here's the problem as I see it:
 
-Saying an open workspace is "good" or "bad" (or whatever more precise terms you may prefer) really doesn't contain a lot of information. That's about as meaningful as judging a country's economic output based on the features of its landscape - its quite similar to saying that mountain ranges are good / bad. There are certainly advantages and disadvantages to the "landscape" of your team's work, but only a people that is well adapted to that landscape can thrive there.
+Saying an open workspace is "good" or "bad" (or whatever more precise terms you may prefer) really doesn't contain a lot of information. That's about as meaningful as judging a country's economic output based on the features of its landscape - its quite similar to saying that mountain ranges are good or bad. There are certainly advantages and disadvantages to the "landscape" of your team's work, but only a people that is well adapted to that landscape can thrive there.
 
 What does this mean? Well, firstly, it makes most studies regarding "open" vs "closed" workspaces difficult to use without controlling for a large set of cultural variables - the variables relevant to the advantages of an open workspace. Studies that do not take this into account are likely going to show a familiar phenomenon:
 
