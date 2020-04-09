@@ -7,7 +7,7 @@ order: 8
 tags: 
 ---
 
-Content is sourced from https://www.github.com/robertfmurdock/TeamCoaching/DisciplineFusionAssessment.md
+Content is sourced from https://github.com/robertfmurdock/TeamCoaching/blob/master/DisciplineFusionAssessment.md
 
 Pull requests, edits, and feedback are welcome.
 
