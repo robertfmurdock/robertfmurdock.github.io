@@ -4,10 +4,6 @@ title: The Quality ofTest
 tags: testing, TDD, test design, priorities, coding
 ---
 
-
-The Quality of Test
-===
-
 So testing. What's up with that?
 
 I've been working with Test-Driven Development and its fellow traveler concepts for essentially the whole of my career, thanks to being introduced to the concept at a scrappy startup called Menlo Innovations in Ann Arbor, Michigan. Parallel to my personal development, the industry as a whole seemingly discovered this strange "testing" thing, and underwent its own journey of change, fashion, and discovery.
@@ -62,3 +58,5 @@ And I don't mean "feature" in a "back of the box, bullet point" way. By feature 
 So those are the principles I recommend, and try to apply myself. I will add though: none of these features *only apply to a specific kind of test*: they all should apply to the most micro-targeted unit test *just as much* as to the most externalized system integration test. The same rules and pitfalls apply *at every level of a system.*
 
 I've tried to convert these principles to a library in the last year, and if you want to read about that, wait for [The Flavor of Mint](), a follow-up essay.
+
+(Follow up to be published next week!)
