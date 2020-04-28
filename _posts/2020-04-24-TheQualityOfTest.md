@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Quality ofTest
+title: The Quality of Test
 tags: testing, TDD, test design, priorities, coding
 ---
 
@@ -57,6 +57,4 @@ And I don't mean "feature" in a "back of the box, bullet point" way. By feature 
 
 So those are the principles I recommend, and try to apply myself. I will add though: none of these features *only apply to a specific kind of test*: they all should apply to the most micro-targeted unit test *just as much* as to the most externalized system integration test. The same rules and pitfalls apply *at every level of a system.*
 
-I've tried to convert these principles to a library in the last year, and if you want to read about that, wait for [The Flavor of Mint](), a follow-up essay.
-
-(Follow up to be published next week!)
+I've tried to convert these principles to a library in the last year, and if you want to read about that, wait for [The Flavor of Mint](/2020/04/28/TheFlavorOfMint), a follow-up essay.
