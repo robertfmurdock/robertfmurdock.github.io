@@ -11,31 +11,49 @@ layout: default
     {%- endif -%}
 
     <div class="container">
-        {%- for _page in _links -%}
-        {%- assign _title = _page.title | default: _page.layout | default: 'Untitled' -%}
-        {%- assign _slug = _title | slugify -%}
-        {%- assign _icon = _page.icon | default: 'fa-file' -%}
-        {%- if _page.icon-style == 'regular' -%}
-        {%- assign _class = 'icon-r' -%}
-        {%- elsif _page.icon-style == 'brands' -%}
-        {%- assign _class = 'icon-b' -%}
-        {%- else -%}
-        {%- assign _class = 'icon' -%}
-        {%- endif -%}
-        <ul>
-            {%- if _page.url == page.url -%}
-            <li><a href="#" id="{{- _slug -}}" class="active">
-                <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
-            </a></li>
-            {%- elsif _page.url -%}
-            <li><a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
-                <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
-            </a></li>
+        <table>
+            {%- for _page in _links -%}
+            {%- assign _title = _page.title | default: _page.layout | default: 'Untitled' -%}
+            {%- assign _slug = _title | slugify -%}
+            {%- assign _icon = _page.icon | default: 'fa-file' -%}
+            {%- if _page.icon-style == 'regular' -%}
+            {%- assign _class = 'icon-r' -%}
+            {%- elsif _page.icon-style == 'brands' -%}
+            {%- assign _class = 'icon-b' -%}
             {%- else -%}
-            <li><a href="{{- '/' | absolute_url -}}" id="broken-link"><span class="icon fa-unlink">[broken link]</span></a>
-            </li>
+            {%- assign _class = 'icon' -%}
             {%- endif -%}
-            {%- endfor -%}
-        </ul>
+            <tr>
+                {%- if _page.url == page.url -%}
+
+                <td>
+                    <a href="#" id="{{- _slug.icon -}}" class="active">
+                        <i class="{{ _class }} {{ _icon }}"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="#" id="{{- _slug -}}" class="active">
+                        <span class="">{{- _title -}}</span>
+                    </a>
+                </td>
+                {%- elsif _page.url -%}
+                <td>
+                    <a href="{{- _page.url | absolute_url -}}" id="{{- _slug.icon -}}-link">
+                        <i class="{{ _class }} {{ _icon }}"></i>
+                    </a>
+                </td>
+                <td>
+                    <a href="{{- _page.url | absolute_url -}}" id="{{- _slug -}}-link">
+                        <span class="">{{- _title -}}</span>
+                    </a>
+                </td>
+                {%- else -%}
+                <a href="{{- '/' | absolute_url -}}" id="broken-link">
+                    <span class="icon fa-unlink">[broken link]</span>
+                </a>
+                {%- endif -%}
+                {%- endfor -%}
+            </tr>
+        </table>
     </div>
 </div>
