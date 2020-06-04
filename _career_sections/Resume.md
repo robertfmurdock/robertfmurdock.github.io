@@ -73,6 +73,7 @@ If you want to learn more about how I think, I've written a number of essays and
 ## Contact
 
 Email: robert.f.murdock@gmail.com
+
 Twitter: zegreatrob
 
 Experiment before you implement!
