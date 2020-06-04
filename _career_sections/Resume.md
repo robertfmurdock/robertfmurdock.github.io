@@ -24,6 +24,14 @@ Hi, I'm Rob Murdock. I'm a software programmer, team lead, process coach, and pr
 - Creating thriving, resilient teams
 - Pushing new boundaries in successful collaboration.
 
+### Contact
+
+Email: robert.f.murdock@gmail.com
+
+Twitter: zegreatrob
+
+Web: https://robertfmurdock.github.io
+
 ### Proficiencies
 
 15 years of programming experience in diverse set of domains (desktop, server-side web, client-side web, embedded, service APIs).
@@ -58,7 +66,7 @@ Test-driven development, automated testing at all system layers, continuous inte
 
 Remote pair-programming, larger-scale service architecture, API design (library and endpoints)
 
-### Career So Far
+### Career History
 
 Senior Developer - Menlo Innovations, 2005-2014. This includes work on:
 High-performance scientific data collection/analysis software (systems + UI), Distributed Work Assignment Systems, Management/Administration Systems, Android + iOS development. Generally, targeted product development for a variety of clients.
@@ -69,12 +77,6 @@ Authentication Systems (legacy and modern), Customer-facing Automotive Menu appl
 ### More
 
 If you want to learn more about how I think, I've written a number of essays and papers that are available online, on subjects related to software development, collaboration, team structure, and more. There are available at [https://robertfmurdock.github.io](https://robertfmurdock.github.io).
-
-### Contact
-
-Email: robert.f.murdock@gmail.com
-
-Twitter: zegreatrob
 
 Experiment before you implement!
 
