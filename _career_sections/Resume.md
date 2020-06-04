@@ -58,7 +58,7 @@ Test-driven development, automated testing at all system layers, continuous inte
 
 Remote pair-programming, larger-scale service architecture, API design (library and endpoints)
 
-### Career So Far
+## Career So Far
 
 Senior Developer - Menlo Innovations, 2005-2014. This includes work on:
 High-performance scientific data collection/analysis software (systems + UI), Distributed Work Assignment Systems, Management/Administration Systems, Android + iOS development. Generally, targeted product development for a variety of clients.
@@ -66,7 +66,7 @@ High-performance scientific data collection/analysis software (systems + UI), Di
 Principal Artisan - Pillar Technology / Accenture, 2014-2020. This includes work on:
 Authentication Systems (legacy and modern), Customer-facing Automotive Menu applications, Payment services, API, and SDKs, Solutions Conception for overhauling field support tools. Generally, a mix of new product work and maintenance of enterprise software.
 
-### More
+## More
 
 If you want to learn more about how I think, I've written a number of essays and papers that are available online, on subjects related to software development, collaboration, team structure, and more. There are available at [https://robertfmurdock.github.io](https://robertfmurdock.github.io).
 
