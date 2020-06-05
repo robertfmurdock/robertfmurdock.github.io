@@ -80,4 +80,4 @@ If you want to learn more about how I think, I've written a number of essays and
 
 Experiment before you implement!
 
-- Rob
+[download formatted pdf](/Resume.pdf)
