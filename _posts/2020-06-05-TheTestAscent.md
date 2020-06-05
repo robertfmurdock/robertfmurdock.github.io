@@ -1,6 +1,7 @@
 ---
 layout: post
-title: The Test Ascent - Evolving Your Skills
+title: The Test Ascent
+subtitle: Evolving Your Skills
 tags: testing, TDD, test design, where to test, coding, improvement
 ---
 
