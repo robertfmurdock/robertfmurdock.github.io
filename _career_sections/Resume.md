@@ -7,6 +7,8 @@ tags: resume
 
 ---
 
+[This is also available as a formatted PDF.](/Resume.pdf)
+
 Hi, I'm Rob Murdock. I'm a software programmer, team lead, process coach, and process improvement philosopher. I don't like wasting time, so this resume will start with the bottom line.
 
 ### Hire me if you want:
@@ -79,5 +81,3 @@ Authentication Systems (legacy and modern), Customer-facing Automotive Menu appl
 If you want to learn more about how I think, I've written a number of essays and papers that are available online, on subjects related to software development, collaboration, team structure, and more. There are available at [https://robertfmurdock.github.io](https://robertfmurdock.github.io).
 
 Experiment before you implement!
-
-[download formatted pdf](/Resume.pdf)
