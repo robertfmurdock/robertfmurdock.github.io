@@ -33,7 +33,7 @@ As a test travels further downstream from feature development, performing the te
 
 The question "should I test this" makes the question of testing *about the programmer*. Remove them. "Should *anyone* test this?" If it is a desired feature, the answer will always be yes. "Who should test this?" is a question of responsibility - who will be responsible for making sure this works? Where that responsibility lands will determine its expense. "How should I test this?" is a question of *strategy*, and as such, will have variable answers depending on the situation. That said, a *well-phrased* test should be broadly *impervious* to test implementation changes. The mechanisms that a test uses to operate an interface may change, but the spirit and core language of the test will stay the same. Intent must be preserved as details change.
 
-Test-driving is a binding expression of intent. The more successful you are at expressing your intent, the better understood you will be. And understanding is the foundation of collaboration - even self-collaboration.
+Test-driving creates binding expressions of intent. The more successful you are at expressing your intent, the better understood you will be. And understanding is the foundation of collaboration - even self-collaboration.
 
 Now, apply the logic of test-driving to test-driving itself. Wait what? Well, consider this: the process called "test-driving" is a solution. It is a technique that was created to *solve problems*.
 
