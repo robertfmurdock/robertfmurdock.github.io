@@ -55,4 +55,4 @@ But most importantly, it lets the senior members of the team know that, at the e
 
 Having a "responsibility" mindset rather than an "authority" mindset is how I "deboss" myself. Will it work for everyone? I have no idea. But it has certainly helped me build stronger, more responsible team members. Team members that I think of as *collaborators* rather than *subordinates*. People that I know will be able to handle themselves without me.
 
-[^1]: There's a common misunderstanding of the nature of team dynamics underneath this desire, but here are situations where it makes sense - principally when much power is explicitly granted to individuals.
+[^1]: There's a common misunderstanding of the nature of team dynamics underneath this desire, but there are indeed situations where being able to swap out a leader to minimize damage to the team makes sense - principally when much power is explicitly granted to that individual.
