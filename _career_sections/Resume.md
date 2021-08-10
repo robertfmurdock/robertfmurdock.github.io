@@ -43,7 +43,7 @@ Skilled at rebuilding an application incrementally without adversely affecting f
 #### Languages
 
 ##### Extremely strong
-Java, Javascript, Kotlin, C#, Typescript, Go
+Kotlin, Typescript, C#, Golang, Java, Javascript (client + server variants)
 
 ##### Meaningful experience
 C, Swift, C++, Python, SQL/NOSQL variants, CSS.
@@ -52,21 +52,21 @@ C, Swift, C++, Python, SQL/NOSQL variants, CSS.
 
 ##### Extremely strong
 
-Docker, React, Dropwizard, Spring, cloud deployment platforms (PCF, AWS, Kubernetes-likes), Gradle, multi-platform Kotlin, webdriver, CSS, REST style APIs, node.js
+Docker, React, Dropwizard, Spring, cloud deployment platforms (PCF, AWS ECS, Kubernetes-likes), serverless technology (AWS Lambda, GCF cloud functions), Gradle, multi-platform Kotlin, Webdriver, CSS, federated GraphQL, REST
 
 ##### Meaningful experience
 
-GraphQL, MQTT, cloud-based MQTT (such as AWS-IoT), SSO and authentication APIs, OAuth, JWT.
+MQTT, cloud-based MQTT (such as AWS-IoT), SSO and authentication APIs, OAuth, JWT.
 
 #### Practices and Techniques
 
 ##### Extremely strong
 
-Test-driven development, automated testing at all system layers, continuous integration / branching strategies, continuous delivery, pair-programming, work prioritization in multiple styles (kanban, sprints, etc), cadence meetings (stand-ups, demos, planning), minimum-viable-planning (short term + long term), multi-disciplinary collaboration, application architecture, build+deployment pipeline design, smaller-scale service architecture
+Test-driven development, automated testing at all system layers, continuous integration / branching strategies, continuous delivery, pair-programming, work prioritization in multiple styles (kanban, sprints, etc), cadence meetings (stand-ups, demos, planning), minimum-viable-planning (short term + long term), multi-disciplinary collaboration, application architecture, build+deployment pipeline design, smaller-scale service architecture, remote pair-programming
 
 ##### Meaningful experience
 
-Remote pair-programming, larger-scale service architecture, API design (library and endpoints)
+Large scale service architecture, API design (library and endpoints)
 
 ### Career History
 
@@ -75,6 +75,8 @@ High-performance scientific data collection/analysis software (systems + UI), Di
 
 Principal Artisan - Pillar Technology / Accenture, 2014-2020. This includes work on:
 Authentication Systems (legacy and modern), Customer-facing Automotive Menu applications, Payment services, API, and SDKs, Solutions Conception for overhauling field support tools. Generally, a mix of new product work and maintenance of enterprise software.
+
+Tech Lead, Senior Fullstack Agile Engineer - Integral 2020-2021. This includes work on: enterprise multi-cloud authentication and authorization using AWS Lambdas at large scale, as well as mobile-phone-based vehicle remote control interfaces. Enterprise work and targetted product work, respectively.
 
 ### More
 
