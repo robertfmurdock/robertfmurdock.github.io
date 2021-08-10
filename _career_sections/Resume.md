@@ -76,7 +76,8 @@ High-performance scientific data collection/analysis software (systems + UI), Di
 Principal Artisan - Pillar Technology / Accenture, 2014-2020. This includes work on:
 Authentication Systems (legacy and modern), Customer-facing Automotive Menu applications, Payment services, API, and SDKs, Solutions Conception for overhauling field support tools. Generally, a mix of new product work and maintenance of enterprise software.
 
-Tech Lead, Senior Fullstack Agile Engineer - Integral 2020-2021. This includes work on: enterprise multi-cloud authentication and authorization using AWS Lambdas at large scale, as well as mobile-phone-based vehicle remote control interfaces. Enterprise work and targetted product work, respectively.
+Tech Lead, Senior Full-Stack Agile Engineer - Integral 2020-2021. This includes work on: 
+Enterprise multi-cloud authentication and authorization using AWS Lambdas at large scale, as well as mobile-phone-based vehicle remote control interfaces. Enterprise work and targeted product work, respectively.
 
 ### More
 
