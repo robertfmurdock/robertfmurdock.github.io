@@ -67,6 +67,7 @@ collections:
 
 plugins:
   - jekyll-redirect-from
+  - jemoji
 whitelist:
   - jekyll-redirect-from
 include: ['.well-known']
