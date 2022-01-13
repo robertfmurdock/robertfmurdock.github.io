@@ -29,7 +29,7 @@ This is where warning bells may be going off in your brain. Let's put some famil
 
 And thus, we have stipulated that this situation isn't great.
 
-So! The first step - lets get *ALL* of the configuration that the client needs to operate out of there.
+So! The first step - let's get *ALL* of the configuration that the client needs to operate out of there.
 
 And this is where most engineers find themselves stumped. "So, if it can't come from the build process... where is it going to come from? When a user hits my system, they just download the index.html that loads the app, and they're off to the races... that seems like a pretty closed system, honestly."
 
@@ -154,7 +154,7 @@ I uploaded a few versions of the client app to different URLs so I could test th
 
 I exported the appropriate CLIENT_URL and... boom, there's the old version. Switched it to the newer version? Hey! I see the difference.
 
-I could see the possibilites unfolding before my eyes - now, I didn't have to have a local build of my client *at all* in order to confirm that changes to my server were safe. If I got reports about weirdness, and I thought it might be client related, I could connect my local server to that build and *see*, without fear of screwing up the production data (defended by the production API).
+I could see the possibilities unfolding before my eyes - now, I didn't have to have a local build of my client *at all* in order to confirm that changes to my server were safe. If I got reports about weirdness, and I thought it might be client related, I could connect my local server to that build and *see*, without fear of screwing up the production data (defended by the production API).
 
 As a great man once said,
 
@@ -175,7 +175,7 @@ As I believe these are less interesting, I'll pass on describing them for now.
 
 Also, the server and host of my static assets needed to have CORS configured correctly. Not super complicated? But can be a source of frustration if you run into it unexpectedly. Better writers than I have addressed that topic in great detail though, so I'll leave you to fend for yourself on that one.
 
-## Is it all its cracked up to be?
+## Is it all it's cracked up to be?
 
 Well, at time of writing, I decided I wanted a new environment yesterday - a sandbox environment, so I could test the latest version of my app without affecting production data at all.
 
