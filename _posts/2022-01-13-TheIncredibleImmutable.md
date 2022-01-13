@@ -29,11 +29,11 @@ This is where warning bells may be going off in your brain. Let's put some famil
 
 And thus, we have stipulated that this situation isn't great.
 
-So! The first step -> lets get *ALL* of the configuration that the client needs to operate out of there.
+So! The first step - lets get *ALL* of the configuration that the client needs to operate out of there.
 
 And this is where most engineers find themselves stumped. "So, if it can't come from the build process... where is it going to come from? When a user hits my system, they just download the index.html that loads the app, and they're off to the races... that seems like a pretty closed system, honestly."
 
-This is a pretty reasonable place to get stuck, honestly. But it already holds the kernel of the answer -> the *entrypoint* for the client application is that "index.html" file (or other homepage equivalent). Therefore, all configuration that the client application needs *must* ultimately come from the index.html.
+This is a pretty reasonable place to get stuck, honestly. But it already holds the kernel of the answer - the *entrypoint* for the client application is that "index.html" file (or other homepage equivalent). Therefore, all configuration that the client application needs *must* ultimately come from the index.html.
 
 And this means, the index.html can't be part of the build process. Or at least... not the version of the file the browser will ultimately download. More on that in a moment.
 
@@ -75,7 +75,7 @@ The URL given to users to download that file *did not go* to a static file on a 
 
 That tag is inserted as the very first element of the <head> tag - so it runs before anything else on the page loads.
 
-So *really* what's happening is that there are *two* index.htmls. One is the prototype - an index.html that is truly part of the client, and the other - the index.html that is burdened with glorious *configuration*. But *really*, this latter index.html is *forwarding* configuration information from another source -> the API service.
+So *really* what's happening is that there are *two* index.htmls. One is the prototype - an index.html that is truly part of the client, and the other - the index.html that is burdened with glorious *configuration*. But *really*, this latter index.html is *forwarding* configuration information from another source - the API service.
 
 This style of injection is actually as old as the web itself, of course... back when client apps were just a few lines of javascript held together by string and hope, servers were presenting them with contextual data via the initial download. But by doing this here, it opened up the door for the next move...
 
@@ -152,9 +152,9 @@ And then, all of a sudden... it kind of just worked!
 
 I uploaded a few versions of the client app to different URLs so I could test that my server picked them up correctly. Because everything was now handled via configuration, I was able to set my local development server to target either of them.
 
-I exported the appropriate CLIENT_URL and -> boom, there's the old version. Switched it to the newer version? Hey! I see the difference.
+I exported the appropriate CLIENT_URL and... boom, there's the old version. Switched it to the newer version? Hey! I see the difference.
 
-I could see the possibilites unfolding before my eyes -> now, I didn't have to have a local build of my client *at all* in order to confirm that changes to my server were safe. If I got reports about weirdness, and I thought it might be client related, I could connect my local server to that build and *see*, without fear of screwing up the production data (defended by the production API).
+I could see the possibilites unfolding before my eyes - now, I didn't have to have a local build of my client *at all* in order to confirm that changes to my server were safe. If I got reports about weirdness, and I thought it might be client related, I could connect my local server to that build and *see*, without fear of screwing up the production data (defended by the production API).
 
 As a great man once said,
 
