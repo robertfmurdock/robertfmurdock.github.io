@@ -31,9 +31,9 @@ And thus, we have stipulated that this situation isn't great.
 
 So! The first step - let's get *ALL* of the configuration that the client needs to operate out of there.
 
-And this is where most engineers find themselves stumped. "So, if it can't come from the build process... where is it going to come from? When a user hits my system, they just download the index.html that loads the app, and they're off to the races... that seems like a pretty closed system, honestly."
+And this is where most engineers find themselves stumped. "So, if it can't come from the build process... where is it going to come from? When a user hits my system, they just download the index.html that loads the app, and they're off to the races... that seems like a pretty closed system."
 
-This is a pretty reasonable place to get stuck, honestly. But it already holds the kernel of the answer - the *entrypoint* for the client application is that "index.html" file (or other homepage equivalent). Therefore, all configuration that the client application needs *must* ultimately come from the index.html.
+This is a pretty reasonable place to get stuck. But it already holds the kernel of the answer - the *entrypoint* for the client application is that "index.html" file (or other homepage equivalent). Therefore, all configuration that the client application needs *must* ultimately come from the index.html.
 
 And this means, the index.html can't be part of the build process. Or at least... not the version of the file the browser will ultimately download. More on that in a moment.
 
