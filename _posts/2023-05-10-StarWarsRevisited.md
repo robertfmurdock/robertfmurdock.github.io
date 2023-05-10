@@ -10,7 +10,6 @@ tags:
   - product
 ---
 
-
 Back in 2020, I wrote a series of essays. Now, I'm going to do a short series revisiting some of these pieces. I want to explore what still stands up, where my thinking has evolved, and what I feel I could have communicated better. Just generally improve as a writer and thinkster [^1].
 
 Alrighty! Let's kick this off with [Lessons from Star Wars](https://robertfmurdock.github.io/2020/01/24/Star-Wars-Lessons.html).
