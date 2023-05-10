@@ -71,4 +71,4 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 include: ['.well-known']
-exclude: ['TeamCoaching', 'team-solar-system']
+exclude: ['TeamCoaching', 'team-solar-system', 'vendor']
