@@ -10,8 +10,6 @@ tags:
   - product
 ---
 
-# Thoughts on the book Joy of Agility
-
 So I recently took up a larger reading and re-reading project, to help better organize my own thoughts, and engage with the broader conversation regarding software collaboration. Basically, I want to get better at drawing parallels between my own line-of-thinking and what others think or are doing these days.
 
 With that in mind, I picked up a copy of Joshua Kerievsky's _Joy of Agility_. Let's rap about it!
