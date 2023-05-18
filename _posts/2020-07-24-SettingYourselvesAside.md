@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Setting Yourselves Aside
-subtitle: Striving for fairness in judgement  
+subtitle: Striving for fairness in judgement
+image: assets/images/dogcat.png
 tags: prejudice team empowerment fairness
 ---
 
