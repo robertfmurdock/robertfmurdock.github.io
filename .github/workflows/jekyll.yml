@@ -77,3 +77,5 @@ jobs:
         run: mkdir ~/site && tar -xvf pages/artifact.tar -C ~/site
       - name: Sync S3
         run: aws s3 sync ~/site s3://www.zegreatrob.com --delete
+      - name: Invalidate Cloudfront Cache
+        run: aws cloudfront create-invalidation --distribution-id=E2BEN9GHMW51PO --paths="/*"
