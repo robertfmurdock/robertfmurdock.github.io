@@ -72,7 +72,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: github-pages
-          file: pages.tar
+          path: pages.tar
       - name: Untar
         run: tar -xvjf pages.tar -C ~/site
       - name: Sync S3
