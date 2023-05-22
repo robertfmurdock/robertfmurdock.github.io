@@ -76,4 +76,4 @@ jobs:
       - name: Untar
         run: mkdir ~/site && tar -xvf pages/artifact.tar -C ~/site
       - name: Sync S3
-        run: docker run --rm -it -v ~/.aws:/root/.aws -v ~/site:/site public.ecr.aws/aws-cli/aws-cli s3 sync /site www.zegreatrob.com --delete
+        run: docker run --rm -v ~/.aws:/root/.aws -v ~/site:/site public.ecr.aws/aws-cli/aws-cli s3 sync /site www.zegreatrob.com --delete
