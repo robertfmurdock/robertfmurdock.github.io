@@ -28,11 +28,11 @@ Hi, I'm Rob Murdock. I'm a software programmer, team lead, process coach, and pr
 
 ### Contact
 
-Email: robert.f.murdock@gmail.com
+Email: rob@zegreatrob.com
 
 Twitter: zegreatrob
 
-Web: https://robertfmurdock.github.io
+Web: https://www.zegreatrob.com
 
 ### Proficiencies
 
@@ -81,6 +81,6 @@ Enterprise multi-cloud authentication and authorization using AWS Lambdas at lar
 
 ### More
 
-If you want to learn more about how I think, I've written a number of essays and papers that are available online, on subjects related to software development, collaboration, team structure, and more. There are available at [https://robertfmurdock.github.io](https://robertfmurdock.github.io).
+If you want to learn more about how I think, I've written a number of essays and papers that are available online, on subjects related to software development, collaboration, team structure, and more. There are available at [https://www.zegreatrob.com](/).
 
 Experiment before you implement!
