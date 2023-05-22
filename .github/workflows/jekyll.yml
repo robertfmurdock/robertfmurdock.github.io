@@ -72,8 +72,8 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: github-pages
-          path: ~/site
-      - name: ls
-        run: ls ~/site
+          path: pages
+      - name: Untar
+        run: tar -xvjf pages/artifact.tar -C ~/site
       - name: Sync S3
         run: docker run --rm -it -v ~/.aws:/root/.aws -v ~/site:/site public.ecr.aws/aws-cli/aws-cli s3 sync /site www.zegreatrob.com --delete
