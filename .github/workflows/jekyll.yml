@@ -74,6 +74,6 @@ jobs:
           name: github-pages
           path: pages
       - name: Untar
-        run: tar -xvjf pages/artifact.tar -C ~/site
+        run: tar -xvf pages/artifact.tar -C ~/site
       - name: Sync S3
         run: docker run --rm -it -v ~/.aws:/root/.aws -v ~/site:/site public.ecr.aws/aws-cli/aws-cli s3 sync /site www.zegreatrob.com --delete
