@@ -63,3 +63,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          role-to-assume: arn:aws:iam::174159267544:role/LooseSequentialMusingsDeploy
+          aws-region: us-east-2
+      - uses: actions/download-artifact@v3
+        with:
+          name: github-pages
+          file: pages.tar
+      - name: Untar
+        run: tar -xvjf pages.tar -C ~/site
+      - name: Sync S3
+        run: docker run --rm -it -v ~/.aws:/root/.aws -v ~/site:/site public.ecr.aws/aws-cli/aws-cli s3 sync /site www.zegreatrob.com --delete
