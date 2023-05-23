@@ -17,7 +17,7 @@ Now given the title, one might expect something of a polemic regarding using "ve
 
 *Escape Velocity* is essentially two essays: one meditating on how people use the *velocity* as a metric inappropriately, and the other suggesting alternative metrics for product teams.
 
-But these alternatives are not there to *replace* velocity! They're there as a way of helping frame velocity inside a richer metric-ecosystem. And that's an underlying theme of the piece as a whole - fixating on one or two metrics will tempt you to optimize at the expense of the health of your system.
+But these alternatives are not there to *replace* velocity! They're presented as a way of helping frame velocity inside a richer metric-ecosystem. And that's an underlying theme of the piece as a whole - fixating on one or two metrics will tempt you to optimize at the expense of the health of your system.
 
 ## Concerning Velocity
 
