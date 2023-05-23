@@ -13,7 +13,7 @@ I am RoB Murdock.
 This is my collection of thoughts, ideas, and public work. 
 
 
-Please, check out the [blog, Loose Sequential Musings](/blog) for informal blogging.
+Please, check out the [blog, Loose Sequential Musings](/blog.html) for informal blogging.
 
 I'll also have links here to all sorts of other content.
 

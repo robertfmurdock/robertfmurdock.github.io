@@ -88,7 +88,7 @@ Now, I dig it - usage is verbose. This is mostly a consequence of keeping this t
 
 That said, for me, keeping down mocking verbosity isn't exactly a primary goal... I don't think its healthy to be mocking constantly, so having a slight bar to it has some value in my mind. What IS valuable though, is avoiding writing all the repetitive data collection code that can easily be divergent or buggy with repeated implementation, so the "real" work being done here is that SpyData() class. It essentially acts as a collector object that can easily be added to any class using a delegate.
 
-Creating this class made it *so much easier* to port existing javascript tests that relied heavily on jasmine spies, so its a worthwhile exercise. This is also kind of a sequel to [this blog post](/A-Synthetic-Creature) from a few years ago, which is always fun.
+Creating this class made it *so much easier* to port existing javascript tests that relied heavily on jasmine spies, so its a worthwhile exercise. This is also kind of a sequel to [this blog post](/A-Synthetic-Creature.html) from a few years ago, which is always fun.
 
 ### Building binaries with Kotlin Native
 
