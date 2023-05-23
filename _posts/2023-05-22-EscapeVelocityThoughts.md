@@ -11,7 +11,7 @@ tags:
   - delivery
 ---
 
-Following on from my last post revisiting my *Continuous Integration Metrics* paper, here are my thoughts related to another book I've read recently: *Escape Velocity* by Doc Norton.
+Following on from my last post revisiting my [*Continuous Integration Metrics*](/2023/05/19/ContinuousMetricsRevisited.html) paper, here are my thoughts related to another book I've read recently: *Escape Velocity* by Doc Norton.
 
 Now given the title, one might expect something of a polemic regarding using "velocity" as a metric. You will not find that in this book. Which is actually kind of too bad - little resembling my personal critique[^1] of "velocity" as a metric is actually included here.
 
