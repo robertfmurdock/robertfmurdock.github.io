@@ -17,4 +17,4 @@ But in all seriousness, thank you for reading! I hope you find something useful,
 
 ### Contact me
 
-[robert.f.murdock@gmail.com](mailto:robert.f.murdock@gmail.com)
+[rob@zegreatrob.com](mailto:rob@zegreatrob.com)

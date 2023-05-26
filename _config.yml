@@ -35,8 +35,8 @@ subtitle: Surgery for Software
 description: >- # this means to ignore newlines until "baseurl:"
   This is RoB Murdock's domain, and you've entered a whole new world through a cupboard.
 author: RoB Murdock
-email: robert.f.murdock@gmail.com
-avatar: https://avatars0.githubusercontent.com/u/6215634?v=1&s=140
+email: rob@zegreatrob.com
+avatar: https://www.gravatar.com/avatar/5d012724043778f39d9d4536706e4b2c?v=1&s=140
 
 # You'll want to customize url and baseurl for your own site:
 url: http://www.zegreatrob.com
@@ -47,7 +47,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_url: https://twitter.com/zegreatrob
 facebook_url:
 googleplus_url:
-instagram_url: https://instagram.com/zegreatrob
+instagram_url:
 linkedin_url: https://linkedin.com/in/rob-murdock-0a09951
 github_url: https://github.com/robertfmurdock
 pinterest_url:
