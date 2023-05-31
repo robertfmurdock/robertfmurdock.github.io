@@ -10,7 +10,7 @@ tags:
 
 Jan 16, 2019: "Created new sugar functions to help describe different components of a test in kotlin." Coupling, [Git Hash: 0da861e6](https://github.com/robertfmurdock/Coupling/commit/0da861e6963bbe45c2c183b049d16628640b702b)
 
-Back in the before times of 2019, I wrote a library called "testmints". It was born of a single thought: can I improve the readability of basic tests? And now, looking back, I think it succeeded (to some degree)!
+Back in the before times of 2019, I wrote a library called ["testmints"](https://github.com/robertfmurdock/testmints). It was born of a single thought: can I improve the readability of basic tests? And now, looking back, I think it succeeded (to some degree)!
 
 The original "testmints" was a 13 line file, called TestStyle.kt. It included a comment indicating the language was based on "http://xunitpatterns.com/Four%20Phase%20Test.html" - a hyperlink that still works!
 
