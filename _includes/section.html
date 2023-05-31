@@ -38,10 +38,17 @@
 	{%- endcapture -%}
 {%- endif -%}
 
+<!--{%- capture _splash -%}-->
+<!--	{% if include.image %}-->
+<!--	<img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ include.image }}" height="200px" style="float: left; position: relative"/>-->
+<!--	{% endif %}-->
+<!--{%- endcapture -%}-->
+
 <section id="{{- _slug -}}" class="{{- _class -}}">
   <div class="container">
     {{- _photo -}}
-    {{- _heading -}}
+<!--	{{- _splash -}}-->
+	{{- _heading -}}
     {{- include.content -}}
   </div>
 </section>
