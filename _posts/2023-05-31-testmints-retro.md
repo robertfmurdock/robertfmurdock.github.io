@@ -12,7 +12,7 @@ Jan 16, 2019: "Created new sugar functions to help describe different components
 
 Back in the before times of 2019, I wrote a library called ["testmints"](https://github.com/robertfmurdock/testmints). It was born of a single thought: can I improve the readability of basic tests? And now, looking back, I think it succeeded (to some degree)!
 
-The original "testmints" was a 13 line file, called TestStyle.kt. It included a comment indicating the language was based on "http://xunitpatterns.com/Four%20Phase%20Test.html" - a hyperlink that still works!
+The original "testmints" was a 13 line file, called TestStyle.kt. It included a comment indicating the language was based on ["The Four-Phase Test"](http://xunitpatterns.com/Four%20Phase%20Test.html) - a hyperlink that still works!
 
 The library was extracted from Coupling on Feb 22, 2019 and it had already grown. Testmints was born of a migration: I was translating Coupling's Javascript test code into Kotlin. Even then, it had a few properties we'd recognize now: the standard module, the async module, and a file full of multiplatform assertions. The tests? Few existed - after all, these functions had slowly been refactored out of existing test code as helpers.
 
