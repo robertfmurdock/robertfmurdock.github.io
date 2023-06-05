@@ -2,6 +2,7 @@
 layout: post
 title: Looking Back, Part 1
 subtitle: Star Wars and Your Project
+image: assets/images/star-wars-revisited.jpeg
 tags: 
   - essay
   - star wars
