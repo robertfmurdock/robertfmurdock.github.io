@@ -19,7 +19,11 @@
   <!-- Open Graph -->
   <meta property="og:title" content="{{- _page_title -}}" />
   <meta property="og:type" content="website" />
+  {% if page.image %}
+  <meta property="og:image" content="{{- page.image | relative_url -}}" />
+  {% else %}
   <meta property="og:image" content="{{- site.avatar | relative_url -}}" />
+  {% endif %}
   <meta property="og:url" content="{{- page.url | relative_url -}}" />
   <meta property="og:site_name" content="{{- site.title | escape -}}" />
   <meta property="og:description" content="{{- _page_description -}}" />
