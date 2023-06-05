@@ -31,9 +31,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: RoB Murdock
-subtitle: Software Surgeon
 description: >- # this means to ignore newlines until "baseurl:"
-  This is RoB's place - where curiosity meets ferocity. Helping software help people, by getting it the care it needs. 🤖🏥
+  This is RoB's place - where curiosity meets ferocity. Rob is a software surgeon, committed to helping software help people, by getting it the care it needs. 🤖🏥🕺
 author: RoB Murdock
 email: rob@zegreatrob.com
 avatar: https://www.gravatar.com/avatar/5d012724043778f39d9d4536706e4b2c?v=1&s=140
