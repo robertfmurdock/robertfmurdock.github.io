@@ -16,7 +16,7 @@ Hi, I'm Rob Murdock. I'm a software programmer, team lead, process coach, and pr
 - Someone ready to get their hands dirty to solve problems and improve systems.
 - A steady advocate for improved collaboration, trustworthiness, speed, and fast value.
 - A constant teacher for leveling up team members, with a deep toolkit of everyday-learning techniques.
-- An experienced perspective regarding "Agile" and "Extreme programming" practices, based on 15 years of applying, teaching, and tweaking them.
+- An experienced perspective regarding "Agile" and "Extreme programming" practices, based on 18 years of applying, teaching, and tweaking them.
 - Someone passionate about understanding the core value of the work, and building the core value into every step of the process.
 - A counselor for helping teams work through interpersonal or career issues while still moving a project forward.
 
@@ -36,14 +36,14 @@ Web: https://www.zegreatrob.com
 
 ### Proficiencies
 
-15 years of programming experience in diverse set of domains (desktop, server-side web, client-side web, embedded, service APIs).
+18 years of programming experience in diverse set of domains (desktop, server-side web, client-side web, embedded, service APIs).
 
 Skilled at rebuilding an application incrementally without adversely affecting functionality. Legacy rescue, system upkeep.
 
 #### Languages
 
 ##### Extremely strong
-Kotlin, Typescript, C#, Golang, Java, Javascript (client + server variants)
+Kotlin, Typescript, C#, Golang, Java, Javascript (client + server)
 
 ##### Meaningful experience
 C, Swift, C++, Python, SQL/NOSQL variants, CSS.
@@ -52,11 +52,11 @@ C, Swift, C++, Python, SQL/NOSQL variants, CSS.
 
 ##### Extremely strong
 
-Docker, React, Dropwizard, Spring, cloud deployment platforms (PCF, AWS ECS, Kubernetes-likes), serverless technology (AWS Lambda, GCF cloud functions), Gradle, multi-platform Kotlin, Webdriver, CSS, federated GraphQL, REST
+Gradle, Docker, multi-platform Kotlin, GraphQL, React, cloud deployment platforms (PCF, AWS ECS, Kubernetes-likes), serverless technology (AWS Lambda, GCF cloud functions), Webdriver, CSS, REST, Dropwizard, Spring, Oauth integrations, secure JWT provisioning.
 
 ##### Meaningful experience
 
-MQTT, cloud-based MQTT (such as AWS-IoT), SSO and authentication APIs, OAuth, JWT.
+Conversational AI (Dialogflow, Voice-flow), MQTT, AWS-IoT, SSO and authentication APIs.
 
 #### Practices and Techniques
 
@@ -70,14 +70,17 @@ Large scale service architecture, API design (library and endpoints)
 
 ### Career History
 
-Senior Developer - Menlo Innovations, 2005-2014. This includes work on:
-High-performance scientific data collection/analysis software (systems + UI), Distributed Work Assignment Systems, Management/Administration Systems, Android + iOS development. Generally, targeted product development for a variety of clients.
+Lead Software Engineer - Slang.ai 2022-2023. This includes work on:
+Natural language conversation AI functionality (the Slang Concierge) using GCP Dialogflow. Multiplatform Kotlin (JS/JVM), using React, KTOR and Micronaut. Streaming audio manipulation over telephony. Continuous delivery to live customers with rare errors.
+
+Tech Lead, Senior Full-Stack Agile Engineer - Integral 2020-2021. This includes work on:
+Enterprise multi-cloud authentication and authorization using AWS Lambdas at large scale, as well as mobile-phone-based vehicle remote control interfaces. Enterprise work and targeted product work, respectively.
 
 Principal Artisan - Pillar Technology / Accenture, 2014-2020. This includes work on:
 Authentication Systems (legacy and modern), Customer-facing Automotive Menu applications, Payment services, API, and SDKs, Solutions Conception for overhauling field support tools. Generally, a mix of new product work and maintenance of enterprise software.
 
-Tech Lead, Senior Full-Stack Agile Engineer - Integral 2020-2021. This includes work on: 
-Enterprise multi-cloud authentication and authorization using AWS Lambdas at large scale, as well as mobile-phone-based vehicle remote control interfaces. Enterprise work and targeted product work, respectively.
+Senior Developer - Menlo Innovations, 2005-2014. This includes work on:
+High-performance scientific data collection/analysis software (systems + UI), Distributed Work Assignment Systems, Management/Administration Systems, Android + iOS development. Generally, targeted product development for a variety of clients.
 
 ### More
 
