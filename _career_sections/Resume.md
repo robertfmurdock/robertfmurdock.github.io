@@ -9,11 +9,13 @@ tags: resume
 
 [This is also available as a formatted PDF.](/Resume.pdf)
 
-Hi, I'm Rob Murdock. I'm a software programmer, team lead, process coach, and process improvement philosopher. I don't like wasting time, so this resume will start with the bottom line.
+# Rob Murdock
+
+## Software programmer, team lead, process coach, and process improvement philosopher.
 
 ### Hire me if you want:
 
-- Someone ready to get their hands dirty to solve problems and improve systems.
+- Someone ready to get their hands dirty solving problems and improving systems.
 - A steady advocate for improved collaboration, trustworthiness, speed, and fast value.
 - A constant teacher for leveling up team members, with a deep toolkit of everyday-learning techniques.
 - An experienced perspective regarding "Agile" and "Extreme programming" practices, based on 18 years of applying, teaching, and tweaking them.
@@ -36,14 +38,14 @@ Web: https://www.zegreatrob.com
 
 ### Proficiencies
 
-18 years of programming experience in diverse set of domains (desktop, server-side web, client-side web, embedded, service APIs).
+18 years of experience in diverse domains (desktop, server-side web, client-side web, embedded, service APIs).
 
 Skilled at rebuilding an application incrementally without adversely affecting functionality. Legacy rescue, system upkeep.
 
 #### Languages
 
 ##### Extremely strong
-Kotlin, Typescript, C#, Golang, Java, Javascript (client + server)
+Kotlin, Typescript, C#, Golang, Java, Javascript
 
 ##### Meaningful experience
 C, Swift, C++, Python, SQL/NOSQL variants, CSS.
@@ -62,11 +64,11 @@ Conversational AI (Dialogflow, Voice-flow), MQTT, AWS-IoT, SSO and authenticatio
 
 ##### Extremely strong
 
-Test-driven development, automated testing at all system layers, continuous integration / branching strategies, continuous delivery, pair-programming, work prioritization in multiple styles (kanban, sprints, etc), cadence meetings (stand-ups, demos, planning), minimum-viable-planning (short term + long term), multi-disciplinary collaboration, application architecture, build+deployment pipeline design, smaller-scale service architecture, remote pair-programming
+Test-driven development, multi-layer automated testing, continuous integration, trunk-based-development, continuous delivery, paired-programming, work prioritization, cadence meetings, minimum-viable-planning, multi-disciplinary collaboration, application architecture, build+deployment pipeline design, service architecture
 
 ##### Meaningful experience
 
-Large scale service architecture, API design (library and endpoints)
+Large-scale service architecture, public API design
 
 ### Career History
 
