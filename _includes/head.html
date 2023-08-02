@@ -1,4 +1,5 @@
 <head>
+  {% seo %}
   <!-- Robots -->
   <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | relative_url -}}" />{%- endunless -%}
