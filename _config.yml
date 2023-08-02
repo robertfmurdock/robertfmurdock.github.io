@@ -65,6 +65,7 @@ collections:
     output: true
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-redirect-from
   - jemoji
 whitelist:
