@@ -63,7 +63,7 @@ collections:
   sections:
   career_sections:
     output: true
-
+timezone: America/Detroit
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
@@ -75,3 +75,5 @@ include: ['.well-known']
 exclude: ['TeamCoaching', 'team-solar-system', 'vendor']
 feed:
   excerpt_only: true
+twitter:
+  card: summary_large_image
