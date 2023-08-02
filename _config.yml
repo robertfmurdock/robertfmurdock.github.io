@@ -73,3 +73,5 @@ whitelist:
   - jekyll-redirect-from
 include: ['.well-known']
 exclude: ['TeamCoaching', 'team-solar-system', 'vendor']
+feed:
+  excerpt_only: true
