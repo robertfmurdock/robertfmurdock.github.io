@@ -310,7 +310,7 @@ I've enjoyed my time with Kotlin. I'm glad its gaining steam in the industry, an
 
 Totally fair question.
 
-Jacob Ras just aggregated articles that places using Kotlin Multiplatform have written about their experience. See: https://medium.com/@jacobras/popular-apps-using-kotlin-multiplatform-kmp-in-2023-and-what-you-can-learn-from-them-1f94d86489b7
+Jacob Ras [just aggregated articles](https://medium.com/@jacobras/popular-apps-using-kotlin-multiplatform-kmp-in-2023-and-what-you-can-learn-from-them-1f94d86489b7) that places using Kotlin Multiplatform have written about their experience.
 
 The Thoughtworks Radar has had the Kotlin language as ["Adopt"](https://www.thoughtworks.com/radar/languages-and-frameworks/kotlin) since 2018, and hasn't said much since. The Gradle Kotlin DSL is ('Adopt') as well, since April 2023. 
 
