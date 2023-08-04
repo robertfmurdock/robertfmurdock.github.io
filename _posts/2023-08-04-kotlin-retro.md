@@ -204,7 +204,7 @@ I've never liked Groovy. I suspect the root reason is that it is very difficult 
 
 But Kotlin! The miracle of having accurate code-completion in Gradle works *wonders* on helping regular-old-developers understand how the system works. Gradle has a pretty impressive technical underbelly, but without the Kotlin DSL I suspect it'd still be destined for legacy-enterprise-only applications.
 
-They *do* have the Kotlin-DSL now though, and my hunch is that even internally at Gradle, its increased their development cycle.
+They *do* have the Kotlin-DSL now though, and my hunch is that even internally at Gradle, its accelerated their development cycle.
 
 I digress.
 
