@@ -10,10 +10,11 @@ order: 1
 ## Welcome!
 I am RoB Murdock.
 
-This is my collection of thoughts, ideas, and public work. 
+I'm a software engineer, collaboration advocate, and lifelong learner.
 
+This is my collection of thoughts, ideas, and public work.
 
-I blog at [Loose Sequential Musings](/blog.html), where I compose thoughts. Usually on product development from a Software Developer's perspective.
+I blog at [Loose Sequential Musings](/blog.html), where I compose thoughts.
 
 If you dig what you find, please leave me a nice note!
 
