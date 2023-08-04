@@ -13,14 +13,8 @@ I am RoB Murdock.
 This is my collection of thoughts, ideas, and public work. 
 
 
-Please, check out the [blog, Loose Sequential Musings](/blog.html) for informal blogging.
+I blog at [Loose Sequential Musings](/blog.html), where I compose thoughts. Usually on product development from a Software Developer's perspective.
 
-I'll also have links here to all sorts of other content.
+If you dig what you find, please leave me a nice note!
 
-If you find anything useful, please leave me a nice note!
-
-I can always use the appreciation.
-
-If you want to be even more excellent, leave a tip using the [Brave browser](https://brave.com/rob444).
-
-I'm a firm believer in supporting people who's content you find useful, and as such I admire what Brave is trying to do, so check it out if you're tip-inclined.
+Be excellent to each other.
