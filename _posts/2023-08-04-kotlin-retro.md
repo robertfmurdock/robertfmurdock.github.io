@@ -319,7 +319,7 @@ Kotlin Multiplatform (now KMP) has an old entry as ["Trial"](https://www.thought
 
 ---
 
-Thanks to [Kevin Luo](https://www.linkedin.com/in/kevinluo117/) helping read through this piece and fix some confusing bits.
+Thanks to [Kevin Luo](https://www.linkedin.com/in/kevinluo117/) for helping with fixing some confusing bits in this piece.
 
 ---
 
