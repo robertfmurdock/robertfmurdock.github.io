@@ -92,11 +92,12 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  arm64-darwin-23
   x86_64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 2.4.13)
+  bundler (~> 2.5.4)
   jekyll (~> 3.3)
   jekyll-feed
   jekyll-redirect-from
@@ -107,4 +108,4 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 BUNDLED WITH
-   2.4.13
+   2.5.6
