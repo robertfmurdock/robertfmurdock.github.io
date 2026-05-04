@@ -72,6 +72,9 @@ Large-scale service architecture, public API design
 
 ### Career History
 
+Consulting Software Engineer - Continuous Excellence LLC 2023-present, primarily partnering with Liminal Arc. This includes work on:
+Legacy application rescue (Java, Flutter, C#, PHP). Security hardening. Mobile app development. Deployment process overhaul. Enabling over 4,000 new test cases on legacy systems.
+
 Lead Software Engineer - Slang.ai 2022-2023. This includes work on:
 Natural language conversation AI functionality (the Slang Concierge) using GCP Dialogflow. Multiplatform Kotlin (JS/JVM), using React, KTOR and Micronaut. Streaming audio manipulation over telephony. Continuous delivery to live customers with rare errors.
 
