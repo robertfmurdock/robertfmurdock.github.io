@@ -38,14 +38,14 @@ Web: https://www.zegreatrob.com
 
 ### Proficiencies
 
-18 years of experience in diverse domains (desktop, server-side web, client-side web, embedded, service APIs).
+21 years of experience in diverse domains (desktop, server-side web, client-side web, embedded, service APIs).
 
 Skilled at rebuilding an application incrementally without adversely affecting functionality. Legacy rescue, system upkeep.
 
 #### Languages
 
 ##### Extremely strong
-Kotlin, Typescript, C#, Golang, Java, Javascript
+Kotlin, Typescript, Dart, C#, Golang, Java, Javascript
 
 ##### Meaningful experience
 C, Swift, C++, Python, SQL/NOSQL variants, CSS.
