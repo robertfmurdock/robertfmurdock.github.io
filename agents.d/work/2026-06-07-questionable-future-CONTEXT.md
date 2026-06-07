@@ -45,6 +45,20 @@ This is a collaborative essay-writing exercise with specific constraints:
    - The discipline to stay with questions
    - Posture for leaders in uncertainty
 
+## Raw Material (User's Original Thoughts)
+
+### Opening
+"Man, everyday I get post after post on LinkedIn and Medium and Substack, and *everywhere* about using AI tools. "This Claude-Code technique revolutionized my company!" "Here's my book on AI, and here are my Agent Skills you can download!" "These Techniques Will Solve your LLM-Code Woes!". Its a lot. Everyone is an expert it would seem. In a world where everyone seems to have the pretention to know the right answer, to see where its all going, mahy of these notes hit me falsely (despite me having real care and love for many of the people pitching these things!). I can't pretend to know what the future holds. But I can do my best to help get us asking the most important questions."
+
+### Question 1: Systems Level
+"Given LLM tools seem aggressively biased toward generating new code instead of using libraries, services, etc, how do we balance that disposition with the need to create more modular and upgradable systems? And what does security patching look like when we're swamped with thousands of custom implementations, all with unique security holes?"
+
+### Question 2: Individual Level
+"I've been hearing a lot from people bragging about "never touching the code" and treating LLM agents and prompts as the primary interface to their system. Given that, I wonder if we've lost the purpose of code: in a higher programming language, the code, especially what we call "domain" code, or "business logic", is intended to be a plain, human-readable presentation of what the system does. And its tests are intended to be a plain, human-readable presentation of how it works in a series of scenarios. Not all code fits this objective - much is derivitive of these core decisions, but the *important* code is. So my question is: where are we spending our "human" context? Are we focusing on reading the right things? And how do we maintain our ability to effectively read if people are so tempted to surrender the need to write?"
+
+### Question 3: Team/Culture Level
+"Given the tremendous pressure for percieved productivity - coming from ourselves with the endorphin rush of quick wins, coming from outside from professional pressure to keep up, and the tool pressure of being able to create a tremendous amount of content near-instantly... how do we build people and teams that resist the pressure of "yadda, yadda, yadda"-driven-development? The industry has long has conflicts and tension about what makes effective code review, and its well-known what the dangers of a TLDR culture creates... but it seems like the ingrediants that create those culstures are swarming. How do we manage this?"
+
 ## Current Progress
 
 ✅ **Opening section** - drafted, needs polish (typos noted in commentary)
