@@ -9,7 +9,8 @@ tags:
 
 Man, every day I get post after post on LinkedIn and Medium and Substack, and *everywhere* about using AI tools. "This
 Claude-Code technique revolutionized my company!" "Here's my book on AI, and here are my Agent Skills you can
-download!" "These Techniques Will Solve your LLM-Code Woes!" It's a lot. Everyone is an expert, it would seem. In a world
+download!" "These Techniques Will Solve your LLM-Code Woes!" It's a lot. Everyone is an expert, it would seem. In a
+world
 where everyone seems to have the pretension to know the right answer, to see where this is all going, many of these
 notes
 hit me falsely (despite me having real care and love for many of the people pitching these things!). I can't pretend to
@@ -24,13 +25,13 @@ properties that are affecting our workflows. One that jumps out at me: these too
 toward *more content*, and struggle with re-use at every level.
 
 This seems to be their nature: they're generative systems, and all knowledge not baked into their core dataset
-has to be loaded as just-in-time context. But this bias means that it is easier than ever to *do the wrong thing* (in
-some cases). It's easier than ever to roll your own version of a standard tool. It's easier than ever to solve problems by
-overwhelming them with code, rather than adding features while reducing total code – by strengthening a core model
-concept, for example. And, perhaps ironically, the more raw code there is to traverse, the more expensive it gets to use
-the AI tools themselves, both in terms of cost but also reliability. Lack of reuse, especially of library solutions,
-means that it requires more raw labor than ever to find security problems: if everyone uses a few standard libraries and
-those get security patches, it's one thing. But what does the world look like when everyone has their own LLM built
+has to be loaded as just-in-time context. But this bias means that it is easier than ever to *do the wrong thing*. It's
+easier than ever to roll your own version of a standard tool. It's easier than ever to solve problems by overwhelming
+them with code, rather than adding features while reducing total code – by strengthening a core model concept, for
+example. And, perhaps ironically, the more raw code there is to traverse, the more expensive it gets to use the AI tools
+themselves, both in terms of cost but also reliability. Lack of reuse, especially of library solutions, means that it
+requires more raw labor than ever to find security problems: if everyone uses a few standard libraries and those get
+security patches, it's one thing. But what does the world look like when everyone has their own LLM built
 implementation?
 
 So my first question for everyone: how do we balance the real value these tools provide with our need to ensure that
@@ -87,8 +88,8 @@ found it to be a useful reminder of where I need to draw lines; how long I can l
 
 But it's also a reminder that, ultimately, we control who we become.
 
-I don't know where the industry is going. But I do know that people, real live people, need the value that software has
-built into their lives. And they need to be able to *trust* it, and will feel pain when they can't. Those things aren't
-going anywhere. The world needs people who can shepherd these systems, and keep them safe.
+I don't know where the industry is going. But I do know that people, real live human beings, need the value that
+software has built into their lives. And they need to be able to *trust* it, and will feel pain when they can't. Those
+things aren't going anywhere. The world needs people who can shepherd these systems, and keep them safe.
 
 So explore these questions, and more. Maybe we can use them to become the stewards that the future needs.
