@@ -7,48 +7,6 @@ tags:
   - software-engineering
 ---
 
-## Outline
-
-**1. Opening** (100-150 words)
-
-- The answer-selling problem
-- Why questions instead of answers
-- Set up self-examination for leaders
-
-**2. Question 1: Systems level** (150-200 words)
-
-- LLMs biased toward generation vs. composition
-- Impact on modularity/upgradability
-- Security patching nightmare with custom implementations
-
-**3. Question 2: Individual level** (150-200 words)
-
-- "Never touching code" trend
-- Code as human-readable documentation of intent
-- Where are we spending human context?
-- Reading/writing loop and maintaining comprehension
-
-**4. Question 3: Team/culture level** (150-200 words)
-
-- Pressure from multiple sources (dopamine, professional, tools)
-- "Yadda yadda yadda-driven development"
-- Code review culture under siege
-- How do we resist this?
-
-**5. Close: Call to humility** (100-150 words)
-
-- Resist premature answers
-- The discipline to stay with questions
-- Posture for leaders in uncertainty
-
-**Target: 600-1000 words**
-
----
-
-## Draft
-
-### Opening
-
 Man, every day I get post after post on LinkedIn and Medium and Substack, and *everywhere* about using AI tools. "This
 Claude-Code technique revolutionized my company!" "Here's my book on AI, and here are my Agent Skills you can
 download!" "These Techniques Will Solve your LLM-Code Woes!" It's a lot. Everyone is an expert, it would seem. In a world
@@ -57,7 +15,7 @@ notes
 hit me falsely (despite me having real care and love for many of the people pitching these things!). I can't pretend to
 know what the future holds. But I can do my best to help get us asking the most important questions.
 
-### Question 1: Systems Level
+## More, Always More
 
 All of us software people have been diving into these tools recently – especially those of us with company-funded token
 budgets. And we've been developing practices, techniques, ideas on how to get the best output out of these things. We
@@ -79,7 +37,7 @@ So my first question for everyone: how do we balance the real value these tools 
 systems are built safely and reliably? How do we fight the temptations and pressure to just accept the easy answers the
 tools give us?
 
-### Question 2: Individual Level
+## Never Touching It
 
 I've been hearing a lot from people bragging about "never touching the code" and treating LLM agents and prompts as the
 primary interface to their system. Given that, I wonder if we've lost the purpose of code: in a higher programming
@@ -90,7 +48,7 @@ core decisions, but the *important* code is. So my question is: where are we spe
 focusing on reading the right things? And how do we maintain our ability to effectively read if people are so tempted to
 surrender the need to write?
 
-### Question 3: Team/Culture Level
+## The Flood
 
 I've been a long advocate for continuous integration, and one of the practices that the industry tends to undervalue:
 continuous review. Also known by the colloquial term: paired-programming. One of the great things about paired
@@ -120,9 +78,9 @@ And so my last question for you all is: how do we build people, teams, and most 
 leaders that can productively channel these pressures, rather than get swept away entirely? How do we ensure that our
 core responsibilities - working, deliverable, trustworthy software - don't get lost in the flood?
 
-### Close: Call to Humility
+## Who We Become
 
-Have you felt any of this? Do these questions speak to you in any way? If so-and no pressure if they don't; you're not
+Have you felt any of this? Do these questions speak to you in any way? If so—and no pressure if they don't—you're not
 alone. One maxim I've found perennially useful is "you are what you do." Any behavior that you build into your life,
 whether intentionally or under protest, reinforces itself. You internalize it and it becomes part of you. I've always
 found it to be a useful reminder of where I need to draw lines; how long I can live in an unstable state.

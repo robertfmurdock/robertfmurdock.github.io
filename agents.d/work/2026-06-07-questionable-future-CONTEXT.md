@@ -17,34 +17,41 @@ This is a collaborative essay-writing exercise with specific constraints:
 - **Purpose**: Help readers interrogate their own values and drive more intentional action in the face of AI-driven
   change
 
-## Agreed Outline (5 sections)
+## Outline (5 sections)
 
-1. **Opening** (100-150 words)
-    - The answer-selling problem
-    - Why questions instead of answers
-    - Set up self-examination for leaders
+**1. Opening** (100-150 words)
 
-2. **Question 1: Systems level** (150-200 words)
-    - LLMs biased toward generation vs. composition
-    - Impact on modularity/upgradability
-    - Security patching nightmare with custom implementations
+- The answer-selling problem
+- Why questions instead of answers
+- Set up self-examination for leaders
 
-3. **Question 2: Individual level** (150-200 words)
-    - "Never touching code" trend
-    - Code as human-readable documentation of intent
-    - Where are we spending human context?
-    - Reading/writing loop and maintaining comprehension
+**2. Question 1: Systems level** (150-200 words)
 
-4. **Question 3: Team/culture level** (150-200 words)
-    - Pressure from multiple sources (dopamine, professional, tools)
-    - "Yadda yadda yadda-driven development"
-    - Code review culture under siege
-    - How do we resist this?
+- LLMs biased toward generation vs. composition
+- Impact on modularity/upgradability
+- Security patching nightmare with custom implementations
 
-5. **Close: Call to humility** (100-150 words)
-    - Resist premature answers
-    - The discipline to stay with questions
-    - Posture for leaders in uncertainty
+**3. Question 2: Individual level** (150-200 words)
+
+- "Never touching code" trend
+- Code as human-readable documentation of intent
+- Where are we spending human context?
+- Reading/writing loop and maintaining comprehension
+
+**4. Question 3: Team/culture level** (150-200 words)
+
+- Pressure from multiple sources (dopamine, professional, tools)
+- "Yadda yadda yadda-driven development"
+- Code review culture under siege
+- How do we resist this?
+
+**5. Close: Call to humility** (100-150 words)
+
+- Resist premature answers
+- The discipline to stay with questions
+- Posture for leaders in uncertainty
+
+**Target: 600-1000 words**
 
 ## Raw Material (User's Original Thoughts)
 
@@ -85,8 +92,14 @@ are swarming. How do we manage this?"
 
 ## Current Progress
 
-✅ **Opening section** - drafted, needs polish (typos noted in commentary)
-⏸️ **Question 1 (Systems)** - ready to start next
+✅ All sections drafted and polished
+✅ Outline moved to context file
+✅ Headers finalized with evocative, tone-poem style:
+  - "More, Always More" (systems)
+  - "Never Touching the Code" (individual)
+  - "The Flood" (team/culture)
+  - "Who We Become" (closing)
+✅ Ready for publication
 
 ## Key Decisions Made
 
