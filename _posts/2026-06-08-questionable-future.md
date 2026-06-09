@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Questionable Future
+date: 2026-06-08
 tags:
   - AI
   - leadership
