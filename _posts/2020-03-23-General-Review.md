@@ -1,9 +1,9 @@
 ---
 layout: post
 title: General Review
-tags: review
+tags:
+- review
 ---
-
 Mea culpa!
 
 Obviously I haven't updated the solo queue review for some time now. Lots to talk about!

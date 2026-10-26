@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Solo Queue Review 5
-tags: review
+tags:
+- review
 ---
 Ok, hopefully the monday Queue Review isn't an ongoing thing. But hey! The highlights:
 

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Descent Into the Microverse
-tags: 
+tags:
 ---
-
 Ok, so as promised, its time for the much anticipated "what has Rob been doing with Kotlin?!?!?" post. I know, I know, I really kept you waiting there. No one expected a whole month to go by! A month which I spent... *doing more Kotlin stuff*.
 
 Alright, lets get to the big hearty chucks. One of the things that I ran into immediately while doing Kotlin multiplatform development was that all the *super cool testing tools* that people have written for Java and Kotlin are essentially useless. [Kotlintest](https://github.com/kotlintest/kotlintest)? Unusable. [AssertJ](http://joel-costigliola.github.io/assertj/) or [AssertK](https://github.com/willowtreeapps/assertk)? Fuhgeddaboudit.

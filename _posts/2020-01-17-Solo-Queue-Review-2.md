@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Solo Queue Review 2
-tags: review
+tags:
+- review
 ---
-
 Alright, I'm back! Somehow. Yep, these will be updated every week. Some weeks will be less inspiring that others.
 
 This may be one of those weeks, but we'll see.

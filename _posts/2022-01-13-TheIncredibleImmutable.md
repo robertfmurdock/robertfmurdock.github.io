@@ -1,9 +1,16 @@
 ---
 layout: post
 title: The Incredible Immutable
-tags: immutable web apps immutablewebapps webpack static config environment
+tags:
+- immutable
+- web
+- apps
+- immutablewebapps
+- webpack
+- static
+- config
+- environment
 ---
-
 Over the last year and a half or so, my coworkers and technical friends have probably grown tired of hearing me talk about "Immutable Web Apps". "Sounds nice!" they say, politely suppressing their confusion and disinterest.
 
 Despite a very compelling writeup at [https://immutablewebapps.org/](https://immutablewebapps.org/), I find people have a lot of difficulty getting traction with the idea. For some, it's difficult to envision the benefits - "Rob seems really excited about it, but I really don't know how it would make my life better". For others, making the change to such a system seems out of reach - "that sounds like something I'd have to fight with my ops/devops/architecture team about, and I just don't have the energy for that". And for all these groups, actually *doing* it seems like something they wouldn't be comfortable owning - "I'm really not sure how to *do* this, and it seems really hard!".

@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Pairing for Outsiders
-tags: pair programming, programming, pair, collaborate
+tags:
+- pair programming
+- programming
+- pair
+- collaborate
 ---
-
 I've been working as a software developer using "pair programming" for most of my career. Over the years, I've discovered that it can be quite difficult to explain, well, what on earth "pair programming" actually means. People who know programming but not *pairing* have one level of understandable confusion. People who *don't* know programming can have a particularly difficult time understanding what I'm talking about, how something like that could work, or even get a picture of what it is.
 
 This essay is for the latter. This is an attempt at describing what "pair programming" is for the outsider audience. Hopefully it works out.

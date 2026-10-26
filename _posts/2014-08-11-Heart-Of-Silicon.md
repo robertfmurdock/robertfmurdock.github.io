@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Heart of Silicon
-tags: ethics programming
+tags:
+- ethics
+- programming
 ---
-
 Periodically, I meditate on a favorite question of mine: what does it mean to be a software developer who acts ethically? That is to say, what challenges that developers face should be considered ethical first, rather then simply mechanical or strategic. I have a few answers, but I'd love to know what the community thinks, so please add ideas in the comments below so we can all be enriched by your meditation!
 
 One of the examples I come to the most is the problem of error handling. Knowing the kind of errors that can occur in a computer program is principally the domain of engineers and programmers - since the ancient of days, programming languages have been trying to tell us in no uncertain terms "Oh hi! This can totally fail. Be ready." The ethical challenge I see in error handling has multiple components:

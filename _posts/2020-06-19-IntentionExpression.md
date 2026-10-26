@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Intention Expression
-subtitle: The Meaning of Driving with Tests 
-tags: review
+subtitle: The Meaning of Driving with Tests
+tags:
+- review
 ---
-
 After rereading my last essay "The Test Ascent", it occurred to me that I haven't directly addressed the subject of "test-driving", commonly encountered as TDD (test-driven development).
 
 I define test-driving as "designing and implementing new features by declaring *what it should produce* first, then *how it should be produced* second." In this way, any change to a system is predicated on the enumeration of a *new requirement* (or a modification of an *old requirement*). Ergo, tests *drive* the system forward.

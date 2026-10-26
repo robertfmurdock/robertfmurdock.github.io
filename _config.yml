@@ -1,79 +1,106 @@
-# Developer's Note: This is a sample _config.yml file offered with
-# jekyll-theme-prologue for your convenience. To use it, move it to your
-# project's root directory. Please note that the following lines are
-# NECESSARY for Prologue to work correctly:
-#
-# theme: jekyll-theme-prologue
-# collections: [sections]
-#
-# They activate the theme and tell Jekyll to find your homepage content
-# in /_sections. Note where "sections" starts with an underscore
-# and where it doesn't. The social settings will make links to
-# Twitter, etc., but only if you give the URL.
-#
-# Also, be sure to customize url and baseurl for your site.
-#
-# ---------------------------------------------------------------
-#
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site Settings
+encoding: "utf-8"
+future: true
+theme: "jekyll-theme-chirpy"
+lang: "en"
+timezone: "America/Detroit"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: RoB Murdock
-description: >- # this means to ignore newlines until "baseurl:"
+# Site Author / Owner
+title: "RoB Murdock"
+tagline: "Software Surgeon"
+description: >-
   This is RoB's place - where curiosity meets ferocity. Rob is a software surgeon, committed to helping software help people, by getting it the care it needs. 🤖🏥🕺
-author: RoB Murdock
-email: rob@zegreatrob.com
-avatar: https://www.gravatar.com/avatar/5d012724043778f39d9d4536706e4b2c
+url: "http://www.zegreatrob.com"
+baseurl: ""
+github:
+  username: robertfmurdock
+twitter:
+  username: zegreatrob
 
-# You'll want to customize url and baseurl for your own site:
-url: http://www.zegreatrob.com
-baseurl: "" # the subpath of your site, e.g. /blog
+# Author Profile
+author: "RoB Murdock"
+avatar: "https://www.gravatar.com/avatar/5d012724043778f39d9d4536706e4b2c"
 
-# Social settings
-# Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url: https://twitter.com/zegreatrob
-facebook_url:
-googleplus_url:
-instagram_url:
-linkedin_url: https://linkedin.com/in/rob-murdock-0a09951
-github_url: https://github.com/robertfmurdock
-pinterest_url:
-slack_url:
-dribbble_url:
+social:
+  name: "RoB Murdock"
+  email: "rob@zegreatrob.com"
+  links:
+    - "https://twitter.com/zegreatrob"
+    - "https://github.com/robertfmurdock"
+    - "https://linkedin.com/in/rob-murdock-0a09951"
 
-# Google Analytics Tracking ID goes here:
-google_analytics: G-GZ2DSHP5CN
+# Analytics
+analytics:
+  google:
+    id: "G-GZ2DSHP5CN"
 
-# The following settings are NECESSARY for the Prologue theme to run:
-remote-theme: chrisbobbe/jekyll-theme-prologue
-# theme: jekyll-theme-prologue
-collections:
-  sections:
-  career_sections:
-    output: true
-timezone: America/Detroit
+# Features
+toc: true
+paginate: 10
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugins
 plugins:
-  - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-redirect-from
-  - jemoji
-  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-include-cache
+
 whitelist:
   - jekyll-redirect-from
-include: ['.well-known']
-exclude: ['TeamCoaching', 'team-solar-system', 'vendor']
-feed:
-  excerpt_only: true
-twitter:
-  card: summary_large_image
+
+# Jekyll Archives
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Collections
+collections:
+  tabs:
+    output: true
+    sort_by: order
+  career_sections:
+    output: true
+    permalink: /career/:path/
+
+# Include / Exclude
+include: [".well-known"]
+exclude: ["TeamCoaching", "team-solar-system", "vendor"]
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: career_sections
+    values:
+      layout: page

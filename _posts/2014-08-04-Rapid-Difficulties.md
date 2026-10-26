@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Rapid Difficulties
-tags: swift
+tags:
+- swift
 ---
-
 As I've been porting more and more code to Swift, I've noticed a problem emerge around 3-4 times already: when writing tests to measure the performance of a section of code, I frequently (though not always) run into EXC_BAD_ACCESS problems.
 
 What I've sussed out so far is that in these situations, the Automatic Reference Counting system (ARC) is somehow deallocating an object while my code still intends to use it. And then, when my code makes the attempt to access it... KA-BLOOEY!... EXC_BAD_ACCESS. Here's what one of the test that gives me problems looks like:

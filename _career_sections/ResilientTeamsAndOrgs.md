@@ -1,5 +1,5 @@
 ---
-layout: career_page
+layout: page
 title: Resilient Teams
 auto-header: none
 icon: fa-users-cog

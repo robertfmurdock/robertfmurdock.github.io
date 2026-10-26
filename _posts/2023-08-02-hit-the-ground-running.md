@@ -3,14 +3,13 @@ layout: post
 title: Hit the Ground Running
 subtitle: Impress Your New Team by Tidying Builds
 image: assets/images/build-flex.jpeg
-tags: 
-  - build
-  - gradle
-  - versioning
-  - semver
-  - git
+tags:
+- build
+- gradle
+- versioning
+- semver
+- git
 ---
-
 Over the last five years or so, I’ve noticed that when joining new projects, I’ve naturally adopted a pattern. There are techniques I instinctively apply over the course of a few months. Having recognized this, I figured these might be of interest to people.
 
 So! Without further ado, let us talk about the...

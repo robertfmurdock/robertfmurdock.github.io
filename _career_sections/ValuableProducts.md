@@ -1,5 +1,5 @@
 ---
-layout: career_page
+layout: page
 title: Building Valuable Products
 auto-header: none
 icon: fa-hand-holding-heart

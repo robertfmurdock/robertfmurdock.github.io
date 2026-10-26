@@ -1,9 +1,13 @@
 ---
 layout: post
 title: The Quality of Test
-tags: testing, TDD, test design, priorities, coding
+tags:
+- testing
+- tdd
+- test design
+- priorities
+- coding
 ---
-
 So testing. What's up with that?
 
 I've been working with Test-Driven Development and its fellow traveler concepts for essentially the whole of my career, thanks to being introduced to the concept at a scrappy startup called Menlo Innovations in Ann Arbor, Michigan. Parallel to my personal development, the industry as a whole seemingly discovered this strange "testing" thing, and underwent its own journey of change, fashion, and discovery.

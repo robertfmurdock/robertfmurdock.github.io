@@ -1,9 +1,8 @@
 ---
 layout: post
 title: The Tome of Many Tales
-tags: 
+tags:
 ---
-
 Hello friends! It has been many a moon since I've updated this here rant-box, and its time to collect some thoughts!
 
 First off, I haven't updated in a while because, well, when work is interesting, I work, and don't blog, seeing as no 

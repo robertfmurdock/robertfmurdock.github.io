@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Do the (Side) Hussle
-tags: 
+tags:
 ---
-
 I've been an open-source library developer for a while now - ever since I started writing "testmints" in February 2019. So I thought I'd take this opportunity to share some quick thoughts about that process. Here comes a list!
 
 ## 1. Staying Up-to-Date

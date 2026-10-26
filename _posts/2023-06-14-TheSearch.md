@@ -2,13 +2,12 @@
 layout: post
 title: The Search (2023)
 image: assets/images/headache-search.jpeg
-tags: 
-  - job
-  - writing
-  - slang
-  - dialogflow 
+tags:
+- job
+- writing
+- slang
+- dialogflow
 ---
-
 Been quiet for a few weeks, so I feel overdue for a post. A post I say! So here's what's been going on in Rob-world.
 
 Those of you who watch my LinkedIn know that I went public that I'm open-to-work! I stepped away from my job at Slang at the beginning of May and since then I've been reading, writing, thinking, and generally enjoying choosing my own pace.

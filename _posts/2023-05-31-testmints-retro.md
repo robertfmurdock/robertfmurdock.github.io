@@ -2,12 +2,11 @@
 layout: post
 title: Testmints Retrospective (2022)
 image: assets/images/testmints-retro.jpeg
-tags: 
-  - testmints
-  - retro
-  - metrics
+tags:
+- testmints
+- retro
+- metrics
 ---
-
 Jan 16, 2019: "Created new sugar functions to help describe different components of a test in kotlin." Coupling, [Git Hash: 0da861e6](https://github.com/robertfmurdock/Coupling/commit/0da861e6963bbe45c2c183b049d16628640b702b)
 
 Back in the before times of 2019, I wrote a library called ["testmints"](https://github.com/robertfmurdock/testmints). It was born of a single thought: can I improve the readability of basic tests? And now, looking back, I think it succeeded (to some degree)!

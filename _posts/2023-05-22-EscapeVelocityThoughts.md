@@ -1,16 +1,15 @@
 ---
 layout: post
 title: Book Thoughts 2
-subtitle: <i>Escape Velocity</i> by Doc Norton
+subtitle: "<i>Escape Velocity</i> by Doc Norton"
 image: assets/images/escape-velocity.jpeg
-tags: 
-  - essay
-  - metrics
-  - continuous integration
-  - software
-  - delivery
+tags:
+- essay
+- metrics
+- continuous integration
+- software
+- delivery
 ---
-
 Following on from my last post revisiting my [*Continuous Integration Metrics*](/2023/05/19/ContinuousMetricsRevisited.html) paper, here are my thoughts related to another book I've read recently: *Escape Velocity* by Doc Norton.
 
 Now given the title, one might expect something of a polemic regarding using "velocity" as a metric. You will not find that in this book. Which is actually kind of too bad - little resembling my personal critique[^1] of "velocity" as a metric is actually included here.

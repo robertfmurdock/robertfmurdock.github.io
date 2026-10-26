@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Solo Queue Review 3
-tags: review
+tags:
+- review
 ---
-
 Third review time. Whew! Getting things done! A little more to show this week.
 
 Firstly, I've put about 4500 words into deconstructing and reconstructing the concept of Continuous Integration. Its an industry buzzword, its completely lost meaning for a lot of people, and apparently I have many, many things to say on the subject. I've got an end in sight *I think* for that paper, but I'm trying not to rush, and so really unpack the elements that bear more discussion. Early feedback has been good! Which is a little surprising, because its *really* all over the map. And I haven't even used *the power cosmic* in it yet (oh, I will).

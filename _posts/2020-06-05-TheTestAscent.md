@@ -2,9 +2,14 @@
 layout: post
 title: The Test Ascent
 subtitle: Evolving Your Skills
-tags: testing, TDD, test design, where to test, coding, improvement
+tags:
+- testing
+- tdd
+- test design
+- where to test
+- coding
+- improvement
 ---
-
 When trying to get better at testing generally, developers tend to cry out for guidelines and goals. How do I assess whether I'm improving or not? How do I make recommendations to my teammates? How do I know I've tested *enough*, or *not enough*? How do I balance the *expense* of taking time to write tests against time I could use to do other things?
 
 And the industry has jumped to provide answers, especially in pre-digested formats that provide a sense of certainty: if you follow this cookbook precisely, you have done it *correctly*, and you lose points for deviating. These guidelines have value! But, as they currently exist, they usually don't tell the whole story. This is especially true of the most buzzworded guidelines, as becoming popular will naturally trend them toward degenerate understandings not intended by their original authors - for example, many developers understand BDD (Behavior Driven Development) to be about *hierarchical* testing (nested 'describes') or mere phrasing ('Given', 'When', 'Then'), which is not what its proponents choose to emphasize.

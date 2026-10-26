@@ -1,9 +1,15 @@
 ---
 layout: post
 title: Strange Adventures
-tags: squad pillar metrics CI continuous integration academy
+tags:
+- squad
+- pillar
+- metrics
+- ci
+- continuous
+- integration
+- academy
 ---
-
 Lets get Big and Visible!
 
 So, various forces conspired to keep me on the bench for most of the month of July. Being as I am, I wanted to be sure that I provide and share as much value as possible during that time, so... here's my summary / demo!

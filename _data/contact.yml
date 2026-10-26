@@ -1,0 +1,15 @@
+- type: github
+  icon: 'fab fa-github'
+
+- type: twitter
+  icon: 'fa-brands fa-x-twitter'
+
+- type: email
+  icon: 'fas fa-envelope'
+
+- type: rss
+  icon: 'fas fa-rss'
+
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url: 'https://linkedin.com/in/rob-murdock-0a09951'

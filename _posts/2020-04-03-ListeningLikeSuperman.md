@@ -1,9 +1,13 @@
 ---
 layout: post
 title: Listening Like Superman
-tags: teamwork, open workspace, listening, sports, closed workspaces
+tags:
+- teamwork
+- open workspace
+- listening
+- sports
+- closed workspaces
 ---
-
 Open workspaces are controversial.
 
 Many people who read this may react with a strong "because they're awful!" or "because they're amazing", with each pulling up research papers, editorials, and heated rants regarding the subject.

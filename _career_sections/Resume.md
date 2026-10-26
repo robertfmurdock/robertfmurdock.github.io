@@ -1,5 +1,5 @@
 ---
-layout: career_page
+layout: page
 title: Resume
 icon: fa-file
 order: 2

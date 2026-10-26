@@ -2,12 +2,11 @@
 layout: post
 title: A Kotlin Journey
 image: assets/images/KotlinGoGoGo.jpeg
-tags: 
-  - kotlin
-  - KMP
-  - software development
+tags:
+- kotlin
+- kmp
+- software development
 ---
-
 ## Discovering Kotlin
 
 The year: 2014. Young Rob (that's me) was nine years into his career, and was frustrated.

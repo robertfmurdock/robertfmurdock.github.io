@@ -3,11 +3,10 @@ layout: post
 title: A Questionable Future
 date: 2026-06-08
 tags:
-  - AI
-  - leadership
-  - software-engineering
+- ai
+- leadership
+- software-engineering
 ---
-
 Man, every day I get post after post on LinkedIn and Medium and Substack, and *everywhere* about using AI tools. "This
 Claude-Code technique revolutionized my company!" "Here's my book on AI, and here are my Agent Skills you can
 download!" "These Techniques Will Solve your LLM-Code Woes!" It's a lot. Everyone is an expert, it would seem. In a

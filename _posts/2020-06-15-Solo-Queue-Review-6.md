@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Solo Queue Review 6
-tags: review
+tags:
+- review
 ---
-
 Hey, a queue review! Today I'll just throw some statistics out, because I calculated them today, and... why not.
 
 Since I started this transitional career phase in mid-January, I've produced:

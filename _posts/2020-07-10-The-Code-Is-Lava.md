@@ -1,10 +1,10 @@
 ---
 layout: post
 title: The Code Is Lava
-subtitle: Concerning Solutions Bigger Than One Team  
-tags: review
+subtitle: Concerning Solutions Bigger Than One Team
+tags:
+- review
 ---
-
 It feels like my job in life has become akin to the Scooby-Doo gang. I keep finding problems wearing technical masks, and yanking them off, revealing "the real problem was human-nature the whole time!" So bear with me - things are about to get a little dense, a little galaxy-brain, and probably has some banalities sprinkled throughout. But hopefully when you get through this text-miasma, you will have a clearer understanding of what the real villain is, and maybe a thought or two about how to manage it. Deep breath... let's go.
 
 Today, the masked problem is: "How should I organize large-scale architecture?" In the wild, this frequently degrades into "how do I get valuable output from these 200 developers?"

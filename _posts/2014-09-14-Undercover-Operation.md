@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Undercover Operation
-tags: swift testing spies
+tags:
+- swift
+- testing
+- spies
 ---
-
 I've just published three new Gists, to my Gist [page](https://gist.github.com/robertfmurdock). The reason I haven't posted here in a few weeks is that I've been nearly pathologically working on the Swift game I mentioned earlier. That game led me to develop these three libraries:
   - Pledges, a Promise system for Swift
   - ArmorXml, a system that augments RaptureXml with Pledges

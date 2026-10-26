@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Death, Life, and COVID-19
-tags: death, life, COVID-19, coronavirus, 
+tags:
+- death
+- life
+- covid-19
+- coronavirus
 ---
-
 A few thoughts regarding the current situation the planet is facing - the COVID-19 pandemic.
 
 Firstly, as painful as things currently are, they are about to get much, much worse. Prepare for a *long* period where this is part of our lives. So prepare accordingly. I don't mean stock up on essentials and bunker down... I mean taking measures to make self-quarantine more livable. Like any distance race, if you sprint too hard at the beginning you'll be exhausted later. And, unfortunately, as COVID-19 spreads, things will be more dangerous as things go on.

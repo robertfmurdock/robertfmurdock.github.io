@@ -1,10 +1,14 @@
 ---
 layout: post
 title: Lessons from Star Wars
-subtitle: What the Star Wars Sequels Can Teach You About Your Project 
-tags: essay, star wars, lessons, software, product
+subtitle: What the Star Wars Sequels Can Teach You About Your Project
+tags:
+- essay
+- star wars
+- lessons
+- software
+- product
 ---
-
 A long time ago, to a company far, far away, George Lucas sold his pop-culture ziggurat for 4 billion dollars.
 
 Seven years later, the third movie of a new Star Wars trilogy came out. And it came out with a resounding "eh?" That isn't to say that there aren't people who enjoyed the new movies - each of the films has a remarkable number of defenders, as anyone who's ever strolled the comment sections of the internet has discovered.

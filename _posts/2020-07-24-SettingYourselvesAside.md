@@ -3,9 +3,12 @@ layout: post
 title: Setting Yourselves Aside
 subtitle: Striving for fairness in judgement
 image: assets/images/dogcat.png
-tags: prejudice team empowerment fairness
+tags:
+- prejudice
+- team
+- empowerment
+- fairness
 ---
-
 I've long been an advocate for distributing the work of staff management as much as possible. This can create strong initial bonds between new team members and the existing team. Having the team make the final call who is able to join means that everyone has 'skin in the game' for making it work. This is good.
 
 Unfortunately, getting more people involved also means that there are more opportunities for decision-making to be tainted by prejudice. This is true of any hiring process, and many organizations have adopted severe systemization in order to avoid any appearance of impropriety.

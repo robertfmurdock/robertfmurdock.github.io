@@ -1,9 +1,13 @@
 ---
 layout: post
 title: The Flavor of Mint
-tags: testing, TDD, test design, priorities, coding
+tags:
+- testing
+- tdd
+- test design
+- priorities
+- coding
 ---
-
 Given the principles described in [The Quality of Test](/2020/04/24/TheQualityOfTest), I recently started to write a library that might *nudge* a developer to keep them in mind a bit more.
 
 To understand how I approached this though, you first have to understand that any single-feature test has an intrinsic structure - its natural form. There have been a number of different ways of describing this structure, but this one in particular I find useful: [The Four-Phase Test](http://xunitpatterns.com/Four%20Phase%20Test.html).

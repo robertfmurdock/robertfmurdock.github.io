@@ -1,8 +1,17 @@
 source "https://rubygems.org"
-gem 'jekyll-redirect-from'
-gem 'kramdown-parser-gfm'
-gem 'jemoji'
-gem 'jekyll-seo-tag'
-gem 'jekyll-feed'
-gemspec
+
+gem "jekyll-theme-chirpy", "~> 7.0"
+gem "jekyll-sass-converter", "~> 2.0"
+gem "jekyll-include-cache"
+gem "jekyll-paginate"
+gem "jekyll-redirect-from"
+gem "kramdown-parser-gfm"
+gem "jemoji"
+gem "jekyll-seo-tag"
+gem "jekyll-feed"
+gem "csv"
+gem "base64"
+gem "logger"
+gem "mutex_m"
+gem "faraday-retry"
 gem "webrick", "~> 1.8"
