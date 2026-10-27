@@ -30,7 +30,7 @@ tags: resume
 
 ### Contact
 
-Email: rob@zegreatrob.com
+Email: rob@continuousexcellence.io
 
 Twitter: zegreatrob
 

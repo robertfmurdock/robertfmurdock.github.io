@@ -32,4 +32,4 @@ Here are key projects that are free and open to the public:
 - **GitHub**: [github.com/robertfmurdock](https://github.com/robertfmurdock)
 - **Twitter / X**: [@zegreatrob](https://twitter.com/zegreatrob)
 - **LinkedIn**: [linkedin.com/in/rob-murdock-0a09951](https://linkedin.com/in/rob-murdock-0a09951)
-- **Email**: [rob@zegreatrob.com](mailto:rob@zegreatrob.com)
+- **Email**: [rob@continuousexcellence.io](mailto:rob@continuousexcellence.io)
