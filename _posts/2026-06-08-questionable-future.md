@@ -2,6 +2,7 @@
 layout: post
 title: A Questionable Future
 date: 2026-06-08
+image: assets/images/questionable-future.jpeg
 tags:
 - ai
 - leadership
@@ -93,3 +94,9 @@ software has built into their lives. And they need to be able to *trust* it, and
 things aren't going anywhere. The world needs people who can shepherd these systems, and keep them safe.
 
 So explore these questions, and more. Maybe we can use them to become the stewards that the future needs.
+
+---
+
+Image: *The Fog Warning* (1885) by Winslow Homer, Museum of Fine Arts, Boston. Public domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Fog_Warning_-_Google_Art_Project.jpg).
+
+---
