@@ -12,8 +12,6 @@ tags:
 - testing
 ---
 
-# Clockwork Comprehension
-
 Does readable code actually help the robots?
 
 Like most of the planet, I'm trying to run some experiments that interest me related to using LLM tools to write code. But this is not a "how to write code good" essay.
