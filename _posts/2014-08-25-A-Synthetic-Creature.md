@@ -4,8 +4,7 @@ title: A Synthetic Creature
 tags:
 - swift
 - testing
-- mocks
-- spies
+- test-driven-development
 ---
 As I've been diving into Swift again these last few weeks, the issue of [mocking](http://en.wikipedia.org/wiki/Mock_object) has crept up a few times. I've had a few thoughts over the years on the subject, and recently I've observed a lot of testing-related pushback, so... a few thoughts. For the purpose of this article, I'm going to use the term 'mock' to refer to any test-oriented substitute implementation of a programmable interface.
 

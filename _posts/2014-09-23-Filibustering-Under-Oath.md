@@ -3,10 +3,7 @@ layout: post
 title: Filibustering Under Oath
 tags:
 - swift
-- flow
-- promises
-- pledges
-- optionals
+- programming-languages
 ---
 Back again! Today I'm going to say a few words about one of the other Gists I put up last week: [Pledges](https://gist.github.com/robertfmurdock/8cb608385cc432534f9d).
 

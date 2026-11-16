@@ -2,7 +2,9 @@
 layout: post
 title: Solo Queue Review 6
 tags:
-- review
+- personal-essay
+- metrics
+- software-engineering
 ---
 Hey, a queue review! Today I'll just throw some statistics out, because I calculated them today, and... why not.
 

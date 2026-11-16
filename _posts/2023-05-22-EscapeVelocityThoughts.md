@@ -4,11 +4,10 @@ title: Book Thoughts 2
 subtitle: "<i>Escape Velocity</i> by Doc Norton"
 image: assets/images/escape-velocity.jpeg
 tags:
-- essay
 - metrics
-- continuous integration
-- software
-- delivery
+- continuous-integration
+- software-delivery
+- book-notes
 ---
 Following on from my last post revisiting my [*Continuous Integration Metrics*](/2023/05/19/ContinuousMetricsRevisited.html) paper, here are my thoughts related to another book I've read recently: *Escape Velocity* by Doc Norton.
 

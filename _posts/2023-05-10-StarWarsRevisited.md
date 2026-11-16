@@ -4,11 +4,9 @@ title: Looking Back, Part 1
 subtitle: Star Wars and Your Project
 image: assets/images/star-wars-revisited.jpeg
 tags:
-- essay
-- star wars
-- lessons
-- software
-- product
+- product-development
+- software-engineering
+- personal-essay
 ---
 Back in 2020, I wrote a series of essays. Now, I'm going to do a short series revisiting some of these pieces. I want to explore what still stands up, where my thinking has evolved, and what I feel I could have communicated better. Just generally improve as a writer and thinkster [^1].
 

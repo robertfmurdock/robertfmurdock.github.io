@@ -2,6 +2,9 @@
 layout: post
 title: Clockwork Comprehension
 date: 2026-11-16
+description: >-
+  An exploration of whether readable code helps AI coding agents understand
+  software, preserve intent, and make better changes.
 image: assets/images/clockwork-comprehension.jpg
 tags:
 - ai

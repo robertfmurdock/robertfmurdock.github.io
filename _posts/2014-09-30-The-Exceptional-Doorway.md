@@ -2,12 +2,8 @@
 layout: post
 title: The Exceptional Doorway
 tags:
-- flow
-- promises
-- error
-- handling
 - ethics
-- syntax
+- software-engineering
 ---
 I think about error handling a lot. Perhaps a shocking amount. I mean, it's the first example I reach for when discussing [programmer ethics](/Heart-Of-Silicon.html). Its one of the first things I investigate when learning a new programming language. And my opinions (read: rants) on the topic tend to be long, detailed and interminable.
 

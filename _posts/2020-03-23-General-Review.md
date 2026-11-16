@@ -2,7 +2,8 @@
 layout: post
 title: General Review
 tags:
-- review
+- personal-essay
+- software-engineering
 ---
 Mea culpa!
 

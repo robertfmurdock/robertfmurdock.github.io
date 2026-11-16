@@ -3,7 +3,7 @@ layout: post
 title: Identity Crisis
 tags:
 - swift
-- squishy
+- programming-languages
 ---
 I want to talk for a second about a problem I ran into recently with Swift.
 

@@ -2,12 +2,8 @@
 layout: post
 title: Radical Availability
 tags:
-- radical availability
-- availability
-- sharing
-- caring
-- visible
-- coordination
+- teamwork
+- team-culture
 ---
 One of the concepts I've been advocating for over the last year is that of "Radical Availability" in the workplace.
 

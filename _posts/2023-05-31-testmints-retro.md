@@ -4,7 +4,7 @@ title: Testmints Retrospective (2022)
 image: assets/images/testmints-retro.jpeg
 tags:
 - testmints
-- retro
+- testing
 - metrics
 ---
 Jan 16, 2019: "Created new sugar functions to help describe different components of a test in kotlin." Coupling, [Git Hash: 0da861e6](https://github.com/robertfmurdock/Coupling/commit/0da861e6963bbe45c2c183b049d16628640b702b)

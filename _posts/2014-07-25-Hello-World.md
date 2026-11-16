@@ -1,6 +1,9 @@
 ---
 layout: post
 title: The Genesis Machine
+tags:
+- programming-languages
+- software-engineering
 ---
 Welcome to my new, professional, code-monkey-centric blog. I'll update periodically with information on independent projects I'm working on.
 

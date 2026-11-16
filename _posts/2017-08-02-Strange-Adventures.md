@@ -2,13 +2,9 @@
 layout: post
 title: Strange Adventures
 tags:
-- squad
-- pillar
+- team-culture
 - metrics
-- ci
-- continuous
-- integration
-- academy
+- continuous-integration
 ---
 Lets get Big and Visible!
 

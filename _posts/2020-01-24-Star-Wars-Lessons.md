@@ -3,11 +3,9 @@ layout: post
 title: Lessons from Star Wars
 subtitle: What the Star Wars Sequels Can Teach You About Your Project
 tags:
-- essay
-- star wars
-- lessons
-- software
-- product
+- product-development
+- software-engineering
+- personal-essay
 ---
 A long time ago, to a company far, far away, George Lucas sold his pop-culture ziggurat for 4 billion dollars.
 

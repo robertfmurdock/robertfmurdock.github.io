@@ -2,6 +2,8 @@
 layout: post
 title: The Tome of Many Tales
 tags:
+- web-development
+- software-engineering
 ---
 Hello friends! It has been many a moon since I've updated this here rant-box, and its time to collect some thoughts!
 

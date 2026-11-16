@@ -2,10 +2,9 @@
 layout: post
 title: Closing Time
 tags:
-- closures
-- functions
 - swift
 - testing
+- programming-languages
 ---
 I've been powering through converting a lot more of my Java game code to Swift in this last week, and while doing so I've been trying my best to learn about the closure syntax provided. For example, this code snippet is made possible:
 

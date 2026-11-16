@@ -4,11 +4,9 @@ title: Book Thoughts 1
 subtitle: Joy of Agility
 image: assets/images/joy-of-agility.jpeg
 tags:
-- joy of agility
-- joshua kerievsky
-- scrum
-- fear
-- product
+- agility
+- product-development
+- book-notes
 ---
 So I recently took up a larger reading and re-reading project, to help better organize my own thoughts, and engage with the broader conversation regarding software collaboration. Basically, I want to get better at drawing parallels between my own line-of-thinking and what others think or are doing these days.
 

@@ -4,8 +4,8 @@ title: A Kotlin Journey
 image: assets/images/KotlinGoGoGo.jpeg
 tags:
 - kotlin
-- kmp
-- software development
+- programming-languages
+- software-engineering
 ---
 ## Discovering Kotlin
 

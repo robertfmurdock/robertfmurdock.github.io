@@ -2,6 +2,9 @@
 layout: post
 title: A Questionable Future
 date: 2026-06-08
+description: >-
+  Three questions for software engineering leaders about AI-assisted
+  development, maintainability, human comprehension, and trustworthy software.
 image: assets/images/questionable-future.jpeg
 tags:
 - ai

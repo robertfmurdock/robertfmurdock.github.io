@@ -3,10 +3,8 @@ layout: post
 title: The Flavor of Mint
 tags:
 - testing
-- tdd
-- test design
-- priorities
-- coding
+- test-driven-development
+- software-design
 ---
 Given the principles described in [The Quality of Test](/2020/04/24/TheQualityOfTest), I recently started to write a library that might *nudge* a developer to keep them in mind a bit more.
 

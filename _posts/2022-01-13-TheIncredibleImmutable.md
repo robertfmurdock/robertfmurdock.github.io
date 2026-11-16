@@ -2,14 +2,9 @@
 layout: post
 title: The Incredible Immutable
 tags:
-- immutable
-- web
-- apps
-- immutablewebapps
+- web-development
 - webpack
-- static
-- config
-- environment
+- software-design
 ---
 Over the last year and a half or so, my coworkers and technical friends have probably grown tired of hearing me talk about "Immutable Web Apps". "Sounds nice!" they say, politely suppressing their confusion and disinterest.
 

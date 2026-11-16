@@ -3,10 +3,7 @@ layout: post
 title: Listening Like Superman
 tags:
 - teamwork
-- open workspace
-- listening
-- sports
-- closed workspaces
+- team-culture
 ---
 Open workspaces are controversial.
 

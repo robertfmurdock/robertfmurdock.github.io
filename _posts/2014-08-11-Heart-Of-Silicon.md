@@ -3,7 +3,7 @@ layout: post
 title: Heart of Silicon
 tags:
 - ethics
-- programming
+- software-engineering
 ---
 Periodically, I meditate on a favorite question of mine: what does it mean to be a software developer who acts ethically? That is to say, what challenges that developers face should be considered ethical first, rather then simply mechanical or strategic. I have a few answers, but I'd love to know what the community thinks, so please add ideas in the comments below so we can all be enriched by your meditation!
 

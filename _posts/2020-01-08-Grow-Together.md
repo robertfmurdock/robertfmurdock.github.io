@@ -2,6 +2,9 @@
 layout: post
 title: Grow Together (2019 edition)
 tags:
+- teamwork
+- team-culture
+- metrics
 ---
 Hey, I just ran some quick numbers on how my Coupling application was being used in 2019. Overall, it looks to be very similar to 2018 (which was a strong year). Here we go!
 

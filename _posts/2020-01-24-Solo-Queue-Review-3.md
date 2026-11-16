@@ -2,7 +2,9 @@
 layout: post
 title: Solo Queue Review 3
 tags:
-- review
+- personal-essay
+- continuous-integration
+- product-development
 ---
 Third review time. Whew! Getting things done! A little more to show this week.
 

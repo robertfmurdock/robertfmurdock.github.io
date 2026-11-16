@@ -2,7 +2,8 @@
 layout: post
 title: Solo Queue Review 2
 tags:
-- review
+- personal-essay
+- software-engineering
 ---
 Alright, I'm back! Somehow. Yep, these will be updated every week. Some weeks will be less inspiring that others.
 

@@ -1,3 +1,13 @@
+---
+layout: post
+title: Debossing
+tags:
+- leadership
+- team-culture
+- teamwork
+- testing
+---
+
 What does it mean to be responsible?
 
 Let me add a bit of context. Say you have a basketball team of six people. No coach. Who is responsible for making sure the team performs as well as they possibly can? And why does that responsibility exist?

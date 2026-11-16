@@ -2,7 +2,9 @@
 layout: post
 title: Solo Queue Review 4
 tags:
-- review
+- personal-essay
+- software-engineering
+- testing
 ---
 Yep, review is late this week. Here's why: I put a lot of time into building out the Coupling Adventure games systems and didn't come up for air until around 6pm on Friday.
 

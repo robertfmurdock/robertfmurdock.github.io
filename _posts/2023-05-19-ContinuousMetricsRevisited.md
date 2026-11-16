@@ -4,11 +4,10 @@ title: Looking Back, Part 2
 subtitle: Continuous Integration Metrics
 image: assets/images/metrics-revisited.jpeg
 tags:
-- essay
 - metrics
-- continuous integration
-- software
-- delivery
+- continuous-integration
+- software-delivery
+- personal-essay
 ---
 In the foggy past of 2017, I wrote a short paper called "Metrics for Continuous Integration". It consists of a semiformal model of how software teams produce work, and how to use that model to measure things that have meaning.
 

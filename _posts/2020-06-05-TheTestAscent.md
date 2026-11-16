@@ -4,11 +4,8 @@ title: The Test Ascent
 subtitle: Evolving Your Skills
 tags:
 - testing
-- tdd
-- test design
-- where to test
-- coding
-- improvement
+- test-driven-development
+- software-design
 ---
 When trying to get better at testing generally, developers tend to cry out for guidelines and goals. How do I assess whether I'm improving or not? How do I make recommendations to my teammates? How do I know I've tested *enough*, or *not enough*? How do I balance the *expense* of taking time to write tests against time I could use to do other things?
 

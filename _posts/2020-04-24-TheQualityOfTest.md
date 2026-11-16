@@ -3,10 +3,8 @@ layout: post
 title: The Quality of Test
 tags:
 - testing
-- tdd
-- test design
-- priorities
-- coding
+- test-driven-development
+- software-design
 ---
 So testing. What's up with that?
 

@@ -3,8 +3,7 @@ layout: post
 title: The Old Hits
 tags:
 - teamwork
-- continuous integration
-- fusion
+- continuous-integration
 ---
 I've been posting a lot of new stuff lately but I want to also draw your attention to a few old pieces I've done!
 

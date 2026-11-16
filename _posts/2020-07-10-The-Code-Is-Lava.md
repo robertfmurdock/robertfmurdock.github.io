@@ -3,7 +3,9 @@ layout: post
 title: The Code Is Lava
 subtitle: Concerning Solutions Bigger Than One Team
 tags:
-- review
+- software-maintainability
+- team-culture
+- software-engineering
 ---
 It feels like my job in life has become akin to the Scooby-Doo gang. I keep finding problems wearing technical masks, and yanking them off, revealing "the real problem was human-nature the whole time!" So bear with me - things are about to get a little dense, a little galaxy-brain, and probably has some banalities sprinkled throughout. But hopefully when you get through this text-miasma, you will have a clearer understanding of what the real villain is, and maybe a thought or two about how to manage it. Deep breath... let's go.
 

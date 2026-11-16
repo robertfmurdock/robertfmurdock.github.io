@@ -3,7 +3,9 @@ layout: post
 title: Intention Expression
 subtitle: The Meaning of Driving with Tests
 tags:
-- review
+- testing
+- test-driven-development
+- software-design
 ---
 After rereading my last essay "The Test Ascent", it occurred to me that I haven't directly addressed the subject of "test-driving", commonly encountered as TDD (test-driven development).
 

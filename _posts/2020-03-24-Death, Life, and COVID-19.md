@@ -2,10 +2,8 @@
 layout: post
 title: Death, Life, and COVID-19
 tags:
-- death
-- life
 - covid-19
-- coronavirus
+- personal-essay
 ---
 A few thoughts regarding the current situation the planet is facing - the COVID-19 pandemic.
 

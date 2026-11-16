@@ -3,10 +3,8 @@ layout: post
 title: The Search (2023)
 image: assets/images/headache-search.jpeg
 tags:
-- job
-- writing
-- slang
-- dialogflow
+- career
+- personal-essay
 ---
 Been quiet for a few weeks, so I feel overdue for a post. A post I say! So here's what's been going on in Rob-world.
 

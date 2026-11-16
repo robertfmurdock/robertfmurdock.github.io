@@ -2,6 +2,10 @@
 layout: post
 title: Descent Into the Microverse
 tags:
+- testing
+- test-driven-development
+- software-design
+- kotlin
 ---
 Ok, so as promised, its time for the much anticipated "what has Rob been doing with Kotlin?!?!?" post. I know, I know, I really kept you waiting there. No one expected a whole month to go by! A month which I spent... *doing more Kotlin stuff*.
 
